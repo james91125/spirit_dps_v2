@@ -1,27 +1,62 @@
+// src/components/Step3OwnedSelect.jsx
 import React from 'react';
-import SpiritCard from './SpiritCard';
-import { SpiritGrade } from '../utils/constants';
 import { elementColors, gradeColors } from '../utils/colorMaps';
 
+// 영어 buff_target_type → 한국어 변환 테이블
+const buffTypeToKor = {
+  element_fire: '불속성 정령',
+  element_water: '물속성 정령',
+  element_grass: '풀속성 정령',
+  element_light: '빛속성 정령',
+  element_dark: '어둠속성 정령',
+  all: '모든 정령',
+  character_attack: '공격력',
+  character_defense: '방어력',
+  character_hp: '체력',
+  character_attack_speed: '공격 속도',
+};
 
 const Step3OwnedSelect = ({ spiritsData, ownedSpirits, setOwnedSpirits, calculateResult }) => {
+  // 등급 목록 자동 생성
+  const gradeList = [...new Set(spiritsData.map((s) => s.grade))];
+
+  /** 개별 토글 */
   const handleOwnedSpiritToggle = (spirit) => {
-    if (ownedSpirits.find((s) => s.name === spirit.name)) {
-      setOwnedSpirits(ownedSpirits.filter((s) => s.name !== spirit.name));
-    } else {
-      setOwnedSpirits([...ownedSpirits, spirit]);
-    }
+    setOwnedSpirits((prev) => {
+      const exists = prev.some((s) => s.name === spirit.name);
+      return exists
+        ? prev.filter((s) => s.name !== spirit.name)
+        : [...prev, spirit];
+    });
   };
 
-  const selectByGrade = (gradeKey) => {
-    const sameGrade = spiritsData.filter((s) => s.grade === gradeKey);
+  /** 등급별 전체 선택/해제 */
+  const selectByGrade = (gradeName) => {
+    const sameGrade = spiritsData.filter((s) => s.grade === gradeName);
     setOwnedSpirits((prev) => {
-      const merged = [
-        ...prev,
-        ...sameGrade.filter((s) => !prev.some((p) => p.name === s.name)),
-      ];
-      return merged.slice(0, spiritsData.length);
+      const allSelected = sameGrade.every((sg) =>
+        prev.some((p) => p.name === sg.name)
+      );
+      if (allSelected) {
+        return prev.filter((p) => p.grade !== gradeName);
+      } else {
+        const newList = [
+          ...prev,
+          ...sameGrade.filter((sg) => !prev.some((p) => p.name === sg.name)),
+        ];
+        return newList;
+      }
     });
+  };
+
+  /** 버프/코멘트 표시 로직 */
+  const getCommentText = (spirit) => {
+    if (spirit.comment) return spirit.comment; // ① comment 우선 표시
+    if (spirit.buff_target_type && spirit.buff_value) {
+      const targetKor = buffTypeToKor[spirit.buff_target_type] || spirit.buff_target_type;
+      return `버프: ${targetKor} +${spirit.buff_value}%`; // ② 한국어 변환
+    }
+    return null;
   };
 
   return (
@@ -31,13 +66,15 @@ const Step3OwnedSelect = ({ spiritsData, ownedSpirits, setOwnedSpirits, calculat
 
         {/* 등급별 전체 선택 */}
         <div className="flex flex-wrap justify-center gap-2 mb-4">
-          {Object.keys(SpiritGrade).map((gradeKey) => (
+          {gradeList.map((gradeName) => (
             <button
-              key={gradeKey}
-              onClick={() => selectByGrade(gradeKey)}
-              className="bg-white border px-3 py-1 rounded-lg text-sm font-semibold shadow hover:bg-green-50 transition"
+              key={gradeName}
+              onClick={() => selectByGrade(gradeName)}
+              className={`bg-white border px-3 py-1 rounded-lg text-sm font-semibold shadow hover:bg-green-50 transition ${
+                gradeColors[gradeName] || 'text-gray-700'
+              }`}
             >
-              {SpiritGrade[gradeKey]} 전체 선택
+              {gradeName} 전체 선택
             </button>
           ))}
           <button
@@ -51,14 +88,38 @@ const Step3OwnedSelect = ({ spiritsData, ownedSpirits, setOwnedSpirits, calculat
         {/* 전체 정령 목록 */}
         <div className="grid grid-cols-5 gap-3 bg-white p-4 rounded-lg shadow-lg mb-6 max-h-96 overflow-y-auto">
           {spiritsData.map((spirit, i) => {
-            const isOwned = ownedSpirits.find((s) => s.name === spirit.name);
+            const isOwned = ownedSpirits.some((s) => s.name === spirit.name);
+            const commentText = getCommentText(spirit);
+
             return (
-              <SpiritCard
+              <div
                 key={i}
-                spirit={spirit}
-                isSelected={isOwned}
                 onClick={() => handleOwnedSpiritToggle(spirit)}
-              />
+                className={`cursor-pointer border-2 rounded-lg p-4 transition ${
+                  isOwned
+                    ? 'bg-green-100 border-green-400'
+                    : 'bg-white border-gray-200 hover:bg-gray-50'
+                }`}
+              >
+                <div className="font-bold mb-1">{spirit.name}</div>
+
+                {/* 속성 */}
+                <div className={`text-xs ${elementColors[spirit.element_type]}`}>
+                  속성: {spirit.element_type}
+                </div>
+
+                {/* 등급 */}
+                <div className={`text-xs ${gradeColors[spirit.grade]}`}>
+                  등급: {spirit.grade}
+                </div>
+
+                {/* 버프/코멘트 */}
+                {commentText && (
+                  <div className="text-xs text-gray-600 mt-1">
+                    💬 {commentText}
+                  </div>
+                )}
+              </div>
             );
           })}
         </div>
@@ -80,6 +141,7 @@ const Step3OwnedSelect = ({ spiritsData, ownedSpirits, setOwnedSpirits, calculat
           </div>
         </div>
 
+        {/* 결과 버튼 */}
         <button
           onClick={calculateResult}
           disabled={ownedSpirits.length === 0}

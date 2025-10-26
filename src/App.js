@@ -20,6 +20,7 @@ const App = () => {
     finalAttack: 0, // 최종 공격력 배율
   });
 
+  // 선택 정령 및 보유 정령
   const [selectedSpirits, setSelectedSpirits] = useState([null, null, null, null, null]);
   const [ownedSpirits, setOwnedSpirits] = useState([]);
   const [result, setResult] = useState(null);
@@ -29,24 +30,26 @@ const App = () => {
     const selected = Array.isArray(selectedSpirits) ? selectedSpirits : [];
     const owned = Array.isArray(ownedSpirits) ? ownedSpirits : [];
 
-    // 1️⃣ 현재 배치된 팀 DPS 계산
+    // 1️ 현재 배치된 팀 DPS 계산
     const totalDPS = calcTeamDPS(selected, buffs);
 
-    // 각 정령별 상세 DPS 기록
+    // 2️ 각 정령별 상세 DPS 기록 (속성, 등급 포함)
     const details = selected
       .filter((s) => s)
       .map((spirit) => {
         const { dps } = calcSpiritDPS(spirit, buffs);
         return {
           name: spirit.name,
+          grade: spirit.grade,
+          element_type: spirit.element_type,
           dps: dps.toFixed(2),
         };
       });
 
-    // 2️⃣ 보유 정령 중 최적 조합 5명 계산
+    // 3️ 보유 정령 중 최적 조합 5명 계산
     const { bestCombo, bestDPS } = pickBestComboAndDPS(owned, buffs);
 
-    // 3️⃣ 결과 저장
+    // 4️ 결과 저장
     setResult({
       totalDPS: totalDPS.toFixed(2),
       bestDPS: bestDPS.toFixed(2),
@@ -66,7 +69,7 @@ const App = () => {
 
       {step === 2 && (
         <Step2Placement
-          spiritsData={spiritsData}
+          spirits={spiritsData}
           selectedSpirits={selectedSpirits}
           setSelectedSpirits={setSelectedSpirits}
           setStep={setStep}
