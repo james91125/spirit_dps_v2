@@ -1,6 +1,8 @@
 import React from 'react';
 import SpiritCard from './SpiritCard';
 import SpiritSlot from './SpiritSlot';
+import { elementColors, gradeColors } from '../utils/colorMaps';
+
 import { SpiritGrade } from '../utils/constants';
 
 const Step2Placement = ({

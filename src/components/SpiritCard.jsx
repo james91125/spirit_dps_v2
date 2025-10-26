@@ -1,28 +1,37 @@
 import React from 'react';
-import { CheckCircle } from 'lucide-react';
-import { getTypeColor, getGradeColor } from '../utils/colorMaps';
-import { SpiritGrade, SpiritType } from '../utils/constants';
+import { elementColors, gradeColors } from '../utils/colorMaps';
 
-const SpiritCard = ({ spirit, isSelected, onClick }) => {
+const SpiritCard = ({ spirit, onClick, isSelected }) => {
+  if (!spirit) return null;
+
   return (
     <div
       onClick={onClick}
-      className={`border-4 ${getGradeColor(spirit.grade)} rounded-lg p-2 cursor-pointer hover:shadow-lg relative ${
-        isSelected ? 'bg-green-50 opacity-70' : 'bg-white'
-      }`}
+      className={`border-2 p-3 rounded-lg cursor-pointer transition 
+        ${isSelected ? 'border-blue-500 bg-blue-50' : 'border-gray-200 hover:border-indigo-300'}
+      `}
     >
-      {isSelected && (
-        <div className="absolute top-1 right-1">
-          <CheckCircle className="w-4 h-4 text-green-600" />
+      {/* 이름 및 등급 색상 */}
+      <div className={`font-bold ${gradeColors[spirit.grade] || 'text-gray-800'}`}>
+        {spirit.name}
+      </div>
+
+      {/* 타입 색상 */}
+      <div className={`text-xs ${elementColors[spirit.type] || 'text-gray-600'} mt-1`}>
+        {spirit.type}
+      </div>
+
+      {/* 기본 수치 */}
+      <div className="text-xs text-gray-500 mt-1">
+        공격력계수 {spirit.character_attack_coef || spirit.attackCoef}, 속도 {spirit.character_attack_speed || spirit.attackSpeed}
+      </div>
+
+      {/* 코멘트 표시 */}
+      {spirit.comment && (
+        <div className="text-[11px] text-amber-600 mt-2 italic">
+          💬 {spirit.comment}
         </div>
       )}
-      <div className="text-sm font-bold text-center">{spirit.name}</div>
-      <div
-        className={`${getTypeColor(spirit.type)} text-white text-center py-1 rounded text-xs mt-1`}
-      >
-        {SpiritType[spirit.type]}
-      </div>
-      <div className="text-xs text-gray-500 text-center mt-1">{SpiritGrade[spirit.grade]}</div>
     </div>
   );
 };
