@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/spirit_dps_v2/static/css/main.efd89bab.css",
-    "main.js": "/spirit_dps_v2/static/js/main.4c2296e6.js",
+    "main.css": "/spirit_dps_v2/static/css/main.b0fbf5ee.css",
+    "main.js": "/spirit_dps_v2/static/js/main.694eb51b.js",
     "static/js/453.7a85aea0.chunk.js": "/spirit_dps_v2/static/js/453.7a85aea0.chunk.js",
     "index.html": "/spirit_dps_v2/index.html",
-    "main.efd89bab.css.map": "/spirit_dps_v2/static/css/main.efd89bab.css.map",
-    "main.4c2296e6.js.map": "/spirit_dps_v2/static/js/main.4c2296e6.js.map",
+    "main.b0fbf5ee.css.map": "/spirit_dps_v2/static/css/main.b0fbf5ee.css.map",
+    "main.694eb51b.js.map": "/spirit_dps_v2/static/js/main.694eb51b.js.map",
     "453.7a85aea0.chunk.js.map": "/spirit_dps_v2/static/js/453.7a85aea0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.efd89bab.css",
-    "static/js/main.4c2296e6.js"
+    "static/css/main.b0fbf5ee.css",
+    "static/js/main.694eb51b.js"
   ]
 }
