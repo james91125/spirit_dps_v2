@@ -7,15 +7,16 @@ export const elementColors = {
 };
 
 export const gradeColors = {
-  NORMAL: 'text-gray-500',
-  MAGIC: 'text-green-600',
-  RARE: 'text-blue-600',
-  UNIQUE: 'text-purple-600',
-  EPIC: 'text-pink-600',
-  LEGENDARY: 'text-yellow-600',
-  DIVINE: 'text-orange-600',
-  MYSTIC: 'text-red-600',
-  ETERNAL: 'text-emerald-600',
-  INFINITY: 'text-sky-600',
-  ELDER: 'text-indigo-600',
-};
+  노말: 'text-gray-500',
+  매직: 'text-green-600',
+  레어: 'text-blue-600',
+  유니크: 'text-purple-600',
+  에픽: 'text-pink-600',
+  레전더리: 'text-yellow-600',
+  디바인: 'text-orange-600',
+  미스틱: 'text-red-600',
+  이터널: 'text-emerald-600',
+  인피니티: 'text-sky-600',
+  엘더: 'text-indigo-600',
+}
+
