@@ -3,11 +3,12 @@ import Step1BuffSetup from './components/Step1BuffSetup';
 import Step2Placement from './components/Step2Placement';
 import Step3OwnedSelect from './components/Step3OwnedSelect';
 import Step4Result from './components/Step4Result';
-import { calcSpiritDPS } from './utils/calculateDPS';
 import spiritsData from './data/spiritsData';
+import { calcTeamDPS, pickBestComboAndDPS, calcSpiritDPS } from './utils/calculateDPS';
 
 const App = () => {
   const [step, setStep] = useState(1);
+
   const [buffs, setBuffs] = useState({
     attackAmplify: 0,
     spiritAttackAmplify: 0,
@@ -16,47 +17,40 @@ const App = () => {
     grassAmplify: 0,
     lightAmplify: 0,
     darkAmplify: 0,
+    finalAttack: 0, // 최종 공격력 배율
   });
+
   const [selectedSpirits, setSelectedSpirits] = useState([null, null, null, null, null]);
   const [ownedSpirits, setOwnedSpirits] = useState([]);
   const [result, setResult] = useState(null);
 
   const calculateResult = () => {
-    let totalDPS = 0;
-    const details = [];
+    // 안전 검사
+    const selected = Array.isArray(selectedSpirits) ? selectedSpirits : [];
+    const owned = Array.isArray(ownedSpirits) ? ownedSpirits : [];
 
-    // 현재 배치된 정령 DPS 계산
-    selectedSpirits.forEach((spirit) => {
-      if (!spirit) return;
-      const { dps, base, attackAmp, typeAmp, totalAmpPercent } = calcSpiritDPS(spirit, buffs);
-      totalDPS += dps;
-      details.push({
-        name: spirit.name,
-        dps: dps.toFixed(2),
-        calculation: `(${spirit.attackCoef} × ${spirit.attackSpeed}) × (1 + (${attackAmp.toFixed(
-          1
-        )}% + ${typeAmp.toFixed(1)}%)/100) = ${base.toFixed(3)} × (1 + ${totalAmpPercent.toFixed(
-          1
-        )}%/100)`,
+    // 1️⃣ 현재 배치된 팀 DPS 계산
+    const totalDPS = calcTeamDPS(selected, buffs);
+
+    // 각 정령별 상세 DPS 기록
+    const details = selected
+      .filter((s) => s)
+      .map((spirit) => {
+        const { dps } = calcSpiritDPS(spirit, buffs);
+        return {
+          name: spirit.name,
+          dps: dps.toFixed(2),
+        };
       });
-    });
 
-    // 보유 정령 중 상위 5개 DPS 계산
-    const sorted = [...ownedSpirits]
-      .map((s) => {
-        const { dps } = calcSpiritDPS(s, buffs);
-        return { ...s, dps };
-      })
-      .sort((a, b) => b.dps - a.dps)
-      .slice(0, 5);
+    // 2️⃣ 보유 정령 중 최적 조합 5명 계산
+    const { bestCombo, bestDPS } = pickBestComboAndDPS(owned, buffs);
 
-    const bestDPS = sorted.reduce((sum, s) => sum + s.dps, 0);
-
-    // 결과 저장
+    // 3️⃣ 결과 저장
     setResult({
       totalDPS: totalDPS.toFixed(2),
-      bestCombo: sorted,
       bestDPS: bestDPS.toFixed(2),
+      bestCombo,
       difference: (bestDPS - totalDPS).toFixed(2),
       details,
     });
@@ -69,6 +63,7 @@ const App = () => {
       {step === 1 && (
         <Step1BuffSetup buffs={buffs} setBuffs={setBuffs} setStep={setStep} />
       )}
+
       {step === 2 && (
         <Step2Placement
           spiritsData={spiritsData}
@@ -77,6 +72,7 @@ const App = () => {
           setStep={setStep}
         />
       )}
+
       {step === 3 && (
         <Step3OwnedSelect
           spiritsData={spiritsData}
@@ -86,7 +82,8 @@ const App = () => {
           calculateResult={calculateResult}
         />
       )}
-      {step === 4 && (
+
+      {step === 4 && result && (
         <Step4Result
           result={result}
           setStep={setStep}

@@ -1,6 +1,8 @@
 import React from 'react';
 import SpiritCard from './SpiritCard';
 import { SpiritGrade } from '../utils/constants';
+import { elementColors, gradeColors } from '../utils/colorMaps';
+
 
 const Step3OwnedSelect = ({ spiritsData, ownedSpirits, setOwnedSpirits, calculateResult }) => {
   const handleOwnedSpiritToggle = (spirit) => {
