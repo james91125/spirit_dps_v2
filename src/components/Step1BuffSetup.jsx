@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Step1BuffSetup = ({ buffs, setBuffs, setStep }) => {
+const Step1BuffSetup = ({ buffs, setBuffs, goNext }) => {
   const handleBuffChange = (key, value) =>
     setBuffs({ ...buffs, [key]: parseFloat(value) || 0 });
 
@@ -38,7 +38,7 @@ const Step1BuffSetup = ({ buffs, setBuffs, setStep }) => {
         </div>
 
         <button
-          onClick={() => setStep(2)}
+          onClick={goNext} // setStep(2) 대신 goNext 사용
           className="w-full mt-8 bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 rounded-lg"
         >
           정령 배치하기

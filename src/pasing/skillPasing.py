@@ -2,9 +2,9 @@ import os, re, json, requests
 from bs4 import BeautifulSoup
 
 # 경로 설정
-html_file = r"C:\Users\james\spirit_dps_v2\public\resouce\skillDataHtml.txt"
+html_file = r"C:\Users\james\spirit_dps_v2\src\pasing\skillDataHtml.txt"
 img_dir = r"C:\Users\james\spirit_dps_v2\public\resouce\skill"
-out_file = r"C:\Users\james\spirit_dps_v2\src\data\skillData.js"
+out_file = r"C:\Users\james\spirit_dps_v2\src\data\skillData2.js"
 
 os.makedirs(img_dir, exist_ok=True)
 
@@ -69,10 +69,13 @@ for h2 in soup.find_all("h2"):
             "comment": comment
         })
 
+### 수정: 역순으로 정렬
+skills.reverse()
+
 # JS 파일 생성
 js_content = "export const skillData = " + json.dumps(skills, ensure_ascii=False, indent=2)
 os.makedirs(os.path.dirname(out_file), exist_ok=True)
 with open(out_file, "w", encoding="utf-8") as f:
     f.write(js_content)
 
-print(f"[OK] {len(skills)}개 스킬 저장 완료.")
+print(f"[OK] {len(skills)}개 스킬 역순으로 저장 완료.")
