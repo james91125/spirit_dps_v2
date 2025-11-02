@@ -42,14 +42,17 @@ function calculateSpiritMetrics(spirit, uiBuffs, teamContext) {
   const buffMultiplier = 1 + totalBuffSum / 100;
   const finalAttackMultiplier = 1 + finalAttack / 100;
 
-  if (skillDamagePercent > 0) {
-    const hitCount = num(spirit.element_damage_hitCount, 1);
-    const cooldown = num(spirit.element_damage_delay, 1);
-    const baseSkillDps = (skillDamagePercent / 100 * hitCount) / cooldown;
-    skillDps = baseSkillDps * (coef + buffMultiplier - 1) * finalAttackMultiplier;
-  } else {
-    baseDps = speed * (coef + buffMultiplier - 1) * finalAttackMultiplier;
-  }
+// 항상 평타 DPS 계산
+baseDps = speed * (coef + buffMultiplier - 1) * finalAttackMultiplier;
+
+// 스킬 DPS 계산 (있을 때만)
+const hitCount = num(spirit.element_damage_hitCount, 1);
+const cooldown = num(spirit.element_damage_delay, 1);
+if (skillDamagePercent > 0 && cooldown > 0) {
+  const baseSkillDps = (skillDamagePercent / 100 * hitCount) / cooldown;
+  skillDps = baseSkillDps * (coef + buffMultiplier - 1) * finalAttackMultiplier;
+}
+
 
   const totalDps = baseDps + skillDps;
 
