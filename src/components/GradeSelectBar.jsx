@@ -77,7 +77,6 @@ export default function GradeSelectBar({
         );
       })}
 
-      {/* ✅ 전체 선택 / 해제 버튼 */}
       <button
         onClick={handleSelectAll}
         style={{

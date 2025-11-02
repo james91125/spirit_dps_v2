@@ -29,7 +29,7 @@ const Step0Tutorial = ({ goNext }) => {
           </div>
         </div>
 
-        {/* Step1으로 이동 버튼 */}
+        {/* Step1으로 이동 */}
         <div className="mt-8 text-center">
           <button
             onClick={goNext}
