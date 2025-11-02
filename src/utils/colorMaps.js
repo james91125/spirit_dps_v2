@@ -39,11 +39,16 @@ export function normalizeGrade(raw) {
 
   // 한글 → 영어 매핑 (포함되는 단어로 체크)
   if (str.includes('노멀')) return 'NORMAL';
+  if (str.includes('노말')) return 'NORMAL';
   if (str.includes('매직')) return 'MAGIC';
   if (str.includes('희귀')) return 'RARE';
+  if (str.includes('레어')) return 'RARE';
   if (str.includes('독특한')) return 'UNIQUE';
+  if (str.includes('유니크')) return 'UNIQUE';
+
   if (str.includes('에픽')) return 'EPIC';
   if (str.includes('전설')) return 'LEGENDARY';
+
   if (str.includes('레전더리')) return 'LEGENDARY';
   if (str.includes('디바인')) return 'DIVINE';
   if (str.includes('미스틱')) return 'MYSTIC';
