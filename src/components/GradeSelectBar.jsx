@@ -3,7 +3,8 @@ import { normalizeGrade } from '../utils/colorMaps';
 
 const GRADES = [
   'NORMAL', 'MAGIC', 'RARE', 'UNIQUE', 'EPIC', 'LEGENDARY',
-  'DIVINE', 'MYSTIC', 'ETERNAL', 'INFINITY', 'ELDER', 'AKASHIC', 'EMPYREAN'
+  'DIVINE', 'MYSTIC', 'ETERNAL', 'INFINITY', 'ELDER', 
+  // 'AKASHIC', 'EMPYREAN'
 ];
 
 export default function GradeSelectBar({
