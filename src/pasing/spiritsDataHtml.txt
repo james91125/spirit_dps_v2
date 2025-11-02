@@ -1,0 +1,1337 @@
+<kamigame-article-body id="mainArticle"> 
+    <section class="article_inline_ad_target">
+      <div><p><span class="lead_text"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">스피릿 킹 퀘스트(스피퀘)의 등급별 정령 일람을 게재. 정령의 속성이나 출장 효과에 대해서도 게재하고 있기 때문에, 스피쿠에 정령에 대해 알고 싶을 때의 참고에 부디.</font></font></span></p>
+<table class="fixed_table">
+<thead>
+<tr>
+<th style="text-align:center" colspan="2"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">관련 기사</font></font></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><a href="/spirit-king-quest/page/374756298476018572.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">속성별 추천 정령 편성</font></font></a></td>
+<td style="text-align:center"><a href="/spirit-king-quest/page/361098316970223609.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">최강정령 랭킹</font></font></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+      <div class="ad">
+        <div id="ad_above_table_of_contents"></div>
+      </div>
+      
+      <nav id="contents" class="kamigame-table-of-contents">
+        <h2 id="table_of_contents"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">목차</font></font></h2>
+        <ul>
+           <li><a href="#アカシック精霊一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">아카식 정령 일람</font></font></a></li>  <li><a href="#エンピリアン精霊一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">엠피리안 정령 일람</font></font></a></li>  <li><a href="#エルダー精霊一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">엘더 정령 목록</font></font></a></li>  <li><a href="#インフィニティ精霊一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">인피니티 정령 일람</font></font></a></li>  <li><a href="#エターナル精霊一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">이터널 정령 일람</font></font></a></li>  <li><a href="#ミスティック精霊一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">미스틱 정령 목록</font></font></a></li>  <li><a href="#ディバイン精霊一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">디바인 정령 일람</font></font></a></li>  <li><a href="#レジェンダリー精霊一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">전설 정령 목록</font></font></a></li>  <li><a href="#エピック精霊一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">에픽 정령 목록</font></font></a></li>  <li><a href="#ユニーク精霊一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">독특한 정령 목록</font></font></a></li>  <li><a href="#レア精霊一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">희귀 정령 목록</font></font></a></li>  <li><a href="#マジック精霊一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">매직 정령 목록</font></font></a></li>  <li><a href="#ノーマル精霊一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">노멀 정령 일람</font></font></a></li> 
+        </ul>
+      </nav>
+    
+      <div class="ad">
+        <div id="ad_under_table_of_contents">
+          <div class="inline_ad_placement" id="smarttag-instream"></div><div data-cptid="1594304" style="display: block;"><script>
+              window.gnshbrequest = window.gnshbrequest || { cmd: [] };
+              window.gnshbrequest.cmd.push(function() {
+                window.gnshbrequest.applyThirdPartyTag("1594304", "[data-cptid='1594304']");
+              });
+            </script></div>
+        </div>
+      </div>
+      
+              <h2 id="アカシック精霊一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">아카식 정령 일람</font></font></h2>
+              <div class="table_search_form" data-table-index="0"><div><label><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">키워드 검색 </font></font></label><span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">5</font></font></span></div><input type="text" placeholder="키워드를 입력하여 검색"></div><table class="wt pct_30_30_40 sortable search_table has_search_form">
+<thead>
+<tr>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">정령</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="0"></a></th>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">속성</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="1"></a></th>
+<th class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">출장 효과</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="2"></a></th>
+</tr>
+</thead>
+<tbody>
+<tr class="base-row"><td style="width: 30%;"></td><td style="width: 30%;"></td><td style="width: 40%;"></td></tr><tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/389926283741515260.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/ORS3Lw2fkDqs82JU0JOYY0uXK6u-qHYXeEXkq_cZOnZ5_VNQkrx7Br7NFIob750HQSZhOWOSaUNiRFhRVDfGs2SZJ-FIKWnsgrdsHgnEDUxr=rw">
+            <img src="https://lh3.googleusercontent.com/ORS3Lw2fkDqs82JU0JOYY0uXK6u-qHYXeEXkq_cZOnZ5_VNQkrx7Br7NFIob750HQSZhOWOSaUNiRFhRVDfGs2SZJ-FIKWnsgrdsHgnEDUxr" alt="브레자레스" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">브레자레스</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">광범위 내의 모든 적에게 13500%의 데미지를 2번 줍니다. 화정령 타입의 공격력을 18% 증가시킵니다. (쿨타임 18초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/389926918440395897.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/P6a_bSDTBu4ycEPpMpIBdjXoegG5QlcszlRlzcvJZSGObZOe3nhe2IMB2F2QYKJbN3viZIG2TNljnrUb4ifZf88pP5Iwm47deM0qrIhs9UKUVQ=rw">
+            <img src="https://lh3.googleusercontent.com/P6a_bSDTBu4ycEPpMpIBdjXoegG5QlcszlRlzcvJZSGObZOe3nhe2IMB2F2QYKJbN3viZIG2TNljnrUb4ifZf88pP5Iwm47deM0qrIhs9UKUVQ" alt="올레린" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">올레린</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">광범위 내의 모든 적에게 3643%의 데미지를 7번 줍니다. 수정령 타입의 공격력이 17% 증가합니다. (쿨타임 17초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/389927005145026044.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/DxcANtRB3amZfwOfKfgXYBGrvY6B39oiqNRDunFZeIp6z_YTmZ2fCZs-M2R_ZEbwCMKKup6JSmCTxQIaRT3jFrXMTFQk4kxEDsvKVhtNBW7F=rw">
+            <img src="https://lh3.googleusercontent.com/DxcANtRB3amZfwOfKfgXYBGrvY6B39oiqNRDunFZeIp6z_YTmZ2fCZs-M2R_ZEbwCMKKup6JSmCTxQIaRT3jFrXMTFQk4kxEDsvKVhtNBW7F" alt="빌리디아" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">빌리디아</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">광범위 내의 모든 적에게 2864%의 데미지를 11번 줍니다. 초정령 타입의 공격력이 21% 증가합니다. (쿨타임 21초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/389927205095889563.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/LRy60bRsTfVeLNvKdaB7x5uhA2zz5a1aMFRyoDhn22IdcRTwBw8-DN5BcsXtr8SiFFAPmcCYEvl7yaZpsE8SlB6HqtHqcGjPzCTs95ZGw4I=rw">
+            <img src="https://lh3.googleusercontent.com/LRy60bRsTfVeLNvKdaB7x5uhA2zz5a1aMFRyoDhn22IdcRTwBw8-DN5BcsXtr8SiFFAPmcCYEvl7yaZpsE8SlB6HqtHqcGjPzCTs95ZGw4I" alt="엘라리스" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">엘라리스</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">광범위 내의 모든 적에게 9375%의 데미지를 4번 줍니다. 광정령 타입의 공격력이 25% 증가합니다. (쿨타임 25초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/389927349212171772.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/HMvp_P9PLyBv_Hb_m6Vc8NwYn09O4-sUfL-XoeeHdiGxNS7z_BnGMzqD1s1fPamIwCmFxhy5N3GHFlleFWthUGlogjzkXsu9NFYN4D1EIGHyeA=rw">
+            <img src="https://lh3.googleusercontent.com/HMvp_P9PLyBv_Hb_m6Vc8NwYn09O4-sUfL-XoeeHdiGxNS7z_BnGMzqD1s1fPamIwCmFxhy5N3GHFlleFWthUGlogjzkXsu9NFYN4D1EIGHyeA" alt="벨모라" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">벨모라</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">광범위 내의 모든 적에게 22500%의 데미지를 1번 줍니다. 암정령 타입의 공격력이 15% 증가합니다. (쿨타임 15초)</font></font></td>
+</tr>
+</tbody>
+</table>
+
+              <div class="inline_ad_placement"></div>
+            
+              <h2 id="エンピリアン精霊一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">엠피리안 정령 일람</font></font></h2>
+              <div class="table_search_form" data-table-index="1"><div><label><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">키워드 검색 </font></font></label><span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">10</font></font></span></div><input type="text" placeholder="키워드를 입력하여 검색"></div><table class="wt pct_30_30_40 sortable search_table has_search_form">
+<thead>
+<tr>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">정령</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="0"></a></th>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">속성</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="1"></a></th>
+<th class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">출장 효과</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="2"></a></th>
+</tr>
+</thead>
+<tbody>
+<tr class="base-row"><td style="width: 30%;"></td><td style="width: 30%;"></td><td style="width: 40%;"></td></tr><tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/382845840470900213.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/0X7PKmchVbuK7wEDWDU9G-Uh7L5UYinrxYkXVOPqBJD0lil7T8r2nSymjIvIk-ZOYA1cne1hxNkP-zupNyqFNcVV_N3p0kZzcz-zqDRf3c0O=rw">
+            <img src="https://lh3.googleusercontent.com/0X7PKmchVbuK7wEDWDU9G-Uh7L5UYinrxYkXVOPqBJD0lil7T8r2nSymjIvIk-ZOYA1cne1hxNkP-zupNyqFNcVV_N3p0kZzcz-zqDRf3c0O" alt="크레발" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">크레발</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">광범위 내의 모든 적에게 3700%의 데미지를 1번 줍니다. 캐릭터의 크리티컬률이 4초간 70% 증가합니다. (쿨타임 4초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/382845918552053956.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/NDiyui6hDJmmnRML_K2DG8Vr3G-RgdhKZZG-UhNyWO8I501EMYPq5n0WGd5DwDgmqXNW6s03P9i7mYkOaz--NuCf9zSWdXoe7WqrpJYP4M8A=rw">
+            <img src="https://lh3.googleusercontent.com/NDiyui6hDJmmnRML_K2DG8Vr3G-RgdhKZZG-UhNyWO8I501EMYPq5n0WGd5DwDgmqXNW6s03P9i7mYkOaz--NuCf9zSWdXoe7WqrpJYP4M8A" alt="카르밀" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">카르밀</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">광범위 내의 모든 적에게 800%의 데미지를 4번 줍니다. 캐릭터의 회피율 무시가 2초간 120% 증가합니다. (쿨타임 3.5초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/382846044783793469.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/YK6xNwsE0k8VwseBDNXmRTHZDfJ35TARwMEetezAuDKZXUJ8vuGEfYIoUs0bjNkzGNkluwT40cdFGMTHtLX5daK6vtHDF6Bgw6u1bUsMF_wr8A=rw">
+            <img src="https://lh3.googleusercontent.com/YK6xNwsE0k8VwseBDNXmRTHZDfJ35TARwMEetezAuDKZXUJ8vuGEfYIoUs0bjNkzGNkluwT40cdFGMTHtLX5daK6vtHDF6Bgw6u1bUsMF_wr8A" alt="테오네" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">테오네</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">광범위 내의 모든 적에게 3200%의 데미지를 1번 줍니다. 캐릭터의 공격속도가 3초간 70% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/382846103571167176.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/l9arM-ItHg4ZUxXv28QtYpVt2aZhRb-mbt4n6QoutnKUz0ZzRsHj5uVd8Nz83sNTh1BMAKtT5ccee_rhnK5t7SonCG6hcO7FTzUNPNSMkSo=rw">
+            <img src="https://lh3.googleusercontent.com/l9arM-ItHg4ZUxXv28QtYpVt2aZhRb-mbt4n6QoutnKUz0ZzRsHj5uVd8Nz83sNTh1BMAKtT5ccee_rhnK5t7SonCG6hcO7FTzUNPNSMkSo" alt="아스트레아" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">아스트레아</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">좁은 범위 내의 모든 적에게 690%의 데미지를 4번 줍니다. 캐릭터의 방어력 증폭이 3초간 19200% 증가합니다. (쿨타임 3초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/382846182122127302.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/cpsMogorzui5lI8z8rBPDYl17pvTZEUQHZitkrJeIGvXiSxhWMhrxMotjQgZgCFpjwfKHX5Sy0gbSeEKgkGa4VVxQEj_iQ9I9gN_O4TFGf7G=rw">
+            <img src="https://lh3.googleusercontent.com/cpsMogorzui5lI8z8rBPDYl17pvTZEUQHZitkrJeIGvXiSxhWMhrxMotjQgZgCFpjwfKHX5Sy0gbSeEKgkGa4VVxQEj_iQ9I9gN_O4TFGf7G" alt="몰브" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">몰브</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">광범위 내의 모든 적에게 4600%의 데미지를 1번 줍니다. 캐릭터의 공격력 증폭이 5초간 19200% 증가합니다. (쿨타임 5초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/384414456379104037.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/7qfq9xwdnj9Jlq5Al-8VXSG6KcDrF3-_b0D7WxV-uqPX47o5YJ9cVpti-VCpdSnbb8c2OCGobJH6BaQYHx_L98SIf3a_0aRffFY3IIICfr-p=rw">
+            <img src="https://lh3.googleusercontent.com/7qfq9xwdnj9Jlq5Al-8VXSG6KcDrF3-_b0D7WxV-uqPX47o5YJ9cVpti-VCpdSnbb8c2OCGobJH6BaQYHx_L98SIf3a_0aRffFY3IIICfr-p" alt="플라레아" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">플라레아</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">화정령 타입의 공격력이 38400% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/384414842389269419.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/K9uwrB8tPYZnkfIDZWMYTq9xa4t5sH-qV2NsBMMwMgXbCTy1LrT_gIZsjvUZ9LzA8IVwhG4ATr2t5bxa_lEVF5KhTtiilRq__kjBj9otYgQ9=rw">
+            <img src="https://lh3.googleusercontent.com/K9uwrB8tPYZnkfIDZWMYTq9xa4t5sH-qV2NsBMMwMgXbCTy1LrT_gIZsjvUZ9LzA8IVwhG4ATr2t5bxa_lEVF5KhTtiilRq__kjBj9otYgQ9" alt="시로에" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">시로에</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">수정령 타입의 공격력이 38400% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/384415164578952801.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/idK9w3E4YL2O6L3D3WB-YMpbj31W6MNawV_fCY8tuBWiN_UIB6Cj-pwYw_j8Qp65YZxX_buO2MvGaE9WEUR7Osv-Uzmd9D9TQ6da1Yj__NnH=rw">
+            <img src="https://lh3.googleusercontent.com/idK9w3E4YL2O6L3D3WB-YMpbj31W6MNawV_fCY8tuBWiN_UIB6Cj-pwYw_j8Qp65YZxX_buO2MvGaE9WEUR7Osv-Uzmd9D9TQ6da1Yj__NnH" alt="그린델" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">그린델</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">초정령 타입의 공격력이 38400% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/384415723696470812.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/7SnjZptrFcwRoJE3AamAT8KZsDHVRgnzfcLe09ApC-Qwy2qcta25Ct3KLoJ-ub8FfdSTL0YtxqA24d7veIjNn2tdSoi5bHVz_U_yq1e0vdegXw=rw">
+            <img src="https://lh3.googleusercontent.com/7SnjZptrFcwRoJE3AamAT8KZsDHVRgnzfcLe09ApC-Qwy2qcta25Ct3KLoJ-ub8FfdSTL0YtxqA24d7veIjNn2tdSoi5bHVz_U_yq1e0vdegXw" alt="일레시온" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">일레시온</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">광정령 타입의 공격력이 38400% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/384415863433878039.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/9iphmU4Ljzcsgz3ZsJGOt1Msg3hbF6KuUnpdGlTN9qiKqRpaIuwDMERIt4xRRoJHSzxYM1RnSc3zVezKxWPXv0mrFtdurllI92qnf1oKVLBNxA=rw">
+            <img src="https://lh3.googleusercontent.com/9iphmU4Ljzcsgz3ZsJGOt1Msg3hbF6KuUnpdGlTN9qiKqRpaIuwDMERIt4xRRoJHSzxYM1RnSc3zVezKxWPXv0mrFtdurllI92qnf1oKVLBNxA" alt="클라오니" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">클라오니</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">암정령 타입의 공격력이 38400% 증가합니다.</font></font></td>
+</tr>
+</tbody>
+</table>
+
+              <div class="inline_ad_placement"></div>
+            
+              <h2 id="エルダー精霊一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">엘더 정령 목록</font></font></h2>
+              <div class="table_search_form" data-table-index="2"><div><label><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">키워드 검색 </font></font></label><span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">10</font></font></span></div><input type="text" placeholder="키워드를 입력하여 검색"></div><table class="wt pct_30_30_40 sortable search_table has_search_form">
+<thead>
+<tr>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">정령</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="0"></a></th>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">속성</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="1"></a></th>
+<th class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">출장 효과</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="2"></a></th>
+</tr>
+</thead>
+<tbody>
+<tr class="base-row"><td style="width: 30%;"></td><td style="width: 30%;"></td><td style="width: 40%;"></td></tr><tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/382833777149215766.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/OE-uE-scYW7iSnuJRzJnm-F5IvN6-4Y_VZTqM9FgR-QHzmH4p5B0Kgwt16lVYd345cIgtl6gP92BWsETYKJ-QilfCWvnuzJzGnWP7-e1Ing7=rw">
+            <img src="https://lh3.googleusercontent.com/OE-uE-scYW7iSnuJRzJnm-F5IvN6-4Y_VZTqM9FgR-QHzmH4p5B0Kgwt16lVYd345cIgtl6gP92BWsETYKJ-QilfCWvnuzJzGnWP7-e1Ing7" alt="알디스" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">알디스</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">광범위 내의 모든 적에게 2600%의 데미지를 3번 줍니다. 캐릭터의 공격력 증폭이 6초간 12800% 증가합니다(쿨타임 13초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/382833936532786958.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/7nPq5siQhuVE6zWS9W8B9F08YsLDEiKc4UCaBx-vZN0WofPqZYKRaDVah3tOx39rtHkoqnmrxOv0qyMgXDlV0oKhNIJjpyfZVAELhH07FYI=rw">
+            <img src="https://lh3.googleusercontent.com/7nPq5siQhuVE6zWS9W8B9F08YsLDEiKc4UCaBx-vZN0WofPqZYKRaDVah3tOx39rtHkoqnmrxOv0qyMgXDlV0oKhNIJjpyfZVAELhH07FYI" alt="벨라트" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">벨라트</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">화정령 타입의 공격력이 25600% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/382834314154407737.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/AExRNjLy6589pZ4AI_DLMNmeDfVWSSI8YxebbO6dzjk3QYg6Zu9OpZKjkyL4OAhmGrp4gvw2_BpLikq-rke5rcPVxb2uy2wKyub44gi-9nQ=rw">
+            <img src="https://lh3.googleusercontent.com/AExRNjLy6589pZ4AI_DLMNmeDfVWSSI8YxebbO6dzjk3QYg6Zu9OpZKjkyL4OAhmGrp4gvw2_BpLikq-rke5rcPVxb2uy2wKyub44gi-9nQ" alt="에나벨" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">에나벨</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">광범위 내의 모든 적에게 1650%의 데미지를 4번 줍니다. 캐릭터의 방어력 증폭이 6초간 12800% 증가합니다. (쿨타임 11초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/382834400708039429.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/X2_S5_EIYhx6an1X4paq3c04IDAmbUmdM97ut1sXeeBi6Y0CFcLspBiMilpcRvXR1jgnDSgKroXl42vn9tgNXam801EwBpjAbA3ctnP5DVJl=rw">
+            <img src="https://lh3.googleusercontent.com/X2_S5_EIYhx6an1X4paq3c04IDAmbUmdM97ut1sXeeBi6Y0CFcLspBiMilpcRvXR1jgnDSgKroXl42vn9tgNXam801EwBpjAbA3ctnP5DVJl" alt="넬라" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">넬라</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">수정령 타입의 공격력이 25600% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/382834494157102771.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/o00A0bvBCQn_cKfYTQXT1_u7f6Pc2opnjfyFR6kh80sqI8HJWyboGPRj4HO3ElMxVt7M9FkHpOZqI38Dp83XL041VE9GhxHJw8-RzuSC6zrn=rw">
+            <img src="https://lh3.googleusercontent.com/o00A0bvBCQn_cKfYTQXT1_u7f6Pc2opnjfyFR6kh80sqI8HJWyboGPRj4HO3ElMxVt7M9FkHpOZqI38Dp83XL041VE9GhxHJw8-RzuSC6zrn" alt="라피나" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">라피나</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">광범위 내의 모든 적에게 7200%의 데미지를 1번 줍니다. 캐릭터의 공격 속도가 10초 동안 65% 증가합니다. (쿨타임 12초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/382834622939054916.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/oAeyaq_icX8jFpaxYeVnLqwepEWALhZHB3Cs8quuf_AV4Cn9R-PqdKzdNQagzM9GSxOyZjoTz-8rUylo848v4D7nBWA6SJf_hyY9yYRgluFy=rw">
+            <img src="https://lh3.googleusercontent.com/oAeyaq_icX8jFpaxYeVnLqwepEWALhZHB3Cs8quuf_AV4Cn9R-PqdKzdNQagzM9GSxOyZjoTz-8rUylo848v4D7nBWA6SJf_hyY9yYRgluFy" alt="루제니아" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">루제니아</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">광범위 내의 모든 적에게 6000%의 데미지를 1번 줍니다. 캐릭터의 크리티컬률이 6초간 60% 증가합니다. (쿨타임 10초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/382834721706511806.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/NUp9D5KFMxfFkZQryR7sDlW3PuV9kudZ7Tjpr2OpF6tzr_6jRtBysG4KCXv6DHiWptQ9Bv0husYo7NL5Yi9q0S3Q_X7fHA8Yv7ffXKWwDzmh=rw">
+            <img src="https://lh3.googleusercontent.com/NUp9D5KFMxfFkZQryR7sDlW3PuV9kudZ7Tjpr2OpF6tzr_6jRtBysG4KCXv6DHiWptQ9Bv0husYo7NL5Yi9q0S3Q_X7fHA8Yv7ffXKWwDzmh" alt="녹티아" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">녹티아</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">광범위 내의 모든 적에게 8400%의 데미지를 1번 줍니다. 캐릭터의 회피율 무시가 2초간 100% 증가합니다. (쿨타임 14초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/382834803495406895.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/uIFqhf20WTf8Wz-r0OCA-8uxTPNjMkRIykSyua_9vQc19KMqnhtwdBJvv3Aqw2Npu0y3GOuV8PCibGmVSijPDlT7OjpKjqRJvUBv1bXSemj2=rw">
+            <img src="https://lh3.googleusercontent.com/uIFqhf20WTf8Wz-r0OCA-8uxTPNjMkRIykSyua_9vQc19KMqnhtwdBJvv3Aqw2Npu0y3GOuV8PCibGmVSijPDlT7OjpKjqRJvUBv1bXSemj2" alt="로렐린" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">로렐린</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">초정령 타입의 공격력이 25600% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/382834890971811119.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/VXErQzLsA8rCwchcNm-bVNOSngEykO5KsNt5de8D9wpBH9ETCjReVN2-b7k3rkHtCVyc_4_tMBpFGOJmg8b01iLeHv8Sz6Jz0Vc1DlQPzeo=rw">
+            <img src="https://lh3.googleusercontent.com/VXErQzLsA8rCwchcNm-bVNOSngEykO5KsNt5de8D9wpBH9ETCjReVN2-b7k3rkHtCVyc_4_tMBpFGOJmg8b01iLeHv8Sz6Jz0Vc1DlQPzeo" alt="노바" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">노바</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">광정령 타입의 공격력이 25600% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/382834970512589846.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/ona9_yoGEgv8Oa-OWK3a88UopT2WtHgWoJI1DYbhaFGJ93fIEqMNq15wpz2btQ0gWgEo94opwOknRKS0oOqB_GFJBUOcNYlKJ4sXtij45II=rw">
+            <img src="https://lh3.googleusercontent.com/ona9_yoGEgv8Oa-OWK3a88UopT2WtHgWoJI1DYbhaFGJ93fIEqMNq15wpz2btQ0gWgEo94opwOknRKS0oOqB_GFJBUOcNYlKJ4sXtij45II" alt="베스카" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">베스카</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">암정령 타입의 공격력이 25600% 증가합니다.</font></font></td>
+</tr>
+</tbody>
+</table>
+
+              <div class="inline_ad_placement"></div>
+            
+              <h2 id="インフィニティ精霊一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">인피니티 정령 일람</font></font></h2>
+              <div class="table_search_form" data-table-index="3"><div><label><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">키워드 검색 </font></font></label><span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">21</font></font></span></div><input type="text" placeholder="키워드를 입력하여 검색"></div><table class="wt pct_30_30_40 sortable search_table has_search_form">
+<thead>
+<tr>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">정령</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="0"></a></th>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">속성</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="1"></a></th>
+<th class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">출장 효과</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="2"></a></th>
+</tr>
+</thead>
+<tbody>
+<tr class="base-row"><td style="width: 30%;"></td><td style="width: 30%;"></td><td style="width: 40%;"></td></tr><tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/370114892071447665.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/OJC2LHMnAgI5ZzAPfaeVtos1njQENZ8n6YIkqCdY37NlFZzhWyY86BKWPLCuyuHYnbROLJJWj1tSkWs3akvH6TbQYMwlFn6Ecf38KOyS0C4dtA=rw">
+            <img src="https://lh3.googleusercontent.com/OJC2LHMnAgI5ZzAPfaeVtos1njQENZ8n6YIkqCdY37NlFZzhWyY86BKWPLCuyuHYnbROLJJWj1tSkWs3akvH6TbQYMwlFn6Ecf38KOyS0C4dtA" alt="와이번" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">와이번</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 공격력 증폭이 12800% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371228579792468919.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/pzSFAr0vrLqjbF1CrRMbcCqJyGkY4eCnJ8gP0yM7uDrFNAiEXccFbAWZLgUTY-XBxh3cu7rJirxYxl-0ggd49ffrWcAXYh50kEt5dg0Hz_mXYA=rw">
+            <img src="https://lh3.googleusercontent.com/pzSFAr0vrLqjbF1CrRMbcCqJyGkY4eCnJ8gP0yM7uDrFNAiEXccFbAWZLgUTY-XBxh3cu7rJirxYxl-0ggd49ffrWcAXYh50kEt5dg0Hz_mXYA" alt="룩스" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">룩스</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">단체의 적에게 2500%의 데미지를 1번 줍니다. 캐릭터의 크리티컬률이 5초간 40% 증가합니다. (쿨타임 10초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371416519827027358.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/L4inEi8Mh-u3YaqtzHgY_kiQrnepgxZCDl9wohtPJ0yGoB7V_Hq_aF5gF_pmB9aZFT89kqh7lnNaG0cvMqOokwYulFLVTirw46GdqH59fliQ=rw">
+            <img src="https://lh3.googleusercontent.com/L4inEi8Mh-u3YaqtzHgY_kiQrnepgxZCDl9wohtPJ0yGoB7V_Hq_aF5gF_pmB9aZFT89kqh7lnNaG0cvMqOokwYulFLVTirw46GdqH59fliQ" alt="어비스" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">어비스</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 크리티컬률이 320% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371569274264778528.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/0adZL3-9K1fKLiI9KtDwQIp6Wh9LDOavqNHAKY71EoaOvKu1YSRsQOOiWOHtHhRzSiaKVq-2UyzkYzblHmGuufr2bsR-LmvkOYNe7kdyuRk=rw">
+            <img src="https://lh3.googleusercontent.com/0adZL3-9K1fKLiI9KtDwQIp6Wh9LDOavqNHAKY71EoaOvKu1YSRsQOOiWOHtHhRzSiaKVq-2UyzkYzblHmGuufr2bsR-LmvkOYNe7kdyuRk" alt="아라우네" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">아라우네</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 방어력 증폭이 12800% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/372116557217684260.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/RgRZD8IyAjzfQwDm7gRemBzVDsfgAi7XMXYFXphHw1iLtpE5Y4TSp5r4s0EbZou6S5I-c_e3NpSfzYFP9f91N83sMyyu83eQSyi5hchXrLCx=rw">
+            <img src="https://lh3.googleusercontent.com/RgRZD8IyAjzfQwDm7gRemBzVDsfgAi7XMXYFXphHw1iLtpE5Y4TSp5r4s0EbZou6S5I-c_e3NpSfzYFP9f91N83sMyyu83eQSyi5hchXrLCx" alt="이그니스" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">이그니스</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">광범위 내의 모든 적에게 240%의 데미지를 11번 줍니다. 캐릭터의 공격력 증폭이 5초간 6400% 증가합니다. (쿨타임 10초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371717870989622008.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/0VtLPn7Tfq95NUKGRsAqvfWrrZhNp7NLO9hlEPtnXwFPuGLogM941LP8iXu9Mm_wiLzX8JeCsclMPpaJW2OsR6ml_a7gfXU52soAibiQyv1Frg=rw">
+            <img src="https://lh3.googleusercontent.com/0VtLPn7Tfq95NUKGRsAqvfWrrZhNp7NLO9hlEPtnXwFPuGLogM941LP8iXu9Mm_wiLzX8JeCsclMPpaJW2OsR6ml_a7gfXU52soAibiQyv1Frg" alt="이베일" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">이베일</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">광범위 내의 모든 적에게 160%의 데미지를 14번 줍니다. 캐릭터의 공격력 증폭이 2초간 6400% 증가합니다. (쿨타임 8초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/373410201115604825.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/riFzOmUeV1_mXn-A-M7K6Oig8DX9JTspEdPLshK75cnqYXPHCJbvva7RLdy-fBGWApsUhMJIEC3uPZ7e1n2fiyaJx5Nxi6uHcqGw5RROd0ip=rw">
+            <img src="https://lh3.googleusercontent.com/riFzOmUeV1_mXn-A-M7K6Oig8DX9JTspEdPLshK75cnqYXPHCJbvva7RLdy-fBGWApsUhMJIEC3uPZ7e1n2fiyaJx5Nxi6uHcqGw5RROd0ip" alt="알풀" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">알풀</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">단체의 적에게 2600%의 데미지를 1번 줍니다. (쿨타임 9초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/374163437900567403.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/gA4MD5AmyHZ2ap_StTS32qVxthJpbvZl9TQSroyfrEsgIL5YzSeQnwGvjpH3gCx07MeFaxbplsh4qSOaNNT51NhaPjvhjbbNIEPyWzkrBvStVw=rw">
+            <img src="https://lh3.googleusercontent.com/gA4MD5AmyHZ2ap_StTS32qVxthJpbvZl9TQSroyfrEsgIL5YzSeQnwGvjpH3gCx07MeFaxbplsh4qSOaNNT51NhaPjvhjbbNIEPyWzkrBvStVw" alt="에시메드" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">에시메드</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">광범위 내의 모든 적에게 240%의 데미지를 11번 줍니다. (쿨타임 9초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/375140821848048230.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/BUT7JJBSGf-O8mlaDohPdKDK9bxipz-UQTxYu8wv9FpvguC_ATIwyejLquKp7l0YksFFn5UH1Zh39kUEorJNFFp8xS1oia87GY3ebWipHC8=rw">
+            <img src="https://lh3.googleusercontent.com/BUT7JJBSGf-O8mlaDohPdKDK9bxipz-UQTxYu8wv9FpvguC_ATIwyejLquKp7l0YksFFn5UH1Zh39kUEorJNFFp8xS1oia87GY3ebWipHC8" alt="세이레인" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">세이레인</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 HP가 12800% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/376459630580102232.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/aqW4pmmuuMS4dV80UB5p2wUgyWwGWwLWnzsP2LjjnS5oiYqGOzBruZEm2aO8DkGtIRR8WRGoiewMjH-X8VSa-sgO1ArOhj7v2sQSFhEGPxM=rw">
+            <img src="https://lh3.googleusercontent.com/aqW4pmmuuMS4dV80UB5p2wUgyWwGWwLWnzsP2LjjnS5oiYqGOzBruZEm2aO8DkGtIRR8WRGoiewMjH-X8VSa-sgO1ArOhj7v2sQSFhEGPxM" alt="세룬" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">세룬</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">단체의 적에게 3600%의 데미지를 1번 줍니다. 캐릭터의 공격 속도가 9초 동안 60% 증가합니다. (쿨타임 9초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/382844479234668488.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/o3FiAubc9xHJCjiXSmbTOhMOEG01QIJVt3DChEezL1FL69ZQ46uFoMOnavn7kSMEKCKKUVmkiFeI6zcPoA6XW--z1XALPBdv-PwK83DghGQ=rw">
+            <img src="https://lh3.googleusercontent.com/o3FiAubc9xHJCjiXSmbTOhMOEG01QIJVt3DChEezL1FL69ZQ46uFoMOnavn7kSMEKCKKUVmkiFeI6zcPoA6XW--z1XALPBdv-PwK83DghGQ" alt="이베론" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">이베론</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">협측 범위 내의 모든 적에게 4400%의 데미지를 1번 줍니다. 캐릭터의 크리티컬률이 5초간 50% 증가합니다. (쿨타임 11초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/382844556359530440.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/T3dLebLVTNs8Ilw-llssRdOLNOw9amrIQyZNxpSwV7TDxCzPkI1gYzFiI5fdbNgLhGNKOFWWRJ5szPhHfjVAnq0DSJ7oOhyyXoGldIwtVyY=rw">
+            <img src="https://lh3.googleusercontent.com/T3dLebLVTNs8Ilw-llssRdOLNOw9amrIQyZNxpSwV7TDxCzPkI1gYzFiI5fdbNgLhGNKOFWWRJ5szPhHfjVAnq0DSJ7oOhyyXoGldIwtVyY" alt="엘도란" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">엘도란</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">좁은 범위 내의 모든 적에게 4800%의 데미지를 1번 줍니다. 캐릭터의 데미지 감소가 3초 동안 15% 증가합니다. (쿨타임 12초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/382844629743064175.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/yrk_DOkLpW-cpovsEvUFv7DUk7CU05DM3QunaLE9_IRDfAvpf_g5qUvlHyvhKsOXHIdBgK1zTD19KJKlx2gMe3dEnb0oezqXzy1TtDBAKjaj=rw">
+            <img src="https://lh3.googleusercontent.com/yrk_DOkLpW-cpovsEvUFv7DUk7CU05DM3QunaLE9_IRDfAvpf_g5qUvlHyvhKsOXHIdBgK1zTD19KJKlx2gMe3dEnb0oezqXzy1TtDBAKjaj" alt="루세리아" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">루세리아</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">광범위한 모든 적에게 4400%의 데미지를 1번 줍니다. 캐릭터의 회피율 무시가 2초간 80% 증가합니다. (쿨타임 11초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/382844763994346813.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/XkYLyLk_ajft22ApMiP9tR7Ku6RJN_-pG3TqjK8nCNXWYbIx0jGqgP8Fc3Bk22NivqkZmeot9CHaoei9fQ52FLvwh0bG5gvBMG4TnbCQKRo3=rw">
+            <img src="https://lh3.googleusercontent.com/XkYLyLk_ajft22ApMiP9tR7Ku6RJN_-pG3TqjK8nCNXWYbIx0jGqgP8Fc3Bk22NivqkZmeot9CHaoei9fQ52FLvwh0bG5gvBMG4TnbCQKRo3" alt="돌미엘" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">돌미엘</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">협측 범위 내의 모든 적에게 550%의 데미지를 1번 줍니다. 캐릭터의 크리티컬률이 5초간 50% 증가합니다. (쿨타임 12초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/382844851839849583.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/WxNX4zABDEkUakcLj4RRM22vL3BC6f4lU-KccEhoaNry-AdR74d1V5blOmYS57NftzZGdBEdMMQiZlCRdfZBDM2IqGxLvkTwTLzMcVQ43nw=rw">
+            <img src="https://lh3.googleusercontent.com/WxNX4zABDEkUakcLj4RRM22vL3BC6f4lU-KccEhoaNry-AdR74d1V5blOmYS57NftzZGdBEdMMQiZlCRdfZBDM2IqGxLvkTwTLzMcVQ43nw" alt="카렌티아" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">카렌티아</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">광범위의 모든 적에게 440%의 데미지를 8번 줍니다. 캐릭터의 공격력 증폭이 5초 동안 9600% 증가합니다. (쿨타임 11초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/382845035198077124.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/36QzpfnGt355G7eWAWC_ea89A8RO_Zc74dCEXaOklOM5WXFHkGdelGkh4In-tmDFB_nwqjZnbZ9WABRWyy-WrYEAY0080Y30M6uk25Tkd68t4g=rw">
+            <img src="https://lh3.googleusercontent.com/36QzpfnGt355G7eWAWC_ea89A8RO_Zc74dCEXaOklOM5WXFHkGdelGkh4In-tmDFB_nwqjZnbZ9WABRWyy-WrYEAY0080Y30M6uk25Tkd68t4g" alt="엘하리엘" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">엘하리엘</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">협측 범위 내의 모든 적에게 4400%의 데미지를 1번 줍니다. 캐릭터의 방어력 증폭이 6초 동안 12800% 증가합니다. (쿨타임 11초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/382845131247646454.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/wnxuEtmCEKIykuNkCsJmj2Yfg7PTpRXTx8AetrqTuWb2EwE2S7zA07ewsrCNWSvNSIZCNN0QW_k3hnEYemiaVdZZpHPdZH_kKGfhfJ2J-0HG=rw">
+            <img src="https://lh3.googleusercontent.com/wnxuEtmCEKIykuNkCsJmj2Yfg7PTpRXTx8AetrqTuWb2EwE2S7zA07ewsrCNWSvNSIZCNN0QW_k3hnEYemiaVdZZpHPdZH_kKGfhfJ2J-0HG" alt="알리에" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">알리에</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">광범위의 모든 적에게 600%의 데미지를 6번 줍니다. 캐릭터의 공격속도가 9초 동안 60% 증가합니다. (쿨타임 9초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/382845702612516341.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/kF_VTwzi9vj3Tr5CliLh_WZCdEmJrLfj7eIRV1ypvgBOI_y2GwBkDOkwZ2yQRU8qUfo9JDBj5tTvUeas_lCzyqlxcFAl7SZQ-_40sqFCJkzK=rw">
+            <img src="https://lh3.googleusercontent.com/kF_VTwzi9vj3Tr5CliLh_WZCdEmJrLfj7eIRV1ypvgBOI_y2GwBkDOkwZ2yQRU8qUfo9JDBj5tTvUeas_lCzyqlxcFAl7SZQ-_40sqFCJkzK" alt="루세일" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">루세일</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">광범위의 모든 적에게 1100%의 데미지를 4번 줍니다. 캐릭터의 공격력 증폭이 4초 동안 9600% 증가합니다. (쿨타임 11초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/382845773865318801.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/1qfWNqSya-iFDke7kePBSyoRW8E7UpmxHCpZaRqxapuA-HQamMCYYt9gqyyuyv0PTfn2RjFvA5nmpP7aDY0ceFld9ZjCMbyyH3MBkcjT9Gagrg=rw">
+            <img src="https://lh3.googleusercontent.com/1qfWNqSya-iFDke7kePBSyoRW8E7UpmxHCpZaRqxapuA-HQamMCYYt9gqyyuyv0PTfn2RjFvA5nmpP7aDY0ceFld9ZjCMbyyH3MBkcjT9Gagrg" alt="벨라" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">벨라</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">광범위의 모든 적에게 4800%의 데미지를 1번 줍니다. 캐릭터의 회피율 무시가 4초간 30% 증가합니다. (쿨타임 12초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/392824317974457088.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/TAw7AQjxKFaEmL0Kdawh-d7RqVWvZa5rwY7ikbPuWYCi1MBZqkRhctByaESadiOg3tpssFLP9zcB7GRDZzDm-Ktl3hYaDjeOhatpLHULnTWL=rw">
+            <img src="https://lh3.googleusercontent.com/TAw7AQjxKFaEmL0Kdawh-d7RqVWvZa5rwY7ikbPuWYCi1MBZqkRhctByaESadiOg3tpssFLP9zcB7GRDZzDm-Ktl3hYaDjeOhatpLHULnTWL" alt="지구 정복 Nyan Chichi" width="150" height="150" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">지구 정복 Nyan Chichi</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 방어력 증폭이 9600% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/392825067043604214.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/G-3bYN5slL0PO_lWfq9HpMZf5xJATduUgwiVb4564ozvqUOR0t5Ca7Y-KLl9V0UWCspwj08dvY_OjcZxkWoET4TncJOMRpzHUXKooeSGoto=rw">
+            <img src="https://lh3.googleusercontent.com/G-3bYN5slL0PO_lWfq9HpMZf5xJATduUgwiVb4564ozvqUOR0t5Ca7Y-KLl9V0UWCspwj08dvY_OjcZxkWoET4TncJOMRpzHUXKooeSGoto" alt="카이사르 카지하라" width="150" height="150" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">카이사르 카지하라</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 공격력 증폭이 9600% 증가합니다.</font></font></td>
+</tr>
+</tbody>
+</table>
+
+              <div class="inline_ad_placement"></div>
+            
+              <h2 id="エターナル精霊一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">이터널 정령 일람</font></font></h2>
+              <div class="table_search_form" data-table-index="4"><div><label><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">키워드 검색 </font></font></label><span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">15</font></font></span></div><input type="text" placeholder="키워드를 입력하여 검색"></div><table class="wt pct_30_30_40 sortable search_table has_search_form">
+<thead>
+<tr>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">정령</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="0"></a></th>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">속성</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="1"></a></th>
+<th class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">출장 효과</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="2"></a></th>
+</tr>
+</thead>
+<tbody>
+<tr class="base-row"><td style="width: 30%;"></td><td style="width: 30%;"></td><td style="width: 40%;"></td></tr><tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371229086263065527.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/_LqwnLyMazc6G_fzG3R-R1lhIkBAzdPIUW3CcMjzJTQ0omWXVCCeRa5ETevPkZnwJu-UpfmD2AyMNDirfZzh69oo7AcpHXdvn8SLuGs1Ljkv=rw">
+            <img src="https://lh3.googleusercontent.com/_LqwnLyMazc6G_fzG3R-R1lhIkBAzdPIUW3CcMjzJTQ0omWXVCCeRa5ETevPkZnwJu-UpfmD2AyMNDirfZzh69oo7AcpHXdvn8SLuGs1Ljkv" alt="다크니스" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">다크니스</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">암정령 타입의 공격력이 2000% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371228981791328062.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/bpCAmDfhFPNF4Y_swQ44d78_JcxIml25-Qn7wHs5gKAbMa3HIdVGB4whnIaeXpl7DsJLv7AxDeZbUh0tjYj6bybDcuvinaG2s0Dt6MdTq0JG7Q=rw">
+            <img src="https://lh3.googleusercontent.com/bpCAmDfhFPNF4Y_swQ44d78_JcxIml25-Qn7wHs5gKAbMa3HIdVGB4whnIaeXpl7DsJLv7AxDeZbUh0tjYj6bybDcuvinaG2s0Dt6MdTq0JG7Q" alt="라테랑" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">라테랑</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 HP가 6400% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371228884634479620.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/nd1G4jmP_pdrCG9ofJYClSBkwHqVq32Ven2v-g0iJI6faX0uMdm5p3jJ0D6V-YzU5620lI5hphYfTORoCe_CbSHcTumUHj9OrsUqbIvqbGLC=rw">
+            <img src="https://lh3.googleusercontent.com/nd1G4jmP_pdrCG9ofJYClSBkwHqVq32Ven2v-g0iJI6faX0uMdm5p3jJ0D6V-YzU5620lI5hphYfTORoCe_CbSHcTumUHj9OrsUqbIvqbGLC" alt="프린샤" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">프린샤</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">수정령 타입의 공격력이 2000% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371717703670443949.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/UPUJy6GRxZJ_4JKxOWFtPZlrCZU1iiISno3_IWiEQF0urX1NbU3fwPBr3tqAPjY-5PuRmqvAf5t48J1TFk08dmy52FJ8jp9j1UCaLwDQ6nYPtA=rw">
+            <img src="https://lh3.googleusercontent.com/UPUJy6GRxZJ_4JKxOWFtPZlrCZU1iiISno3_IWiEQF0urX1NbU3fwPBr3tqAPjY-5PuRmqvAf5t48J1TFk08dmy52FJ8jp9j1UCaLwDQ6nYPtA" alt="인페르노" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">인페르노</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">좁은 범위 내의 모든 적에게 280%의 데미지를 6번 줍니다. 캐릭터의 공격 속도가 9초 동안 50% 상승합니다. (쿨타임 9초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371420712486854159.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/XBkYE_1vbWB76EvOi3__QhsXYgnrUkglhy8ezz64XtdjPbTQ9Bf8Oa2sh7vHerky9drQQCCp6sv_HVPWifioU76r8EMXyy0sBZi3wJ1A6NMc=rw">
+            <img src="https://lh3.googleusercontent.com/XBkYE_1vbWB76EvOi3__QhsXYgnrUkglhy8ezz64XtdjPbTQ9Bf8Oa2sh7vHerky9drQQCCp6sv_HVPWifioU76r8EMXyy0sBZi3wJ1A6NMc" alt="사이클롭스" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">사이클롭스</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">광범위의 모든 적에게 1800%의 데미지를 1번 줍니다 (쿨타임 9초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/375746869701165179.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/_Fp4hBz7bTkvMd9jkzB67V8R2KBcQCKyZp2IXbdyUV9_GYcXbg-sfYJ2qsmJuBQ0i2eXpUwJzuXBbo09L5vPShcXeLMfqTvHqnWGUBMg7WM=rw">
+            <img src="https://lh3.googleusercontent.com/_Fp4hBz7bTkvMd9jkzB67V8R2KBcQCKyZp2IXbdyUV9_GYcXbg-sfYJ2qsmJuBQ0i2eXpUwJzuXBbo09L5vPShcXeLMfqTvHqnWGUBMg7WM" alt="베로나" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">베로나</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">좁은 범위 내의 모든 적에게 2500%의 데미지를 1번 줍니다. (쿨타임 10초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/375747031148272105.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/q2UHvjvps6ltf0n-EIrs_F_3FXbAxvrgooTH6kI1GKDy-fGkavTqCGmztJFpfFfVhscHaQKyvZpnJsvV2dNBEyIYEBsQvtcm5s6YCQk5jR9Q=rw">
+            <img src="https://lh3.googleusercontent.com/q2UHvjvps6ltf0n-EIrs_F_3FXbAxvrgooTH6kI1GKDy-fGkavTqCGmztJFpfFfVhscHaQKyvZpnJsvV2dNBEyIYEBsQvtcm5s6YCQk5jR9Q" alt="풀알" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">풀알</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">넓은 범위 내의 모든 적에게 2500%의 데미지를 1번 줍니다. (쿨타임 10초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/375747146273534274.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/fzn_3osm7uLVlUMKsnORr39fBop9qeAApCKmZuWfnfEtaePf2eiksNZ3h_WtRptap_tkoPAQCrz17gHw9dUTX23iOK2sxTeRUPI7o5blnhYi=rw">
+            <img src="https://lh3.googleusercontent.com/fzn_3osm7uLVlUMKsnORr39fBop9qeAApCKmZuWfnfEtaePf2eiksNZ3h_WtRptap_tkoPAQCrz17gHw9dUTX23iOK2sxTeRUPI7o5blnhYi" alt="엘루앙" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">엘루앙</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">넓은 범위 내의 모든 적에게 500%의 데미지를 5번 줍니다. (쿨타임 10초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/375747216804942619.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/Ucd5G2Nz6P1e4blTp5rSrFiw-fhXXCaJKvmbzSGYL1B2rUzCu_hC4JzJs1yNtZTpC5dCwmmBYkUtlAlAz64qiXrySvU6rEbZ4z3WR9U_qRY=rw">
+            <img src="https://lh3.googleusercontent.com/Ucd5G2Nz6P1e4blTp5rSrFiw-fhXXCaJKvmbzSGYL1B2rUzCu_hC4JzJs1yNtZTpC5dCwmmBYkUtlAlAz64qiXrySvU6rEbZ4z3WR9U_qRY" alt="루에나" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">루에나</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">넓은 범위 내의 모든 적에게 375%의 데미지를 6번 줍니다. (쿨타임 9초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/375747278645805179.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/spIKrUEtOVWr-hoqGf3hwvHhHNp9Dqf1tJTG44S1aiDdQfGCeFYGE3A2h_ajg_-YWtrwCVZggedM4oCKuInkylk2mzv3L_CCBMZ31F76Rkv-zQ=rw">
+            <img src="https://lh3.googleusercontent.com/spIKrUEtOVWr-hoqGf3hwvHhHNp9Dqf1tJTG44S1aiDdQfGCeFYGE3A2h_ajg_-YWtrwCVZggedM4oCKuInkylk2mzv3L_CCBMZ31F76Rkv-zQ" alt="벨자드라" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">벨자드라</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">단체의 적에게 500%의 데미지를 5번 줍니다. (쿨타임 10초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/376459775048716071.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/ZuM3UKN7sFlGaAJP6NcjIMbKU_ckdpKV1hkq5_IPwNcx1wQzMvFUKqDJFqvG3QtZEmG-cFWB93B0XLNczw6NE1M3YTvlU-rJMms79nTu8dnf=rw">
+            <img src="https://lh3.googleusercontent.com/ZuM3UKN7sFlGaAJP6NcjIMbKU_ckdpKV1hkq5_IPwNcx1wQzMvFUKqDJFqvG3QtZEmG-cFWB93B0XLNczw6NE1M3YTvlU-rJMms79nTu8dnf" alt="마릴" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">마릴</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 공격력 증폭이 9600% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/376459901834162102.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/-PJC7EkE7RB8JGPWLzAe3PPU4Y8O6sz4MILJjTrjaR0vjOvbNaOASxgAJQBB8UhyIYGTXmxsWXj5qdpkV7EefNWHCmC3cIxDgqJJPiQLXVx4=rw">
+            <img src="https://lh3.googleusercontent.com/-PJC7EkE7RB8JGPWLzAe3PPU4Y8O6sz4MILJjTrjaR0vjOvbNaOASxgAJQBB8UhyIYGTXmxsWXj5qdpkV7EefNWHCmC3cIxDgqJJPiQLXVx4" alt="세리니어" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">세리니어</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 HP 증폭이 9600% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/376460043031157277.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/7xqaTOYS88Om46EB7iDgX1SsAL13snpTLLqkYXY-6PWdmAEEVPD98D8sKAptcxGJpUmlVeNc-G7Wnf3i3nEG-qMKDungn195Untlx3o4J9ff=rw">
+            <img src="https://lh3.googleusercontent.com/7xqaTOYS88Om46EB7iDgX1SsAL13snpTLLqkYXY-6PWdmAEEVPD98D8sKAptcxGJpUmlVeNc-G7Wnf3i3nEG-qMKDungn195Untlx3o4J9ff" alt="레그날" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">레그날</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">화정령 타입의 공격력이 2000% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/382844952318596207.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/gJV-sKnpAdLqAWPMljQF7GtccAT4u9y4zsuU9Pbxvvkqt7gw4CzAocLCw8gLVS86n4YN6AxEvSDbMTwmmTxWaiVJgcnMXQ0z5i-Q40hGeQaAQg=rw">
+            <img src="https://lh3.googleusercontent.com/gJV-sKnpAdLqAWPMljQF7GtccAT4u9y4zsuU9Pbxvvkqt7gw4CzAocLCw8gLVS86n4YN6AxEvSDbMTwmmTxWaiVJgcnMXQ0z5i-Q40hGeQaAQg" alt="셀렌티어" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">셀렌티어</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 회피율이 10% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/382845546869594551.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/3eXsDtwXc2WTuk1MrsasHbWaYBWRDV2OQh1Rih9zKoNSgjkzwi2wkUX8jNqKaMIG4uPk4-v4D4PlQ3P1hwQcV8bHDoZdaOo1VSufPiIsEa6o=rw">
+            <img src="https://lh3.googleusercontent.com/3eXsDtwXc2WTuk1MrsasHbWaYBWRDV2OQh1Rih9zKoNSgjkzwi2wkUX8jNqKaMIG4uPk4-v4D4PlQ3P1hwQcV8bHDoZdaOo1VSufPiIsEa6o" alt="셀레스" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">셀레스</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 HP 증폭이 9600% 증가합니다.</font></font></td>
+</tr>
+</tbody>
+</table>
+
+              <div class="inline_ad_placement"></div>
+            
+              <h2 id="ミスティック精霊一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">미스틱 정령 목록</font></font></h2>
+              <div class="table_search_form" data-table-index="5"><div><label><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">키워드 검색 </font></font></label><span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">9</font></font></span></div><input type="text" placeholder="키워드를 입력하여 검색"></div><table class="wt pct_30_30_40 sortable search_table has_search_form">
+<thead>
+<tr>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">정령</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="0"></a></th>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">속성</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="1"></a></th>
+<th class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">출장 효과</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="2"></a></th>
+</tr>
+</thead>
+<tbody>
+<tr class="base-row"><td style="width: 30%;"></td><td style="width: 30%;"></td><td style="width: 40%;"></td></tr><tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371230914224592209.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/Ux8YKhUwgd_lDs4po0bzZ8Z4Av1ow_DJbbl4jwnHfPlHMgCNZ6K3GenkI3VH6IOtb1QyIl0eXfeVjRKogeNdU2nBaOQxFSunvtUJs41nsDUsYA=rw">
+            <img src="https://lh3.googleusercontent.com/Ux8YKhUwgd_lDs4po0bzZ8Z4Av1ow_DJbbl4jwnHfPlHMgCNZ6K3GenkI3VH6IOtb1QyIl0eXfeVjRKogeNdU2nBaOQxFSunvtUJs41nsDUsYA" alt="소리스" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">소리스</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">광정령 타입의 공격력이 1200% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371230500062254293.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/JDOXiLZo4sFIyh5xmfJbyZ1dfR51B2IWJri2E1dIIh5wtQp-F3TbjXi8YptWX2irDw-bfPqzXCDR83j0-rYkT1qQGXN5duynKlz7jIHA8lyN=rw">
+            <img src="https://lh3.googleusercontent.com/JDOXiLZo4sFIyh5xmfJbyZ1dfR51B2IWJri2E1dIIh5wtQp-F3TbjXi8YptWX2irDw-bfPqzXCDR83j0-rYkT1qQGXN5duynKlz7jIHA8lyN" alt="켈리네이아" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">켈리네이아</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 방어력 증폭이 3200% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371229640632619208.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/f8jQve_1uZGR8fusM1BUhcGBjt2ad61Ec-WTH9PAcNcEDYXDniKL6JH9yQHR-yMNe7h7ZpQ6jU-jl05SxdXqVn5_0SIE9UnFOEZ5MjerGf0=rw">
+            <img src="https://lh3.googleusercontent.com/f8jQve_1uZGR8fusM1BUhcGBjt2ad61Ec-WTH9PAcNcEDYXDniKL6JH9yQHR-yMNe7h7ZpQ6jU-jl05SxdXqVn5_0SIE9UnFOEZ5MjerGf0" alt="예티" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">예티</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 HP가 3200% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371569582495780306.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/KwX76PRXo7MgRRaUfqBDqtx40qhqZIeMrg6TRuAqOjjVsZTQvOPXJQp-PAZZvLYD3RvxBFjIm4a80kDSW4UHByom3TuvXq-pUFrLlEUx7lpCMQ=rw">
+            <img src="https://lh3.googleusercontent.com/KwX76PRXo7MgRRaUfqBDqtx40qhqZIeMrg6TRuAqOjjVsZTQvOPXJQp-PAZZvLYD3RvxBFjIm4a80kDSW4UHByom3TuvXq-pUFrLlEUx7lpCMQ" alt="이프리트" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">이프리트</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">화정령 타입의 공격력이 1200% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371717243488234482.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/aFD2QcLCQ3MFgtG5x-KMO3As-8kxY3SXWrZMLUMKDOsGLCCuzxXH8UP5si4-IyfO5uOEM1S49WJS0Iae5nJvccNGtr0ptjWYiEXG_b6l4uz2dA=rw">
+            <img src="https://lh3.googleusercontent.com/aFD2QcLCQ3MFgtG5x-KMO3As-8kxY3SXWrZMLUMKDOsGLCCuzxXH8UP5si4-IyfO5uOEM1S49WJS0Iae5nJvccNGtr0ptjWYiEXG_b6l4uz2dA" alt="가고일" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">가고일</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 크리티컬률이 160% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371569443010009632.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/CoYIxO8IUFVWKAG1_4uJLTTOztNwkzrK05iBpnNuSUGigtj0HT-T0imAJQlAgeZhM07rms7mhEp6MW4OaBMhnW56FPhfcY1A56kGx6jF1zZ8=rw">
+            <img src="https://lh3.googleusercontent.com/CoYIxO8IUFVWKAG1_4uJLTTOztNwkzrK05iBpnNuSUGigtj0HT-T0imAJQlAgeZhM07rms7mhEp6MW4OaBMhnW56FPhfcY1A56kGx6jF1zZ8" alt="드라이드" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">드라이드</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">초정령 타입의 공격력이 1200% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371717345023909229.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/0taqcXCdjZSdv07ny06wLL0IdjHB6czYxBNdA9fuHyhd8svC9vtx-wg-RyW7Ylrcc8JEC-P65AtjjD_q5rTrmYCINZJ69DIoNOjA2FC3BWo=rw">
+            <img src="https://lh3.googleusercontent.com/0taqcXCdjZSdv07ny06wLL0IdjHB6czYxBNdA9fuHyhd8svC9vtx-wg-RyW7Ylrcc8JEC-P65AtjjD_q5rTrmYCINZJ69DIoNOjA2FC3BWo" alt="수호 천사" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">수호 천사</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 데미지 저항이 4초간 15% 증가합니다(쿨타임 8초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371717479778544626.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/wLpvRV27S2EzRmpxY2-JOH2q1XAlIm-DkA2epBL3uNxdiTxdat4f8nuYo2TgDJmpRTuo9bEF328uDN9hEV1crLNljbm-onnenpYFpoIJ0aL8tw=rw">
+            <img src="https://lh3.googleusercontent.com/wLpvRV27S2EzRmpxY2-JOH2q1XAlIm-DkA2epBL3uNxdiTxdat4f8nuYo2TgDJmpRTuo9bEF328uDN9hEV1crLNljbm-onnenpYFpoIJ0aL8tw" alt="살라맨더" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">살라맨더</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">좁은 범위 내의 모든 적에게 1200%의 데미지를 1번 줍니다 (쿨타임 8초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371717580492172274.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/NeFrqv4K18X6I3KZs6grZg2rwavTakDraSyqpj5jhdunyvd1iojzzM1ZpYpdm5gdk6cCjyDLmKvDiv91PDuzg2vxgYlZMORpJAnOIvOKIykc=rw">
+            <img src="https://lh3.googleusercontent.com/NeFrqv4K18X6I3KZs6grZg2rwavTakDraSyqpj5jhdunyvd1iojzzM1ZpYpdm5gdk6cCjyDLmKvDiv91PDuzg2vxgYlZMORpJAnOIvOKIykc" alt="골렘" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">골렘</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 방어력 증폭이 3200% 증가합니다.</font></font></td>
+</tr>
+</tbody>
+</table>
+
+              <div class="inline_ad_placement"></div>
+            
+              <h2 id="ディバイン精霊一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">디바인 정령 일람</font></font></h2>
+              <div class="table_search_form" data-table-index="6"><div><label><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">키워드 검색 </font></font></label><span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">9</font></font></span></div><input type="text" placeholder="키워드를 입력하여 검색"></div><table class="wt pct_30_30_40 sortable search_table has_search_form">
+<thead>
+<tr>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">정령</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="0"></a></th>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">속성</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="1"></a></th>
+<th class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">출장 효과</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="2"></a></th>
+</tr>
+</thead>
+<tbody>
+<tr class="base-row"><td style="width: 30%;"></td><td style="width: 30%;"></td><td style="width: 40%;"></td></tr><tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371231318136105988.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/Wnj0Wrw0F83LBt3t6jGhJJ6_r5px_qxp42eL-Yx10vZ37Q6hkkWEJZ61Nq4nSDDN6WlUQsWUzVrbSQHGInR791bxb1x9YiaeRX14KNEKSjrL=rw">
+            <img src="https://lh3.googleusercontent.com/Wnj0Wrw0F83LBt3t6jGhJJ6_r5px_qxp42eL-Yx10vZ37Q6hkkWEJZ61Nq4nSDDN6WlUQsWUzVrbSQHGInR791bxb1x9YiaeRX14KNEKSjrL" alt="갈라테아" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">갈라테아</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">초정령 타입의 공격력이 700% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371231226633175458.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/mlZiXmXxgocem4LJ64nC48w66Sjb6p48TFPO_XP-0Cj039i0gNGzWq4-9rWRuxTN_coValJbkDhlEdrjDn9fPc8Lu4c6bi_spBkALeOLb9K_JQ=rw">
+            <img src="https://lh3.googleusercontent.com/mlZiXmXxgocem4LJ64nC48w66Sjb6p48TFPO_XP-0Cj039i0gNGzWq4-9rWRuxTN_coValJbkDhlEdrjDn9fPc8Lu4c6bi_spBkALeOLb9K_JQ" alt="블리스" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">블리스</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">암정령 타입의 공격력이 700% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371715209703781475.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/P9aEjlVY-Pk-qBl7zHM6CoPm9BDwrPLpbYZx8DIi5AWc4AD-YOdDbHYrHN3B3ZBqBCncUmC8gZWOf93m1FLjVzkdz-JPPK0ZFU4JxN3lH3RF=rw">
+            <img src="https://lh3.googleusercontent.com/P9aEjlVY-Pk-qBl7zHM6CoPm9BDwrPLpbYZx8DIi5AWc4AD-YOdDbHYrHN3B3ZBqBCncUmC8gZWOf93m1FLjVzkdz-JPPK0ZFU4JxN3lH3RF" alt="토렌트" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">토렌트</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">광범위 내의 모든 적에게 120%의 데미지를 7번 줍니다 (쿨타임 8초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371715320886389999.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/0dCn4EYDtdX7dgauOFfR22VOY6xFvKvpeRuqb6uDrsyJxuW_bpuatVkmVotNX0LySo_ik2IoFWgH4GesHa8MEwaaSkVcT8cj2KXGjdZnlRM=rw">
+            <img src="https://lh3.googleusercontent.com/0dCn4EYDtdX7dgauOFfR22VOY6xFvKvpeRuqb6uDrsyJxuW_bpuatVkmVotNX0LySo_ik2IoFWgH4GesHa8MEwaaSkVcT8cj2KXGjdZnlRM" alt="갈라하드" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">갈라하드</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 HP가 1600% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371715594237528256.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/abfeI9HEhcjcGikL_umUSFEQ1zRrxRSLO9h2YQICcl2-gF9I8U4B7QSDXQuCtnPx8Mp6CrCpE5sSWG2JVJ5LwB1fSA6zCUdDooN3cG9xyxlJ=rw">
+            <img src="https://lh3.googleusercontent.com/abfeI9HEhcjcGikL_umUSFEQ1zRrxRSLO9h2YQICcl2-gF9I8U4B7QSDXQuCtnPx8Mp6CrCpE5sSWG2JVJ5LwB1fSA6zCUdDooN3cG9xyxlJ" alt="임프" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">임프</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 크리티컬률이 80% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371715838530614371.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/ejwBuv1XYGIU-Epx5k_5XuLIzM9trSfe1ah3_EJqF-c2NppZv_b5bw3Qdc5eCk0LHQqCd-hgz5hgciQ_Sy2Mdr1rLMG1DecXYc1FCmG57Ieq=rw">
+            <img src="https://lh3.googleusercontent.com/ejwBuv1XYGIU-Epx5k_5XuLIzM9trSfe1ah3_EJqF-c2NppZv_b5bw3Qdc5eCk0LHQqCd-hgz5hgciQ_Sy2Mdr1rLMG1DecXYc1FCmG57Ieq" alt="튠" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">튠</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 HP가 1600% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371715964342910405.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/ec-w0DHd8YcjYrElEzSxbid9JQDH38mNuJXrpRyLxcPC6XtL2TMrRPEcwI4waoReOP-w_5hZRMI6agzIZJrZeI1SYJ0c9GXLGAw1a_VDOWUt=rw">
+            <img src="https://lh3.googleusercontent.com/ec-w0DHd8YcjYrElEzSxbid9JQDH38mNuJXrpRyLxcPC6XtL2TMrRPEcwI4waoReOP-w_5hZRMI6agzIZJrZeI1SYJ0c9GXLGAw1a_VDOWUt" alt="구미의 여우" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">구미의 여우</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 공격력 증폭이 1600% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371716250511928306.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/Plm9L3yXrOyRHszp97oMvrJWBn2FLahMjM7ZV_35Ujmdl4H2v1FJNdKXZrbPiVZoh84-R9fwkJCmgbUNiLcV-h8SNVVKX44HNiiFNbLfotq1=rw">
+            <img src="https://lh3.googleusercontent.com/Plm9L3yXrOyRHszp97oMvrJWBn2FLahMjM7ZV_35Ujmdl4H2v1FJNdKXZrbPiVZoh84-R9fwkJCmgbUNiLcV-h8SNVVKX44HNiiFNbLfotq1" alt="유니콘" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">유니콘</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">단체의 적에게 800%의 데미지를 1번 줍니다. (쿨타임 7초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371717064592763683.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/P2mbbrvRgZbbb5DnzUg4C8MBxJz2pd8qUf0ShNN7JgfdsMy4w2jCkrzk8ytciQjSXgJExIfcC_lOa5ngRbiljjGrQ0dQlzGKRgbD56EaIeyp=rw">
+            <img src="https://lh3.googleusercontent.com/P2mbbrvRgZbbb5DnzUg4C8MBxJz2pd8qUf0ShNN7JgfdsMy4w2jCkrzk8ytciQjSXgJExIfcC_lOa5ngRbiljjGrQ0dQlzGKRgbD56EaIeyp" alt="뱀파이어" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">뱀파이어</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">단체의 적에게 900%의 데미지를 1번 줍니다. 캐릭터가 2%의 HP를 회복합니다(쿨타임 7초)</font></font></td>
+</tr>
+</tbody>
+</table>
+
+              <div class="inline_ad_placement"></div>
+            
+              <h2 id="レジェンダリー精霊一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">전설 정령 목록</font></font></h2>
+              <div class="table_search_form" data-table-index="7"><div><label><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">키워드 검색 </font></font></label><span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">7</font></font></span></div><input type="text" placeholder="키워드를 입력하여 검색"></div><table class="wt pct_30_30_40 sortable search_table has_search_form">
+<thead>
+<tr>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">정령</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="0"></a></th>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">속성</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="1"></a></th>
+<th class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">출장 효과</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="2"></a></th>
+</tr>
+</thead>
+<tbody>
+<tr class="base-row"><td style="width: 30%;"></td><td style="width: 30%;"></td><td style="width: 40%;"></td></tr><tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371231979443590481.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/dmScMxtEzJB_GOU1nyEjOfeS9zuHM3j5KcqRdT0YvZFZ3Qlx_hWDg_GnYEQltSxvLmXBcQqyvbDZYNeZ3sR7J3FuUcOH_hzT7juq-WWtjLk=rw">
+            <img src="https://lh3.googleusercontent.com/dmScMxtEzJB_GOU1nyEjOfeS9zuHM3j5KcqRdT0YvZFZ3Qlx_hWDg_GnYEQltSxvLmXBcQqyvbDZYNeZ3sR7J3FuUcOH_hzT7juq-WWtjLk" alt="파비아" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">파비아</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 공격력 증폭이 800% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371231844168936452.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/J7KQRC3fv7ep5l-ZViGL051tDp-kUDXA2HYc80fO6QKUWQ43k1YHTAJNgQ500VkhVv7tFqLBlUZNCXOciFDUi3IXEtzyoAtpKhraCZebS2ut=rw">
+            <img src="https://lh3.googleusercontent.com/J7KQRC3fv7ep5l-ZViGL051tDp-kUDXA2HYc80fO6QKUWQ43k1YHTAJNgQ500VkhVv7tFqLBlUZNCXOciFDUi3IXEtzyoAtpKhraCZebS2ut" alt="루멘" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">루멘</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">광정령 타입의 공격력이 400% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371231681429941252.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/NjKNsI_z3PKd63NCquuy2IzUs-aEnwLr1P3Z7Ax_R7cWB-ojdu9hWDoRV4U_dvcSE7MphYf-jHL3iOACe_sKJTIYlrA5o3OIZ-8vQOpfh9Mi=rw">
+            <img src="https://lh3.googleusercontent.com/NjKNsI_z3PKd63NCquuy2IzUs-aEnwLr1P3Z7Ax_R7cWB-ojdu9hWDoRV4U_dvcSE7MphYf-jHL3iOACe_sKJTIYlrA5o3OIZ-8vQOpfh9Mi" alt="밴드" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">밴드</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">수정령 타입의 공격력이 400% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371231462923441022.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/_X5JhjqRaTj4xUlno18CDa72FouOOqo22FTw4T5b7Zdz6xOdXLTCOvQ60ppri_gW9jIXGhwqhQppNs9t_YqpFr32orlCxIO8LWha4DZJwv21=rw">
+            <img src="https://lh3.googleusercontent.com/_X5JhjqRaTj4xUlno18CDa72FouOOqo22FTw4T5b7Zdz6xOdXLTCOvQ60ppri_gW9jIXGhwqhQppNs9t_YqpFr32orlCxIO8LWha4DZJwv21" alt="뿌리" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">뿌리</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 방어력 증폭이 800% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371714705447767029.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/GEm2sOY5ispOAMFTrmGXcneZm-bKmByh3fNnR-44qdTkXr9IooNKiCLlLi9vCh0_TxCxDcgyXxg05Ff_m3d22IsoidgifKD4ZSHZmY1P2HSo=rw">
+            <img src="https://lh3.googleusercontent.com/GEm2sOY5ispOAMFTrmGXcneZm-bKmByh3fNnR-44qdTkXr9IooNKiCLlLi9vCh0_TxCxDcgyXxg05Ff_m3d22IsoidgifKD4ZSHZmY1P2HSo" alt="티버" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">티버</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">화정령 타입의 공격력이 400% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371714824112978680.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/10TLVYJvwWUEq7V--dzWx9oU1ndlAvb9pvKPrHj9Bk0FNu25JdwQA9Cq-ivv-OqQPTI_YUO-Ok9gR_FC7nlQn-m4ujMlV61UDN3amXs6EEBd=rw">
+            <img src="https://lh3.googleusercontent.com/10TLVYJvwWUEq7V--dzWx9oU1ndlAvb9pvKPrHj9Bk0FNu25JdwQA9Cq-ivv-OqQPTI_YUO-Ok9gR_FC7nlQn-m4ujMlV61UDN3amXs6EEBd" alt="슈엣" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">슈엣</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 회피율이 8% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371715028795030014.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/ReaYpusgvpUP-hRltO-WXrGjHqCSeHw6U5YDXLOiJLUxb6lvreGX4SN-g12FBxBZ8eh3E7r8OFnnfA6RuoAWxqrz35eAEoV19MAsuthyYpje=rw">
+            <img src="https://lh3.googleusercontent.com/ReaYpusgvpUP-hRltO-WXrGjHqCSeHw6U5YDXLOiJLUxb6lvreGX4SN-g12FBxBZ8eh3E7r8OFnnfA6RuoAWxqrz35eAEoV19MAsuthyYpje" alt="파라셀" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">파라셀</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 HP가 800% 증가합니다.</font></font></td>
+</tr>
+</tbody>
+</table>
+
+              <div class="inline_ad_placement"></div>
+            
+              <h2 id="エピック精霊一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">에픽 정령 목록</font></font></h2>
+              <div class="table_search_form" data-table-index="8"><div><label><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">키워드 검색 </font></font></label><span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">7</font></font></span></div><input type="text" placeholder="키워드를 입력하여 검색"></div><table class="wt pct_30_30_40 sortable search_table has_search_form">
+<thead>
+<tr>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">정령</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="0"></a></th>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">속성</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="1"></a></th>
+<th class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">출장 효과</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="2"></a></th>
+</tr>
+</thead>
+<tbody>
+<tr class="base-row"><td style="width: 30%;"></td><td style="width: 30%;"></td><td style="width: 40%;"></td></tr><tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371235321314061316.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/wD77J-ilJhzrYClwv9Qz8etYwcGvQ0qhBAesZg3U32C64nhYFJsIfoeYNJ1chBW4Qc9vLu2N4LaybsD9xHl9EViHe9OxkIIWlUpPcLMykZoeNg=rw">
+            <img src="https://lh3.googleusercontent.com/wD77J-ilJhzrYClwv9Qz8etYwcGvQ0qhBAesZg3U32C64nhYFJsIfoeYNJ1chBW4Qc9vLu2N4LaybsD9xHl9EViHe9OxkIIWlUpPcLMykZoeNg" alt="페페" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">페페</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 HP가 400% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371235014660076814.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/PFcq_9gxbqcutjiwhtFNuhCjx3pp18v2V40y7TRV0u7i7ti7bOJkA-GpWDlAXCaWgr6LCw4VKeMTpMz03C_yTesdtJyuOWfK-go1TXW7nmQ=rw">
+            <img src="https://lh3.googleusercontent.com/PFcq_9gxbqcutjiwhtFNuhCjx3pp18v2V40y7TRV0u7i7ti7bOJkA-GpWDlAXCaWgr6LCw4VKeMTpMz03C_yTesdtJyuOWfK-go1TXW7nmQ" alt="플루트" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">플루트</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 크리티컬률이 40% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371234852676099944.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/DYQ5xYwnRpxsiQBYOiET8kiFa73KOhlOy-Heeu21EyV22ZJxdlPKsRoLYKfScnFXeMZMAu4AXWWcMp02HUq8b_DRkUi0PhY897xxdIDC1Je2OQ=rw">
+            <img src="https://lh3.googleusercontent.com/DYQ5xYwnRpxsiQBYOiET8kiFa73KOhlOy-Heeu21EyV22ZJxdlPKsRoLYKfScnFXeMZMAu4AXWWcMp02HUq8b_DRkUi0PhY897xxdIDC1Je2OQ" alt="레멘" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">레멘</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">초정령 타입의 공격력이 200% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371234775702232936.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/V8c0vRih5UvNAFPTU9VaTbKJfZ17LkR26pIn9bEk0chG3IkGuYlhWaV-2hj_AiDjALbdJSPaFyve5btGKd4mmRNDIohdZ7-gTJmG1sAo1g2O7A=rw">
+            <img src="https://lh3.googleusercontent.com/V8c0vRih5UvNAFPTU9VaTbKJfZ17LkR26pIn9bEk0chG3IkGuYlhWaV-2hj_AiDjALbdJSPaFyve5btGKd4mmRNDIohdZ7-gTJmG1sAo1g2O7A" alt="앰브라" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">앰브라</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">암정령 타입의 공격력이 200% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371713210698485679.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/uBHhGKAKufs1AFo4ev0BUQ5wHlj-N9Ks4TMbaV19Jp8oYynjGIpVj-aRTaUJfRla7-thrSjiREnZTKGyf_rqBr_iSmdshJryAqdXUQdwEfjuww=rw">
+            <img src="https://lh3.googleusercontent.com/uBHhGKAKufs1AFo4ev0BUQ5wHlj-N9Ks4TMbaV19Jp8oYynjGIpVj-aRTaUJfRla7-thrSjiREnZTKGyf_rqBr_iSmdshJryAqdXUQdwEfjuww" alt="램" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">램</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">좁은 범위 내의 모든 적에게 500%의 데미지를 1번 줍니다. (쿨타임 6초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371714394263964661.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/N_0261isoijIwQ5PXpwT27MJccEBDzTEpmU1NheRCPnL3x_SyuVAxIETF1XvH0t9M-eJXmbC1721fkDN8nYCHR42YD7vpsN2DbsnaECWZ1gX=rw">
+            <img src="https://lh3.googleusercontent.com/N_0261isoijIwQ5PXpwT27MJccEBDzTEpmU1NheRCPnL3x_SyuVAxIETF1XvH0t9M-eJXmbC1721fkDN8nYCHR42YD7vpsN2DbsnaECWZ1gX" alt="헬하운드" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">헬하운드</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 공격력 증폭이 400% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371714502628002805.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/s4Rwb-fydRQ4lSnU0lkrVMpXPVOb83GEPNfEtEwfRUQ2Y5JRTkiggq-6KO3A_CHJnxrRke6mMREvj4gqOndu3dEQOuXRw7VMRFifANjjnr9e=rw">
+            <img src="https://lh3.googleusercontent.com/s4Rwb-fydRQ4lSnU0lkrVMpXPVOb83GEPNfEtEwfRUQ2Y5JRTkiggq-6KO3A_CHJnxrRke6mMREvj4gqOndu3dEQOuXRw7VMRFifANjjnr9e" alt="서리 팡" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">서리 팡</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 HP가 400% 증가합니다.</font></font></td>
+</tr>
+</tbody>
+</table>
+
+              <div class="inline_ad_placement"></div>
+            
+              <h2 id="ユニーク精霊一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">독특한 정령 목록</font></font></h2>
+              <div class="table_search_form" data-table-index="9"><div><label><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">키워드 검색 </font></font></label><span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">7</font></font></span></div><input type="text" placeholder="키워드를 입력하여 검색"></div><table class="wt pct_30_30_40 sortable search_table has_search_form">
+<thead>
+<tr>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">정령</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="0"></a></th>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">속성</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="1"></a></th>
+<th class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">출장 효과</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="2"></a></th>
+</tr>
+</thead>
+<tbody>
+<tr class="base-row"><td style="width: 30%;"></td><td style="width: 30%;"></td><td style="width: 40%;"></td></tr><tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371236266961853791.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/kGT-dJcIMoLyhOuy6d5-05YBKlfzaaR4hVyEqmf_8FOBLa9nxcma4wOWy63l1Oy6mlZeUQUhqJvd_yKGk5sE7mG1MjuNLLx-EA52OaHjKt0Y=rw">
+            <img src="https://lh3.googleusercontent.com/kGT-dJcIMoLyhOuy6d5-05YBKlfzaaR4hVyEqmf_8FOBLa9nxcma4wOWy63l1Oy6mlZeUQUhqJvd_yKGk5sE7mG1MjuNLLx-EA52OaHjKt0Y" alt="고스트" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">고스트</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 크리티컬률이 20% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371236146568526358.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/1EFq4oxrJh7h5naKPcgaKCqWlvDIh7KAXCglNPWoBB0mckAVBnmTtDSmqTe4DfLFqbFr4tjkHMkUsZvHBRQK3hhbhXFlmDMtv_bttLDD2LTLRA=rw">
+            <img src="https://lh3.googleusercontent.com/1EFq4oxrJh7h5naKPcgaKCqWlvDIh7KAXCglNPWoBB0mckAVBnmTtDSmqTe4DfLFqbFr4tjkHMkUsZvHBRQK3hhbhXFlmDMtv_bttLDD2LTLRA" alt="위스프" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">위스프</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 방어력 증폭이 200% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371235938363307812.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/w5VRjKkUuBIoLWqxuMsoUWBkKDb5KZnWJYXdbEPTHQQZJCz_RD9qP_hxDTdjJTA5Ov5j_tx-XXZtMuKVbYU1E_q-crDV65P22io82hY13nk=rw">
+            <img src="https://lh3.googleusercontent.com/w5VRjKkUuBIoLWqxuMsoUWBkKDb5KZnWJYXdbEPTHQQZJCz_RD9qP_hxDTdjJTA5Ov5j_tx-XXZtMuKVbYU1E_q-crDV65P22io82hY13nk" alt="앰버" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">앰버</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">화정령 타입의 공격력이 100% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371235809245824830.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/790eFfamb6cW3BD6pI_yxkB-J47kzvbRlMqUhrkWLuhtdFZEOnRMLwbktkbZevdYCIcF-6EJFmZQmgneBK1oNf1ZSbHGh7ktpRBbf2edK3hH=rw">
+            <img src="https://lh3.googleusercontent.com/790eFfamb6cW3BD6pI_yxkB-J47kzvbRlMqUhrkWLuhtdFZEOnRMLwbktkbZevdYCIcF-6EJFmZQmgneBK1oNf1ZSbHGh7ktpRBbf2edK3hH" alt="글래시스" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">글래시스</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">수정령 타입의 공격력이 100% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371235718262966238.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/YVuOvDTz_dn55fUoya6s_IWvlmy_PP61kjn5ZzNE3y2RNnwv50ebmqqKQPWd0KC4A5HjZBlH8VSfHNZvs6HK10qX-G5CZA57LvqyRdvEWgi6=rw">
+            <img src="https://lh3.googleusercontent.com/YVuOvDTz_dn55fUoya6s_IWvlmy_PP61kjn5ZzNE3y2RNnwv50ebmqqKQPWd0KC4A5HjZBlH8VSfHNZvs6HK10qX-G5CZA57LvqyRdvEWgi6" alt="볼레토스" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">볼레토스</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 방어력 증폭이 200% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371235438385462774.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/HbrOs81cowwMx6c_VS8uFNdM-J48tIPxmNQpgHWBCl3EnMFwyAqJ7HV_APXxzM8TTFbmYzOlYoCCnZFRvED9L_-D_9IF_1zZx80GEwELKrk=rw">
+            <img src="https://lh3.googleusercontent.com/HbrOs81cowwMx6c_VS8uFNdM-J48tIPxmNQpgHWBCl3EnMFwyAqJ7HV_APXxzM8TTFbmYzOlYoCCnZFRvED9L_-D_9IF_1zZx80GEwELKrk" alt="임대" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">임대</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">광정령 타입의 공격력이 100% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371712896545065832.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/3MKKf2tu7Vo9uPlnSVzY2NVEj1uyl3EyLIHXFmdKMQqpur9_kFBy4j24t8mXhMUsKV2Q10zBpPANLst4W9BDqAhpwlPI9n5qrRPISskMPyLD=rw">
+            <img src="https://lh3.googleusercontent.com/3MKKf2tu7Vo9uPlnSVzY2NVEj1uyl3EyLIHXFmdKMQqpur9_kFBy4j24t8mXhMUsKV2Q10zBpPANLst4W9BDqAhpwlPI9n5qrRPISskMPyLD" alt="엘리셔스" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">엘리셔스</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 공격력 증폭이 200% 증가합니다.</font></font></td>
+</tr>
+</tbody>
+</table>
+
+              <div class="inline_ad_placement"></div>
+            
+              <h2 id="レア精霊一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">희귀 정령 목록</font></font></h2>
+              <div class="table_search_form" data-table-index="10"><div><label><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">키워드 검색 </font></font></label><span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">7</font></font></span></div><input type="text" placeholder="키워드를 입력하여 검색"></div><table class="wt pct_30_30_40 sortable search_table has_search_form">
+<thead>
+<tr>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">정령</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="0"></a></th>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">속성</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="1"></a></th>
+<th class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">출장 효과</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="2"></a></th>
+</tr>
+</thead>
+<tbody>
+<tr class="base-row"><td style="width: 30%;"></td><td style="width: 30%;"></td><td style="width: 40%;"></td></tr><tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371238430685853476.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/9LKzPllc1WxFi0AiyPt8OJCpSyoc8vdRQVM6QbrYPUqTkOLmBf6WoDk0Z3f5yb0ksvqri6mk1Wz0B604p7qHfI9IATlDBvSKgC-HVL2BsdI=rw">
+            <img src="https://lh3.googleusercontent.com/9LKzPllc1WxFi0AiyPt8OJCpSyoc8vdRQVM6QbrYPUqTkOLmBf6WoDk0Z3f5yb0ksvqri6mk1Wz0B604p7qHfI9IATlDBvSKgC-HVL2BsdI" alt="나이트 스토커" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">나이트 스토커</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">좁은 범위 내의 모든 적에게 40%의 데미지를 4번 줍니다. (쿨타임 5초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371238340273404438.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/2HumLhJA10IeeMs3GGkhdIVZaxkfC91X0aMZoj34tdu-vHaMhfUsEB_RuDpqK7IXaDaljInudR1KQja-fZA_NhO6SP1g0TG_LSpKt-lfbmdK=rw">
+            <img src="https://lh3.googleusercontent.com/2HumLhJA10IeeMs3GGkhdIVZaxkfC91X0aMZoj34tdu-vHaMhfUsEB_RuDpqK7IXaDaljInudR1KQja-fZA_NhO6SP1g0TG_LSpKt-lfbmdK" alt="세인트" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">세인트</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">광정령 타입의 공격력이 50% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371238273114234207.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/wSTeuW272IAcIxDcGkKQxbywVVqmO-aZGkqc0tLWxK1cW6kWlmHUYeNRaCuXBVVdyn54FWYVLvZobxvGTdi0wc5b3mpdCrpsLnALuhlp7Bmj=rw">
+            <img src="https://lh3.googleusercontent.com/wSTeuW272IAcIxDcGkKQxbywVVqmO-aZGkqc0tLWxK1cW6kWlmHUYeNRaCuXBVVdyn54FWYVLvZobxvGTdi0wc5b3mpdCrpsLnALuhlp7Bmj" alt="그림자" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">그림자</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">암정령 타입의 공격력이 50% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371238195049826110.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/u7zFVPhm7f8OnH1XbYCA0r_HivxzG1fM4Tk6DvYfQOANcFnNfV5swYVO43m9tr0gMEv_3Nks3C-0TitCSyHhef7p2jdsz2XRLMemdrw9HSYe=rw">
+            <img src="https://lh3.googleusercontent.com/u7zFVPhm7f8OnH1XbYCA0r_HivxzG1fM4Tk6DvYfQOANcFnNfV5swYVO43m9tr0gMEv_3Nks3C-0TitCSyHhef7p2jdsz2XRLMemdrw9HSYe" alt="플레임" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">플레임</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">화정령 타입의 공격력이 50% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371238117773991263.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/wZgAYQeMDUHRSlvPZfmBdBL8K7ixmkq5yx4Xp43uFSMq0YueLpKjz0pe4y87d0D5WnRvozoXkd025vqzOQ1ds0zRgUGzvYanEwuBKLBbDLmiVQ=rw">
+            <img src="https://lh3.googleusercontent.com/wZgAYQeMDUHRSlvPZfmBdBL8K7ixmkq5yx4Xp43uFSMq0YueLpKjz0pe4y87d0D5WnRvozoXkd025vqzOQ1ds0zRgUGzvYanEwuBKLBbDLmiVQ" alt="올라프" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">올라프</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">단체의 적에게 300%의 데미지를 1번 줍니다. (쿨타임 6초)</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371236541822958102.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/kC_6czr8ZW7rNi2VWg4jhP-JrajTdWsuc1JC_qPA8JtHdX08CbsICM0EDv0GZzqG35SyzjqifkBvjc2xfZTL6FeHko57Z6chw32OsNbRGoP3=rw">
+            <img src="https://lh3.googleusercontent.com/kC_6czr8ZW7rNi2VWg4jhP-JrajTdWsuc1JC_qPA8JtHdX08CbsICM0EDv0GZzqG35SyzjqifkBvjc2xfZTL6FeHko57Z6chw32OsNbRGoP3" alt="시티라" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">시티라</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 공격력 증폭이 100% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371236387942358367.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/Fw3dub4Ok2hL5qBZCKwa8UAfEk5SV4ZFKFRP5-9u5maOs_LFXljc9d3-stA6zy6jUUL8RrFSnAzEH7yiQ0aULtQxzSlpqjFxMmyVfeMlhgrc=rw">
+            <img src="https://lh3.googleusercontent.com/Fw3dub4Ok2hL5qBZCKwa8UAfEk5SV4ZFKFRP5-9u5maOs_LFXljc9d3-stA6zy6jUUL8RrFSnAzEH7yiQ0aULtQxzSlpqjFxMmyVfeMlhgrc" alt="플래시" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">플래시</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 방어력 증폭이 100% 증가합니다.</font></font></td>
+</tr>
+</tbody>
+</table>
+
+              <div class="inline_ad_placement"></div>
+            
+              <h2 id="マジック精霊一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">매직 정령 목록</font></font></h2>
+              <div class="table_search_form" data-table-index="11"><div><label><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">키워드 검색 </font></font></label><span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">3</font></font></span></div><input type="text" placeholder="키워드를 입력하여 검색"></div><table class="wt pct_30_30_40 sortable search_table has_search_form">
+<thead>
+<tr>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">정령</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="0"></a></th>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">속성</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="1"></a></th>
+<th class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">출장 효과</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="2"></a></th>
+</tr>
+</thead>
+<tbody>
+<tr class="base-row"><td style="width: 30%;"></td><td style="width: 30%;"></td><td style="width: 40%;"></td></tr><tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371238630921922913.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/Q3z5f35KiP1sLY3pmgRLnQ28-c3gACnPnT0ekt3G5_kfxOsTGafGTFRk68f_WFh6r8WoOXT3t_0_XnWq_TFraVucT5r4PZyTuXpcwgm_E58OlQ=rw">
+            <img src="https://lh3.googleusercontent.com/Q3z5f35KiP1sLY3pmgRLnQ28-c3gACnPnT0ekt3G5_kfxOsTGafGTFRk68f_WFh6r8WoOXT3t_0_XnWq_TFraVucT5r4PZyTuXpcwgm_E58OlQ" alt="부르칸" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">부르칸</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 공격력 증폭이 50% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371238568158316510.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/DjNS30Im--doAhim48R0HOcml60pF1lcJjO_Q73I-tLpTAP-qQwalSJDH7P4sz6nMB8wULOiMWY_Zkvewt1fJujmtemSlsVVn3Ua1c_J5xdA=rw">
+            <img src="https://lh3.googleusercontent.com/DjNS30Im--doAhim48R0HOcml60pF1lcJjO_Q73I-tLpTAP-qQwalSJDH7P4sz6nMB8wULOiMWY_Zkvewt1fJujmtemSlsVVn3Ua1c_J5xdA" alt="님프" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">님프</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">초정령 타입의 공격력이 20% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371238503717068127.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/4OmYU6pPFD6hAXIy-UN71QpZMLCrDDpGoPBGkexp9oyqv6LL94AnwkPH-QSGFGAX6rjMT8mjC1OL4Q_aWOkY2uDC-1Mo19KsA3a3uMNfZC-G=rw">
+            <img src="https://lh3.googleusercontent.com/4OmYU6pPFD6hAXIy-UN71QpZMLCrDDpGoPBGkexp9oyqv6LL94AnwkPH-QSGFGAX6rjMT8mjC1OL4Q_aWOkY2uDC-1Mo19KsA3a3uMNfZC-G" alt="잭 프로스트" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잭 프로스트</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">수정령 타입의 공격력이 20% 증가합니다.</font></font></td>
+</tr>
+</tbody>
+</table>
+
+              <div class="inline_ad_placement"></div>
+            
+              <h2 id="ノーマル精霊一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">노멀 정령 일람</font></font></h2>
+              <div class="table_search_form" data-table-index="12"><div><label><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">키워드 검색 </font></font></label><span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">3</font></font></span></div><input type="text" placeholder="키워드를 입력하여 검색"></div><table class="wt pct_30_30_40 sortable search_table has_search_form">
+<thead>
+<tr>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">정령</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="0"></a></th>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">속성</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="1"></a></th>
+<th class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">출장 효과</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="2"></a></th>
+</tr>
+</thead>
+<tbody>
+<tr class="base-row"><td style="width: 30%;"></td><td style="width: 30%;"></td><td style="width: 40%;"></td></tr><tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371238917996850632.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/fxnfW9jxmyHEHwgpJl6ZITjzTfvsRK3A9LDxeWev5kP5NNtXAAOqr-zRuQMJZPNXqyQAb7066R5flaDrnAtZ6ZCDiX2BxtMi9hljEOcn7fVopw=rw">
+            <img src="https://lh3.googleusercontent.com/fxnfW9jxmyHEHwgpJl6ZITjzTfvsRK3A9LDxeWev5kP5NNtXAAOqr-zRuQMJZPNXqyQAb7066R5flaDrnAtZ6ZCDiX2BxtMi9hljEOcn7fVopw" alt="실피드" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">실피드</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 공격 속도가 5% 상승합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371238732944132062.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/Krie75pu4p9xDpwek91d-KaMlZ2byK0gO86kd7p90OQ_jT-zrEkEOhP2j05lmLhH9zuoFM7BTiGIGM8yOX6JyZqp_QQyt8fran5fIPLJpHyGow=rw">
+            <img src="https://lh3.googleusercontent.com/Krie75pu4p9xDpwek91d-KaMlZ2byK0gO86kd7p90OQ_jT-zrEkEOhP2j05lmLhH9zuoFM7BTiGIGM8yOX6JyZqp_QQyt8fran5fIPLJpHyGow" alt="밝은" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">밝은</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 방어력 증폭이 20% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon"><a href="/spirit-king-quest/page/371238819095162312.html">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/BIXUZ5ulPc7p_ho44mGup2qZLs3fLbW0B8g23O3hsfswVVR6jJQ2lBvE5qxnDM6kpY0G6ZKFngJLSNoJlZmmEOt4YZD-yt_osbS7dxpIxdcg=rw">
+            <img src="https://lh3.googleusercontent.com/BIXUZ5ulPc7p_ho44mGup2qZLs3fLbW0B8g23O3hsfswVVR6jJQ2lBvE5qxnDM6kpY0G6ZKFngJLSNoJlZmmEOt4YZD-yt_osbS7dxpIxdcg" alt="로스" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">로스</font></font></a></span></td>
+<td style="text-align:center"><span class="label_green"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디 정령</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 HP가 20% 증가합니다.</font></font></td>
+</tr>
+</tbody>
+</table>
+
+              <div class="inline_ad_placement"></div>
+            
+              <h2 id="関連記事"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">관련 기사</font></font></h2>
+              <h3 id="関連記事--精霊"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">정령</font></font></h3><table class="fixed_table">
+<thead>
+<tr>
+<th style="text-align:center" colspan="2"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">정령 관련 기사</font></font></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><a href="/spirit-king-quest/page/362138728673582868.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">정령 목록</font></font></a></td>
+<td style="text-align:center"><a href="/spirit-king-quest/page/368673974483165246.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">등급별 정령 일람</font></font></a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="/spirit-king-quest/page/368675346691690770.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">속성별 정령 일람</font></font></a></td>
+<td style="text-align:center"><a href="/spirit-king-quest/page/374756298476018572.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">속성별 추천 편성</font></font></a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="関連記事--スキル"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">스킬</font></font></h3><table class="fixed_table">
+<thead>
+<tr>
+<th style="text-align:center" colspan="2"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">기술 관련 기사</font></font></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><a href="/spirit-king-quest/page/362142371158168252.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">스킬 목록</font></font></a></td>
+<td style="text-align:center"><a href="/spirit-king-quest/page/368675802998375196.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">등급별 스킬 일람</font></font></a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="/spirit-king-quest/page/362239471074151148.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">클래스 스킬 일람</font></font></a></td>
+<td style="text-align:center"><a href="/spirit-king-quest/page/373451037144552782.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">스킬 DPS 목록</font></font></a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="/spirit-king-quest/page/378342688493174277.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">스킬의 입수방법 일람</font></font></a></td>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="関連記事--スキン"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">스킨</font></font></h3><table class="fixed_table">
+<thead>
+<tr>
+<th style="text-align:center" colspan="2"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">스킨 관련 기사</font></font></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><a href="/spirit-king-quest/page/377212528196864626.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">스킨 목록</font></font></a></td>
+<td style="text-align:center"><a href="/spirit-king-quest/page/383556207073314964.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터 스킨 목록</font></font></a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="/spirit-king-quest/page/383692853504675930.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">무기 스킨 목록</font></font></a></td>
+<td style="text-align:center"><a href="/spirit-king-quest/page/383693050855067738.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">모자 스킨 목록</font></font></a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="/spirit-king-quest/page/383693551319431455.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">방패 스킨 목록</font></font></a></td>
+<td style="text-align:center"><a href="/spirit-king-quest/page/383694227961292378.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">의상 스킨 목록</font></font></a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="/spirit-king-quest/page/383694359494703391.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">망토 스킨 목록</font></font></a></td>
+<td style="text-align:center"><a href="/spirit-king-quest/page/383694495759246133.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">장갑 스킨 목록</font></font></a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="/spirit-king-quest/page/383694700743239258.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">신발 스킨 목록</font></font></a></td>
+<td style="text-align:center"><a href="/spirit-king-quest/page/383694790132240197.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">헤어 스타일 스킨 목록</font></font></a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="/spirit-king-quest/page/383694932721825614.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">장식 스킨 목록</font></font></a></td>
+<td style="text-align:center"><a href="/spirit-king-quest/page/383695033787755016.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">얼굴 스킨 목록</font></font></a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="/spirit-king-quest/page/383695188658238443.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">귀 장식 스킨 목록</font></font></a></td>
+<td style="text-align:center"><a href="/spirit-king-quest/page/383695274624693227.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">피부 스킨 목록</font></font></a></td>
+</tr>
+</tbody>
+</table>
+
+              <div class="inline_ad_placement"></div>
+            
+      <div class="ad">
+        <div id="ad_detail_footer">
+          <div class="inline_ad_placement"></div>
+        </div>
+      </div>
+    </section>
+   </kamigame-article-body>
