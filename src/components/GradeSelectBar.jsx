@@ -42,17 +42,8 @@ export default function GradeSelectBar({
   };
 
   return (
-    <div
-      style={{
-        display: 'flex',
-        flexWrap: 'wrap',
-        gap: 6,
-        alignItems: 'center',
-        justifyContent: 'center',
-        marginBottom: 10,
-      }}
-    >
-      <strong style={{ marginRight: 10 }}>{title}</strong>
+    <div className="flex flex-wrap gap-2 items-center justify-center mb-3">
+      <strong className="mr-2 text-sm sm:text-base">{title}</strong>
 
       {GRADES.map((g) => {
         const normalized = normalizeGrade(g);
@@ -61,16 +52,9 @@ export default function GradeSelectBar({
           <button
             key={g}
             onClick={() => handleGradeClick(g)}
-            style={{
-              border: isActive ? '2px solid #1976d2' : '1px solid #ccc',
-              background: isActive ? '#e3f2fd' : '#fff',
-              borderRadius: 6,
-              padding: '3px 8px',
-              cursor: 'pointer',
-              fontSize: 13,
-              fontWeight: 600,
-              userSelect: 'none',
-            }}
+            className={`border rounded-md px-2 py-1 cursor-pointer text-xs sm:text-sm font-semibold select-none ${
+              isActive ? 'border-blue-600 bg-blue-100' : 'border-gray-300 bg-white'
+            }`}
           >
             {g}
           </button>
@@ -79,32 +63,14 @@ export default function GradeSelectBar({
 
       <button
         onClick={handleSelectAll}
-        style={{
-          background: '#1976d2',
-          color: '#fff',
-          border: 'none',
-          borderRadius: 6,
-          padding: '4px 10px',
-          cursor: 'pointer',
-          fontWeight: 600,
-          marginLeft: 8,
-        }}
+        className="bg-blue-600 text-white border-none rounded-md px-3 py-1 cursor-pointer font-semibold text-xs sm:text-sm ml-2"
       >
         전체 선택
       </button>
 
       <button
         onClick={handleClearAll}
-        style={{
-          background: '#ef5350',
-          color: '#fff',
-          border: 'none',
-          borderRadius: 6,
-          padding: '4px 10px',
-          cursor: 'pointer',
-          fontWeight: 600,
-          marginLeft: 4,
-        }}
+        className="bg-red-500 text-white border-none rounded-md px-3 py-1 cursor-pointer font-semibold text-xs sm:text-sm ml-1"
       >
         전체 해제
       </button>

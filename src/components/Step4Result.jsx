@@ -19,17 +19,17 @@ const Step4Result = ({ result, setStep, handleReset }) => {
   const finalBestDPS = result.bestDPS[activeTime];
 
   return (
-    <div className="p-8 bg-gradient-to-br from-indigo-100 to-purple-100 min-h-screen">
-      <div className="max-w-6xl mx-auto bg-white rounded-lg shadow-xl p-8">
-        <h1 className="text-3xl font-bold text-center mb-4 text-indigo-900">최적 배치 계산 결과</h1>
+    <div className="p-4 sm:p-8 bg-gradient-to-br from-indigo-100 to-purple-100 min-h-screen">
+      <div className="max-w-6xl mx-auto bg-white rounded-lg shadow-xl p-4 sm:p-8">
+        <h1 className="text-2xl sm:text-3xl font-bold text-center mb-4 text-indigo-900">최적 배치 계산 결과</h1>
 
         {/* 시간 선택 탭 */}
-        <div className="flex justify-center items-center mb-6 bg-gray-100 rounded-full p-1 shadow-inner">
+        <div className="flex justify-center items-center mb-6 bg-gray-100 rounded-full p-1 shadow-inner flex-wrap">
           {SIM_TIMES.map(time => (
             <button
               key={time}
               onClick={() => setActiveTime(time)}
-              className={`px-6 py-2 text-sm font-bold rounded-full transition-all duration-300 ${
+              className={`px-4 py-2 text-xs sm:text-sm font-bold rounded-full transition-all duration-300 ${
                 activeTime === time
                   ? 'bg-indigo-600 text-white shadow-md'
                   : 'bg-transparent text-gray-600 hover:bg-gray-200'}`}
@@ -40,23 +40,23 @@ const Step4Result = ({ result, setStep, handleReset }) => {
         </div>
 
         {/* 상단 요약 */}
-        <div className="grid grid-cols-2 gap-8 mb-8">
-          <div className="text-center p-6 bg-blue-50 rounded-lg shadow-inner">
-            <div className="text-lg text-gray-700 mb-2">현재 배치 DPS</div>
-            <div className="text-4xl font-bold text-indigo-700">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-8 mb-8">
+          <div className="text-center p-4 sm:p-6 bg-blue-50 rounded-lg shadow-inner">
+            <div className="text-base sm:text-lg text-gray-700 mb-2">현재 배치 DPS</div>
+            <div className="text-3xl sm:text-4xl font-bold text-indigo-700">
               {formatDPS(currentDPS)}
             </div>
           </div>
-          <div className="text-center p-6 bg-green-50 rounded-lg shadow-inner">
-            <div className="text-lg text-gray-700 mb-2">최적 조합 DPS</div>
-            <div className="text-4xl font-bold text-green-700">
+          <div className="text-center p-4 sm:p-6 bg-green-50 rounded-lg shadow-inner">
+            <div className="text-base sm:text-lg text-gray-700 mb-2">최적 조합 DPS</div>
+            <div className="text-3xl sm:text-4xl font-bold text-green-700">
               {formatDPS(finalBestDPS)}
             </div>
           </div>
         </div>
 
         {/* 결과 메타 정보 */}
-        <div className="text-sm text-gray-500 text-center mb-6">
+        <div className="text-xs sm:text-sm text-gray-500 text-center mb-6">
           <span className="font-semibold text-indigo-600">DPS 계산 기준:</span> {activeTime}초 시뮬레이션 가중 평균. 버프 효과는 해당 시간 내 가동률(Uptime)로 계산됩니다.
           {result.meta.exhaustive ? (
             <div className="text-xs mt-1">모든 보유 정령({result.meta.searchedCandidates}개)에 대해 완전 탐색을 진행했습니다.</div>
@@ -66,25 +66,25 @@ const Step4Result = ({ result, setStep, handleReset }) => {
         </div>
 
         {/* 최적 조합 정령 */}
-        <h2 className="font-bold text-xl mb-4 text-green-900 border-b pb-2">최적 조합 정령 (상세 분석)</h2>
-        <div className="grid grid-cols-5 gap-4 mb-6">
+        <h2 className="font-bold text-lg sm:text-xl mb-4 text-green-900 border-b pb-2">최적 조합 정령 (상세 분석)</h2>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 mb-6">
           {result.bestCombo.map((s, i) => {
             const timeResult = s.timeResults[activeTime];
             if (!timeResult) return null;
 
             return (
-              <div key={i} className={`border-2 border-green-200 rounded-xl p-4 text-center bg-white shadow-lg hover:shadow-xl transition flex flex-col justify-between`}>
+              <div key={i} className={`border-2 border-green-200 rounded-xl p-2 sm:p-4 text-center bg-white shadow-lg hover:shadow-xl transition flex flex-col justify-between`}>
                 <div>
-                  <div className={`font-extrabold text-lg mb-1 ${getGradeColor(s.grade)}`}>{s.name}</div>
-                  <img src={assetUrl('spirits', s.image)} alt={s.name} className="w-20 h-20 mx-auto my-2 object-contain rounded-md" />
+                  <div className={`font-extrabold text-base sm:text-lg mb-1 ${getGradeColor(s.grade)}`}>{s.name}</div>
+                  <img src={assetUrl('spirits', s.image)} alt={s.name} className="w-16 h-16 sm:w-20 sm:h-20 mx-auto my-2 object-contain rounded-md" />
                   <div className={`text-xs mb-1 font-medium ${getElementColor(s.element_type)}`}>속성: {s.element_type || "N/A"}</div>
                   <div className={`text-xs mb-3 text-gray-500`}>등급: {SpiritGrade[s.grade] || s.grade || "—"}</div>
                 </div>
                 <div className="mt-auto pt-2 border-t border-gray-100">
-                  <div className="text-lg text-green-700 font-bold mb-1">
+                  <div className="text-base sm:text-lg text-green-700 font-bold mb-1">
                     총 DPS: {formatDPS(timeResult.dps)}
                   </div>
-                  <div className="text-[10px] text-gray-600 space-y-0.5">
+                  <div className="text-[10px] sm:text-xs text-gray-600 space-y-0.5">
                     <div>기본 DPS: {formatDPS(timeResult.breakdown.base)}</div>
                     <div>스킬 DPS: {formatDPS(timeResult.breakdown.skillDPS)}</div>
                     <div>버프 DPS: {formatDPS(timeResult.breakdown.buffDPS)}</div>
@@ -99,17 +99,17 @@ const Step4Result = ({ result, setStep, handleReset }) => {
         </div>
 
         {/* 최상위 스킬 */}
-        <h2 className="font-bold text-xl mb-4 text-blue-900 border-b pb-2">최상위 스킬 (상세 분석)</h2>
-        <div className="grid grid-cols-5 gap-4 mb-6">
+        <h2 className="font-bold text-lg sm:text-xl mb-4 text-blue-900 border-b pb-2">최상위 스킬 (상세 분석)</h2>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 mb-6">
           {result.bestSkills.map((skill, i) => (
-            <div key={i} className="border-2 border-blue-200 rounded-xl p-4 text-center bg-white shadow-lg hover:shadow-xl transition flex flex-col justify-between">
+            <div key={i} className="border-2 border-blue-200 rounded-xl p-2 sm:p-4 text-center bg-white shadow-lg hover:shadow-xl transition flex flex-col justify-between">
               <div>
-                <div className={`font-extrabold text-lg mb-1 ${getGradeColor(skill.grade)}`}>{skill.name}</div>
-                <img src={assetUrl('skill', skill.image)} alt={skill.name} className="w-20 h-20 mx-auto my-2 object-contain rounded-md" />
+                <div className={`font-extrabold text-base sm:text-lg mb-1 ${getGradeColor(skill.grade)}`}>{skill.name}</div>
+                <img src={assetUrl('skill', skill.image)} alt={skill.name} className="w-16 h-16 sm:w-20 sm:h-20 mx-auto my-2 object-contain rounded-md" />
                 <div className={`text-xs mb-3 text-gray-500`}>등급: {SpiritGrade[skill.grade] || skill.grade || "—"}</div>
               </div>
               <div className="mt-auto pt-2 border-t border-gray-100">
-                <div className="text-lg text-blue-700 font-bold mb-1">
+                <div className="text-base sm:text-lg text-blue-700 font-bold mb-1">
                   총 DPS: {formatDPS(skill.dps)}
                 </div>
               </div>
@@ -119,10 +119,10 @@ const Step4Result = ({ result, setStep, handleReset }) => {
 
         {/* 버튼 */}
         <div className="flex justify-center space-x-4 mt-8">
-          <button onClick={handleReset} className="px-6 py-3 bg-red-500 hover:bg-red-600 text-white font-bold rounded-lg transition shadow-md">
+          <button onClick={handleReset} className="px-4 py-2 sm:px-6 sm:py-3 bg-red-500 hover:bg-red-600 text-white font-bold rounded-lg transition shadow-md text-sm sm:text-base">
             전체 초기화 (1단계로)
           </button>
-          <button onClick={() => setStep(3)} className="px-6 py-3 bg-purple-600 hover:bg-purple-700 text-white font-bold rounded-lg transition shadow-md">
+          <button onClick={() => setStep(3)} className="px-4 py-2 sm:px-6 sm:py-3 bg-purple-600 hover:bg-purple-700 text-white font-bold rounded-lg transition shadow-md text-sm sm:text-base">
             스킬 선택
           </button>
         </div>
