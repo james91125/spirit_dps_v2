@@ -73,7 +73,7 @@ const Step4Result = ({ result, setStep, handleReset }) => {
             if (!timeResult) return null;
 
             return (
-              <div key={i} className={`flex-shrink-0 w-48 border-2 border-green-200 rounded-xl p-2 sm:p-4 text-center bg-white shadow-lg hover:shadow-xl transition flex flex-col justify-between lg:w-full`}>
+              <div key={i} className={`flex-shrink-0 w-28 sm:w-48 border-2 border-green-200 rounded-xl p-2 sm:p-4 text-center bg-white shadow-lg hover:shadow-xl transition flex flex-col justify-between lg:w-full`}>
                 <div>
                   <div className={`font-extrabold text-base sm:text-lg mb-1 ${getGradeColor(s.grade)}`}>{s.name}</div>
                   <img src={assetUrl('spirits', s.image)} alt={s.name} className="w-16 h-16 sm:w-20 sm:h-20 mx-auto my-2 object-contain rounded-md" />
@@ -102,7 +102,7 @@ const Step4Result = ({ result, setStep, handleReset }) => {
         <h2 className="font-bold text-lg sm:text-xl mb-4 text-blue-900 border-b pb-2">최상위 스킬 (상세 분석)</h2>
         <div className="flex overflow-x-auto pb-4 lg:grid lg:grid-cols-5 lg:gap-4 mb-6">
           {result.bestSkills.map((skill, i) => (
-            <div key={i} className="flex-shrink-0 w-48 border-2 border-blue-200 rounded-xl p-2 sm:p-4 text-center bg-white shadow-lg hover:shadow-xl transition flex flex-col justify-between lg:w-full">
+            <div key={i} className="flex-shrink-0 w-28 sm:w-48 border-2 border-blue-200 rounded-xl p-2 sm:p-4 text-center bg-white shadow-lg hover:shadow-xl transition flex flex-col justify-between lg:w-full">
               <div>
                 <div className={`font-extrabold text-base sm:text-lg mb-1 ${getGradeColor(skill.grade)}`}>{skill.name}</div>
                 <img src={assetUrl('skill', skill.image)} alt={skill.name} className="w-16 h-16 sm:w-20 sm:h-20 mx-auto my-2 object-contain rounded-md" />
