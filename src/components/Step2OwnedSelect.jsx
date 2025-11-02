@@ -19,7 +19,6 @@ export default function Step2OwnedSelect({ spiritsData, ownedSpirits, setOwnedSp
     setOwnedSpirits((prev) => {
       const sameGrade = spiritsData.filter((s) => normalizeGrade(s.grade) === gradeStd);
       if (add) {
-        // ✅ 중복 방지
         const ids = new Set(prev.map((s) => s.id ?? s.name));
         const merged = [...prev, ...sameGrade.filter((s) => !ids.has(s.id ?? s.name))];
         return merged;

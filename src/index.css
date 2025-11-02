@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* 전역 스타일 (선택) */
 html, body, #root {
   height: 100%;
   margin: 0;
