@@ -14,16 +14,16 @@ export default function EntityCard({ type, data, selected, onToggle, index }) {
     <div
       key={`${type}-${data.name}-${index}`}
       onClick={onToggle}
-      className={`w-full p-3 rounded-xl cursor-pointer flex flex-col items-center transition-all duration-150 ${
+      className={`w-full p-1 sm:p-3 rounded-xl cursor-pointer flex flex-col items-center transition-all duration-150 ${
         selected ? 'bg-gray-50 shadow-lg' : 'bg-white shadow-md'
       }`}
       style={borderStyle}
     >
-      <strong style={{ color: gradeColor }} className="text-center">{data.name}</strong>
+      <strong style={{ color: gradeColor }} className="text-center text-xs sm:text-base">{data.name}</strong>
       <img
         src={src}
         alt={data.name}
-        className="w-20 h-20 sm:w-24 sm:h-24 my-2 object-contain rounded-lg border border-gray-200 bg-white"
+        className="w-16 h-16 sm:w-24 sm:h-24 my-2 object-contain rounded-lg border border-gray-200 bg-white"
       />
 
       {type === 'spirit' ? (
