@@ -35,7 +35,7 @@ const Step0Tutorial = ({ goNext }) => {
             onClick={goNext}
             className="px-8 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-lg shadow-md transition"
           >
-            시작하기
+            (시작하기) 작성하기 전 펫 장착을 해제해 주세요!!!
           </button>
         </div>
       </div>
