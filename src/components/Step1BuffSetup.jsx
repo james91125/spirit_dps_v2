@@ -15,9 +15,9 @@ const Step1BuffSetup = ({ buffs, setBuffs, goNext }) => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-100 to-purple-100 p-8">
-      <div className="max-w-2xl mx-auto bg-white rounded-lg shadow-xl p-8">
-        <h1 className="text-3xl font-bold text-center mb-8 text-indigo-900">
+    <div className="min-h-screen bg-gradient-to-br from-indigo-100 to-purple-100 p-4 sm:p-8">
+      <div className="max-w-2xl mx-auto bg-white rounded-lg shadow-xl p-4 sm:p-8">
+        <h1 className="text-2xl sm:text-3xl font-bold text-center mb-8 text-indigo-900">
           정령 배치 계산기
         </h1>
 

@@ -42,8 +42,8 @@ export default function Step3OwnedStats({ skillData, ownedSkills, setOwnedSkills
   const onClearAll = () => setOwnedSkills([]);
 
   return (
-    <div style={{ padding: 16, display: 'flex', flexDirection: 'column', height: '100vh' }}>
-      <h2 style={{ textAlign: 'center', fontWeight: 'bold' }}>STEP 3 — 스킬 선택</h2>
+    <div className="p-4 flex flex-col min-h-screen h-screen">
+      <h2 className="text-center font-bold text-xl sm:text-2xl">STEP 3 — 스킬 선택</h2>
 
       <GradeSelectBar
         title="스킬 등급 선택"
@@ -53,25 +53,8 @@ export default function Step3OwnedStats({ skillData, ownedSkills, setOwnedSkills
         onSelectAll={onSelectAll}
       />
 
-      <div
-        style={{
-          flex: 1,
-          overflowY: 'auto',
-          padding: '8px 12px',
-          border: '1px solid #eee',
-          borderRadius: 8,
-          background: '#fff',
-          marginTop: 10,
-          boxShadow: 'inset 0 0 5px rgba(0,0,0,0.05)',
-        }}
-      >
-        <div
-          style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))',
-            gap: 18,
-          }}
-        >
+      <div className="flex-1 overflow-y-auto p-2 sm:p-3 border border-gray-200 rounded-lg bg-white mt-3 shadow-inner max-h-[calc(100vh-200px)]">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
           {skillData.map((sk, i) => (
             <EntityCard
               key={`${sk.name}-${i}`}
@@ -84,32 +67,16 @@ export default function Step3OwnedStats({ skillData, ownedSkills, setOwnedSkills
         </div>
       </div>
 
-      <div style={{ textAlign: 'center', marginTop: 16, display: 'flex', justifyContent: 'center', gap: 10 }}>
+      <div className="text-center mt-4 flex justify-center gap-4">
         <button
           onClick={goPrev}
-          style={{
-            background: '#9e9e9e',
-            color: '#fff',
-            border: 'none',
-            padding: '10px 18px',
-            borderRadius: 8,
-            cursor: 'pointer',
-            fontWeight: 600,
-          }}
+          className="bg-gray-500 text-white border-none px-4 py-2 rounded-lg cursor-pointer font-semibold"
         >
           ← 이전 단계
         </button>
         <button
           onClick={calculateResult}
-          style={{
-            background: '#43a047',
-            color: '#fff',
-            border: 'none',
-            padding: '10px 18px',
-            borderRadius: 8,
-            cursor: 'pointer',
-            fontWeight: 600,
-          }}
+          className="bg-green-600 text-white border-none px-4 py-2 rounded-lg cursor-pointer font-semibold"
         >
           결과 확인 (DPS 계산)
         </button>
