@@ -1,0 +1,775 @@
+<kamigame-article-body id="mainArticle"> 
+    <section class="article_inline_ad_target">
+      <div><p><span class="lead_text"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">스피릿 킹 퀘스트(스피퀘)의 등급별 스킬 일람을 게재. 스킬의 쿨타임 발동하는 효과에 대해서도 게재하고 있기 때문에, 스피퀘에서 스킬에 대해 알고 싶을 때의 참고에 부디.</font></font></span></p>
+<table class="fixed_table">
+<thead>
+<tr>
+<th style="text-align:center" colspan="2"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">관련 기사</font></font></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><a href="/spirit-king-quest/page/363132576438733130.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">최강 스킬 랭킹</font></font></a></td>
+<td style="text-align:center"><a href="/spirit-king-quest/page/373451037144552782.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">스킬 DPS 목록</font></font></a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="/spirit-king-quest/page/378342688493174277.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">스킬의 입수방법 일람</font></font></a></td>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+</div>
+      <div class="ad">
+        <div id="ad_above_table_of_contents"></div>
+      </div>
+      
+      <nav id="contents" class="kamigame-table-of-contents">
+        <h2 id="table_of_contents"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">목차</font></font></h2>
+        <ul>
+           <li><a href="#ノーマルスキル一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">노멀 스킬 일람</font></font></a></li>  <li><a href="#マジックスキル一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">매직 스킬 목록</font></font></a></li>  <li><a href="#レアスキル一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">희귀 스킬 목록</font></font></a></li>  <li><a href="#ユニークスキル一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">독특한 기술 목록</font></font></a></li>  <li><a href="#エピックスキル一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">에픽 스킬 목록</font></font></a></li>  <li><a href="#レジェンダリースキル一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">레전더리 스킬 목록</font></font></a></li>  <li><a href="#ディバインスキル一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">디바인 스킬 목록</font></font></a></li>  <li><a href="#ミスティックスキル一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">미스틱 스킬 목록</font></font></a></li>  <li><a href="#エターナルスキル一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">이터널 스킬 목록</font></font></a></li>  <li><a href="#インフィニティスキル一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">인피니티 스킬 목록</font></font></a></li>  <li><a href="#エルダースキル一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">엘더 스킬 목록</font></font></a></li>  <li><a href="#エンピリアンスキル一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">엠피리언 스킬 목록</font></font></a></li>  <li><a href="#アカシックスキル一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">아카식 스킬 목록</font></font></a></li> 
+        </ul>
+      </nav>
+    
+      <div class="ad">
+        <div id="ad_under_table_of_contents">
+          <div class="inline_ad_placement" id="smarttag-instream"></div><div data-cptid="1594304" style="display: block;"><script>
+              window.gnshbrequest = window.gnshbrequest || { cmd: [] };
+              window.gnshbrequest.cmd.push(function() {
+                window.gnshbrequest.applyThirdPartyTag("1594304", "[data-cptid='1594304']");
+              });
+            </script></div>
+        </div>
+      </div>
+      
+              <h2 id="ノーマルスキル一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">노멀 스킬 일람</font></font></h2>
+              <div class="table_search_form" data-table-index="0"><div><label><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">키워드 검색 </font></font></label><span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">3</font></font></span></div><input type="text" placeholder="키워드를 입력하여 검색"></div><table class="wt pct_40_60 sortable search_table has_search_form">
+<thead>
+<tr>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">스킬</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="0"></a></th>
+<th class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">CT/효과</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="1"></a></th>
+</tr>
+</thead>
+<tbody>
+<tr class="base-row"><td style="width: 40%;"></td><td style="width: 60%;"></td></tr><tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/zd-ZtWrscQ_rBM6eVZpr4ieyAKXQ3_G33htKjsEWRbyVtHf9d1pmW11MFbMhU5RDyuI0poXhT74wvdGH4k0ZemcoFlWV2nrDma1wShfuJJhQ=rw">
+            <img src="https://lh3.googleusercontent.com/zd-ZtWrscQ_rBM6eVZpr4ieyAKXQ3_G33htKjsEWRbyVtHf9d1pmW11MFbMhU5RDyuI0poXhT74wvdGH4k0ZemcoFlWV2nrDma1wShfuJJhQ" alt="닉스 소환" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">닉스 소환</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 2.6초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">귀여운 물의 정령을 소환하여 몸짓 공격을 실시합니다. 단체의 적에게 150%의 데미지를 1번 줍니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/RQQ-JKdZNvzJ9yEJaEhyzhIasSSW1QHmtt-hAEXBlmcyxeB64w1KqwFMXiW2EY9aDKeOoG4S8qO7mE_Ff5mWCbjWQ5HoOzMOloA-U8j9vQ=rw">
+            <img src="https://lh3.googleusercontent.com/RQQ-JKdZNvzJ9yEJaEhyzhIasSSW1QHmtt-hAEXBlmcyxeB64w1KqwFMXiW2EY9aDKeOoG4S8qO7mE_Ff5mWCbjWQ5HoOzMOloA-U8j9vQ" alt="창문" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">창문</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 2.5초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">바람의 정령의 힘을 빌려 바람의 화살 공격을 실시합니다. 단체의 적에게 42%의 데미지를 4번 줍니다. 캐릭터의 공격력이 1초간 2% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/PJfD3KDVOl2N4g3HmWIvU0rs_RVXynPX4ZwIFB47hS0vPf-BV71Rga_MaxLohJDOhl7dXocLpmDj2HDNbRdAWouveBt5doLSFP5eg6AKZKhc=rw">
+            <img src="https://lh3.googleusercontent.com/PJfD3KDVOl2N4g3HmWIvU0rs_RVXynPX4ZwIFB47hS0vPf-BV71Rga_MaxLohJDOhl7dXocLpmDj2HDNbRdAWouveBt5doLSFP5eg6AKZKhc" alt="번개" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">번개</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 2.4초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">강력한 전류를 흘려 적을 공격합니다. 좁은 범위 내의 모든 적에게 180%의 데미지를 1번 줍니다.</font></font></td>
+</tr>
+</tbody>
+</table>
+
+              <div class="inline_ad_placement"></div>
+            
+              <h2 id="マジックスキル一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">매직 스킬 목록</font></font></h2>
+              <div class="table_search_form" data-table-index="1"><div><label><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">키워드 검색 </font></font></label><span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">3</font></font></span></div><input type="text" placeholder="키워드를 입력하여 검색"></div><table class="wt pct_40_60 sortable search_table has_search_form">
+<thead>
+<tr>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">스킬</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="0"></a></th>
+<th class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">CT/효과</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="1"></a></th>
+</tr>
+</thead>
+<tbody>
+<tr class="base-row"><td style="width: 40%;"></td><td style="width: 60%;"></td></tr><tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/Ehk0cMn_uqq5WQVnaeYFPbRQ_DXXTxiHXwO-RpobB191yZ7EdbU-iQMEmgW8wcsJsifu6Xb0XfiqNDenNCQE0fJRH5MltETLdZIqYddHDPw=rw">
+            <img src="https://lh3.googleusercontent.com/Ehk0cMn_uqq5WQVnaeYFPbRQ_DXXTxiHXwO-RpobB191yZ7EdbU-iQMEmgW8wcsJsifu6Xb0XfiqNDenNCQE0fJRH5MltETLdZIqYddHDPw" alt="포이즌 다트" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">포이즌 다트</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 3.05초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">독침을 발하는 봉오리를 소환하여 적을 공격합니다. 단체의 적에게 270%의 데미지를 1번 줍니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/NoPxZqzzppePRIcANqFC0cls7tx2KMtMKwonDa6rHEbYiRK4MlTmI5imY3p0iskx9KWwPnqcTFeOXMUTyWh7Q6_meYVkLwhWsEkfvZfCJKmK=rw">
+            <img src="https://lh3.googleusercontent.com/NoPxZqzzppePRIcANqFC0cls7tx2KMtMKwonDa6rHEbYiRK4MlTmI5imY3p0iskx9KWwPnqcTFeOXMUTyWh7Q6_meYVkLwhWsEkfvZfCJKmK" alt="소나무 폭탄 폭탄" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">소나무 폭탄 폭탄</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 2.5초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">폭발하는 소나무 탄탄을 던져 적을 공격합니다. 광범위한 모든 적에게 240%의 피해를 입힙니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/kct8N63b2qVXhRkRc8fJcO3qSk6DiWh3Xqw8Iz00qX08LrMJQMDjdJGsOgi4qRjOaEjIu7JkTp6OOL7LarrOHOhmba9atu3aSZtuhzzkO5HyJw=rw">
+            <img src="https://lh3.googleusercontent.com/kct8N63b2qVXhRkRc8fJcO3qSk6DiWh3Xqw8Iz00qX08LrMJQMDjdJGsOgi4qRjOaEjIu7JkTp6OOL7LarrOHOhmba9atu3aSZtuhzzkO5HyJw" alt="응급 처치" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">응급 처치</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 7.2초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">응급 처치를 실시하여 캐릭터의 최대 HP1%를 회복합니다.</font></font></td>
+</tr>
+</tbody>
+</table>
+
+              <div class="inline_ad_placement"></div>
+            
+              <h2 id="レアスキル一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">희귀 스킬 목록</font></font></h2>
+              <div class="table_search_form" data-table-index="2"><div><label><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">키워드 검색 </font></font></label><span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">3</font></font></span></div><input type="text" placeholder="키워드를 입력하여 검색"></div><table class="wt pct_40_60 sortable search_table has_search_form">
+<thead>
+<tr>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">스킬</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="0"></a></th>
+<th class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">CT/효과</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="1"></a></th>
+</tr>
+</thead>
+<tbody>
+<tr class="base-row"><td style="width: 40%;"></td><td style="width: 60%;"></td></tr><tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/Lv7U6TKjv8W6tsxXwgFcY4u95iJ5U9iF3_wGoDSXgS7v-ZRtNNmth0OWyd3Ykw9pm3rh_lcwtli9-idI7cxxvOchturiXMlaNXKZgayuIl6dZA=rw">
+            <img src="https://lh3.googleusercontent.com/Lv7U6TKjv8W6tsxXwgFcY4u95iJ5U9iF3_wGoDSXgS7v-ZRtNNmth0OWyd3Ykw9pm3rh_lcwtli9-idI7cxxvOchturiXMlaNXKZgayuIl6dZA" alt="급속한 성장" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">급속한 성장</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 3.65초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">지중에서 거대한 버섯이 튀어나와 머리 찌르기 공격합니다. 단체의 적에게 525%의 데미지를 1번 줍니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/VkbPU5EFH1lves48dwKxYsDGWwA1zz_8E_drNT4rrmE_9xDMJ5KEvx8gAYeJ_5EXUWznxLJpNIHHpuJn2NGpjMlL1ZDdHSkHhQ1GQZgdsXiU9A=rw">
+            <img src="https://lh3.googleusercontent.com/VkbPU5EFH1lves48dwKxYsDGWwA1zz_8E_drNT4rrmE_9xDMJ5KEvx8gAYeJ_5EXUWznxLJpNIHHpuJn2NGpjMlL1ZDdHSkHhQ1GQZgdsXiU9A" alt="덩굴의 함정" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">덩굴의 함정</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 3.1초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">발밑에서 거대한 가시 덩굴이 자라 적을 공격합니다. 광범위 내의 모든 적에게 468%의 데미지를 1번 줍니다. 모든 적의 방어력이 1.5초 동안 120% 감소합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/RYXeV4Ot3Q8TN9YCQwrue1qGKH9Oil-QXoqB38sozMPpuB5hi1zpo1MdFBANiJ_v8jMtt0AERo0cdSG75vez9cxbzJC3P3Iy1EnbJr2N6rA=rw">
+            <img src="https://lh3.googleusercontent.com/RYXeV4Ot3Q8TN9YCQwrue1qGKH9Oil-QXoqB38sozMPpuB5hi1zpo1MdFBANiJ_v8jMtt0AERo0cdSG75vez9cxbzJC3P3Iy1EnbJr2N6rA" alt="트리플 스크래치" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">트리플 스크래치</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 3.45초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">마법의 발톱으로 적을 공격합니다. 좁은 범위 내의 모든 적에게 189%의 데미지를 3번 줍니다.</font></font></td>
+</tr>
+</tbody>
+</table>
+
+              <div class="inline_ad_placement"></div>
+            
+              <h2 id="ユニークスキル一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">독특한 기술 목록</font></font></h2>
+              <div class="table_search_form" data-table-index="3"><div><label><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">키워드 검색 </font></font></label><span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">3</font></font></span></div><input type="text" placeholder="키워드를 입력하여 검색"></div><table class="wt pct_40_60 sortable search_table has_search_form">
+<thead>
+<tr>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">스킬</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="0"></a></th>
+<th class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">CT/효과</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="1"></a></th>
+</tr>
+</thead>
+<tbody>
+<tr class="base-row"><td style="width: 40%;"></td><td style="width: 60%;"></td></tr><tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/IaMQqubrscRaAPPb0MHKlpMSVHwQd9-1gVLkUYLw1rRncEoRwDIL_FJHOvSMKUbKjB3U5TEYE3jLsdHajCQiYtVVX-Kqq1TKJmEVB51LLRe0=rw">
+            <img src="https://lh3.googleusercontent.com/IaMQqubrscRaAPPb0MHKlpMSVHwQd9-1gVLkUYLw1rRncEoRwDIL_FJHOvSMKUbKjB3U5TEYE3jLsdHajCQiYtVVX-Kqq1TKJmEVB51LLRe0" alt="라플레시아 소환" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">라플레시아 소환</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 3.2초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">라플레시아를 소환하고 강렬한 악취로 적을 공격합니다. 광범위 내의 모든 적에게 675%의 데미지를 1번 줍니다. 광범위 내의 모든 적의 공격력이 1.5초 동안 200% 감소합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/Fo9uJCm5vyeZCe0SpDzAO0AJPFkAnY5D2ebVc7qaTTjRitl7GyrgfMZxyvDotXqW3zb5v9RIsfrr1Pc0WVx-1vtYXqPusuYhiE8PS5Za3zk=rw">
+            <img src="https://lh3.googleusercontent.com/Fo9uJCm5vyeZCe0SpDzAO0AJPFkAnY5D2ebVc7qaTTjRitl7GyrgfMZxyvDotXqW3zb5v9RIsfrr1Pc0WVx-1vtYXqPusuYhiE8PS5Za3zk" alt="아이스 볼트" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">아이스 볼트</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 2.75초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">얼음 덩어리를 소환하고 적에게 던집니다. 단체의 적에게 585%의 데미지를 1번 줍니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/huSrXG3jFySNk9jR7oib6b1sECV1BvJCPASvBgZNBL-pirAID3tzuvKPn69TrXPeGENGCJHz1Crw5vYhskQXf-pWDywu1QPphCYFWdEV1yJczA=rw">
+            <img src="https://lh3.googleusercontent.com/huSrXG3jFySNk9jR7oib6b1sECV1BvJCPASvBgZNBL-pirAID3tzuvKPn69TrXPeGENGCJHz1Crw5vYhskQXf-pWDywu1QPphCYFWdEV1yJczA" alt="바위 떨어뜨림" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">바위 떨어뜨림</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 3.4초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">머리 위에 거대한 바위를 소환하여 적을 공격합니다. 단체의 적에게 850%의 데미지를 1번 줍니다.</font></font></td>
+</tr>
+</tbody>
+</table>
+
+              <div class="inline_ad_placement"></div>
+            
+              <h2 id="エピックスキル一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">에픽 스킬 목록</font></font></h2>
+              <div class="table_search_form" data-table-index="4"><div><label><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">키워드 검색 </font></font></label><span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">3</font></font></span></div><input type="text" placeholder="키워드를 입력하여 검색"></div><table class="wt pct_40_60 sortable search_table has_search_form">
+<thead>
+<tr>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">스킬</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="0"></a></th>
+<th class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">CT/효과</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="1"></a></th>
+</tr>
+</thead>
+<tbody>
+<tr class="base-row"><td style="width: 40%;"></td><td style="width: 60%;"></td></tr><tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/F0dY6hJEEbs4Xk3YCtEoSNYYMcEHugSE-SbeBtMIOWhcD96GVGEerwho5WR80Fr07ZiqvCZhC2Q-mv5vyaOOb6MrfmFmyAK0IJRGfmoK3GiU=rw">
+            <img src="https://lh3.googleusercontent.com/F0dY6hJEEbs4Xk3YCtEoSNYYMcEHugSE-SbeBtMIOWhcD96GVGEerwho5WR80Fr07ZiqvCZhC2Q-mv5vyaOOb6MrfmFmyAK0IJRGfmoK3GiU" alt="회전 잔디 돌진" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">회전 잔디 돌진</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 3.15초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">거대한 가시 덩굴이 빠르게 회전하면서 전진하여 적을 공격합니다. 광범위 내의 모든 적에게 900%의 데미지를 1번 줍니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/iwoZFvnW590AzP5rV73X3C-DLlk2xomO5Z828l8zGkbRJWBXqpI9OTbGfHbrYkS2pSOClv_lGXjqinvW2daj9H6dW5TYIuLIe1d6cUX5Yzpw=rw">
+            <img src="https://lh3.googleusercontent.com/iwoZFvnW590AzP5rV73X3C-DLlk2xomO5Z828l8zGkbRJWBXqpI9OTbGfHbrYkS2pSOClv_lGXjqinvW2daj9H6dW5TYIuLIe1d6cUX5Yzpw" alt="일렉트릭" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">일렉트릭</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 2.5초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">마법의 전기망을 펼쳐 적을 공격합니다. 광범위 내의 모든 적에게 100%의 데미지를 8번 줍니다. 캐릭터의 회피율충이 1초간 10% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/_w1KWPyUl0844NufjHu2vuBMm9L4Oc2XCiZhe78T0uLRZJK_wZ7RgOMOgRwjDJ_lJQwaozmfUmRBPiNUlc0G9QI5X2pKGRTghcS9vFMTDqb8=rw">
+            <img src="https://lh3.googleusercontent.com/_w1KWPyUl0844NufjHu2vuBMm9L4Oc2XCiZhe78T0uLRZJK_wZ7RgOMOgRwjDJ_lJQwaozmfUmRBPiNUlc0G9QI5X2pKGRTghcS9vFMTDqb8" alt="픽시 소환" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">픽시 소환</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 3.55초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">신속한 픽시를 소환하여 몸짓 공격을 실시합니다. 광범위 내의 모든 적에게 1100%의 데미지를 1번 줍니다. 캐릭터의 크리티컬률이 1.5초간 20% 증가합니다.</font></font></td>
+</tr>
+</tbody>
+</table>
+
+              <div class="inline_ad_placement"></div>
+            
+              <h2 id="レジェンダリースキル一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">레전더리 스킬 목록</font></font></h2>
+              <div class="table_search_form" data-table-index="5"><div><label><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">키워드 검색 </font></font></label><span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">5</font></font></span></div><input type="text" placeholder="키워드를 입력하여 검색"></div><table class="wt pct_40_60 sortable search_table has_search_form">
+<thead>
+<tr>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">스킬</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="0"></a></th>
+<th class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">CT/효과</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="1"></a></th>
+</tr>
+</thead>
+<tbody>
+<tr class="base-row"><td style="width: 40%;"></td><td style="width: 60%;"></td></tr><tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/WoaIK7LzJQ2wNX3B82UIoG7Jeev5gqt1XQeZjYihQhF0Xqvlb9LwwsJOSNlGLEZoEAGmS39KUvZjIV9RfxrDQbrIBHJfNPBalm_qsRZy0c8=rw">
+            <img src="https://lh3.googleusercontent.com/WoaIK7LzJQ2wNX3B82UIoG7Jeev5gqt1XQeZjYihQhF0Xqvlb9LwwsJOSNlGLEZoEAGmS39KUvZjIV9RfxrDQbrIBHJfNPBalm_qsRZy0c8" alt="관통 찌르기" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">관통 찌르기</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 4.7초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">땅에서 날카로운 뿌리가 튀어나와 적을 공격합니다. 단체의 적에게 300%의 데미지를 6번 줍니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/NsEt93SoIu7-U_uU-vC-HOz3JEyltjYlCIDegG-0f3xDxXKj8oDpmK2whK6CQU8ESLX30g6n2PaaRiGvyBXmz-cj-nbHKH5QIVrjOMBowxXP=rw">
+            <img src="https://lh3.googleusercontent.com/NsEt93SoIu7-U_uU-vC-HOz3JEyltjYlCIDegG-0f3xDxXKj8oDpmK2whK6CQU8ESLX30g6n2PaaRiGvyBXmz-cj-nbHKH5QIVrjOMBowxXP" alt="불꽃 장벽" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">불꽃 장벽</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 3.25초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">불타는 불꽃 장벽을 소환하여 적을 공격합니다. 광범위 내의 모든 적에게 670%의 데미지를 2번 줍니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/xZkm-k7ByDJi58tUN9nGJC941PYB0OmMHuqF9P0jsgkL5ubaZd2SGQi2L3aTngbUlqJD-o2e3XYvrdrg9dIB1SnU4YtCMb13gWvO1XRdeHQ=rw">
+            <img src="https://lh3.googleusercontent.com/xZkm-k7ByDJi58tUN9nGJC941PYB0OmMHuqF9P0jsgkL5ubaZd2SGQi2L3aTngbUlqJD-o2e3XYvrdrg9dIB1SnU4YtCMb13gWvO1XRdeHQ" alt="암운" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">암운</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 3.95초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">암운을 소환하여 독성 비로 적을 공격합니다. 광범위 내의 모든 적에게 165%의 데미지를 11번 줍니다. 모든 적의 방어력이 2초간 800% 감소합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/FbgL9f-XsL5gIvD-84fE88ErcrVV9SfERHzEmnkez-Ia1D5AVPjOzI5nXFcXQxo6XS4_8bdiXfkVHZ7I9y4AqgAmEtbBFfbH5H6jfBLu4NnO=rw">
+            <img src="https://lh3.googleusercontent.com/FbgL9f-XsL5gIvD-84fE88ErcrVV9SfERHzEmnkez-Ia1D5AVPjOzI5nXFcXQxo6XS4_8bdiXfkVHZ7I9y4AqgAmEtbBFfbH5H6jfBLu4NnO" alt="나비 공격" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">나비 공격</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 3.65초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">나비 모양의 폭발로 적을 공격합니다. 광범위 내의 모든 적에게 200%의 데미지를 8번 줍니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/8vaFPUpIX379OWWthSvNtd5--0fiLO1PfnCoygo82UaFbxxVvOtXGD87d-vXTkL0CCeU5ihKOPFH7JJ6E7tZ6rcE74hyUjFx13Y0pDuP4h5PJQ=rw">
+            <img src="https://lh3.googleusercontent.com/8vaFPUpIX379OWWthSvNtd5--0fiLO1PfnCoygo82UaFbxxVvOtXGD87d-vXTkL0CCeU5ihKOPFH7JJ6E7tZ6rcE74hyUjFx13Y0pDuP4h5PJQ" alt="에너지 공" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">에너지 공</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 4.35초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">구형 에너지를 소환하여 적을 공격합니다. 광범위 내의 모든 적에게 720%의 데미지를 3번 줍니다.</font></font></td>
+</tr>
+</tbody>
+</table>
+
+              <div class="inline_ad_placement"></div>
+            
+              <h2 id="ディバインスキル一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">디바인 스킬 목록</font></font></h2>
+              <div class="table_search_form" data-table-index="6"><div><label><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">키워드 검색 </font></font></label><span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">7</font></font></span></div><input type="text" placeholder="키워드를 입력하여 검색"></div><table class="wt pct_40_60 sortable search_table has_search_form">
+<thead>
+<tr>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">스킬</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="0"></a></th>
+<th class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">CT/효과</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="1"></a></th>
+</tr>
+</thead>
+<tbody>
+<tr class="base-row"><td style="width: 40%;"></td><td style="width: 60%;"></td></tr><tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/0EdktZmX-2WmXyTJI_FE0ioobceVhyznNJbiHwOOzQOQ2kuTspzoVY1lqDjs67k03jg0vS9Gq0OW4jASu8NTwoX5W3RdYyuJVG9kCgr_A7zt=rw">
+            <img src="https://lh3.googleusercontent.com/0EdktZmX-2WmXyTJI_FE0ioobceVhyznNJbiHwOOzQOQ2kuTspzoVY1lqDjs67k03jg0vS9Gq0OW4jASu8NTwoX5W3RdYyuJVG9kCgr_A7zt" alt="그리모어" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">그리모어</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 4.8초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">폭발하는 마법서 그리모어를 소환하여 적을 공격합니다. 광범위 내의 모든 적에게 3000%의 데미지를 1번 줍니다. 캐릭터의 공격력이 2.5초 동안 1600% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/HutHtyrXQzLZaejlhCtDUq-Ja1-BNxC-zK8OgJW7jf6_JLUwm7bAtCbw_DMyMGSaJqNY-0o5adIJOnpzuqKp7q4xjXWz7To4P6nWnoj4NOYZ=rw">
+            <img src="https://lh3.googleusercontent.com/HutHtyrXQzLZaejlhCtDUq-Ja1-BNxC-zK8OgJW7jf6_JLUwm7bAtCbw_DMyMGSaJqNY-0o5adIJOnpzuqKp7q4xjXWz7To4P6nWnoj4NOYZ" alt="늑대의 무리" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">늑대의 무리</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 4초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">늑대의 정령들을 소환하여 적을 공격합니다. 좁은 범위 내의 모든 적에게 430%의 데미지를 6번 줍니다. 모든 적의 방어력이 2초간 1600% 감소합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/Vrt4A2XaNdg2AGdIMYbfqc_xQUZUKe60IWzj7sf48YgNs26HQZGM2gsLHZm5rYoqpdhVndvn-aHXA7ckHRkWo6KPMutaoSBvzStt36sSNRTw=rw">
+            <img src="https://lh3.googleusercontent.com/Vrt4A2XaNdg2AGdIMYbfqc_xQUZUKe60IWzj7sf48YgNs26HQZGM2gsLHZm5rYoqpdhVndvn-aHXA7ckHRkWo6KPMutaoSBvzStt36sSNRTw" alt="힐" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">힐</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 6.5초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">정령의 축복으로 캐릭터의 최대 HP의 2%를 회복합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/r5p_agEwnF_X4gsK2sHS0RxEtfwBUIpLc5_7JjnMF6xKpnjZmVXeJ0JbgOn852PrcEbmkVMRAEyCgTjXK7qGc220PfDOdXr3OcXeCyMzDCCi=rw">
+            <img src="https://lh3.googleusercontent.com/r5p_agEwnF_X4gsK2sHS0RxEtfwBUIpLc5_7JjnMF6xKpnjZmVXeJ0JbgOn852PrcEbmkVMRAEyCgTjXK7qGc220PfDOdXr3OcXeCyMzDCCi" alt="슈팅 스타" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">슈팅 스타</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 5초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">우주에서 유성을 추락시켜 적을 공격합니다. 단체의 적에게 3225%의 데미지를 1번 줍니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/fIVmUc_8nwY0oxjs3RwcTfnCJ6hX_KpyJCecxIX9-MnAa13Lc9ZgtXva3zwoRamFuyu8rPoXCUdaSbxMvGzdqQREVs_x6BeY3Ehr3X5SW9-Z=rw">
+            <img src="https://lh3.googleusercontent.com/fIVmUc_8nwY0oxjs3RwcTfnCJ6hX_KpyJCecxIX9-MnAa13Lc9ZgtXva3zwoRamFuyu8rPoXCUdaSbxMvGzdqQREVs_x6BeY3Ehr3X5SW9-Z" alt="번개 스피어" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">번개 스피어</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 2.9초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">번개로 만든 창을 던져 적을 공격합니다. 단체의 적에게 1980%의 데미지를 1번 줍니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/Q0bcKCL3CtTvA7CQZZCXp3NT12qtcUWYwRQ3ijtCN5tImWgrEelcHeT0H25oqOlxcuT_TxDV8zsFwbgnjx2Tb0aJzkfxzMPgrmQwQtLQ45TX=rw">
+            <img src="https://lh3.googleusercontent.com/Q0bcKCL3CtTvA7CQZZCXp3NT12qtcUWYwRQ3ijtCN5tImWgrEelcHeT0H25oqOlxcuT_TxDV8zsFwbgnjx2Tb0aJzkfxzMPgrmQwQtLQ45TX" alt="마법의 캐논" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">마법의 캐논</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 2.9초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">마법의 대포를 소환하여 적을 공격합니다. 단체의 적에게 788%의 데미지를 3번 줍니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/EkvDxa4Fgx8RV0ObTsJWjuAEqLEeepZOWqvcSuFfoUZkU0OgCC-6nw3vS46NWRNIiGnm2CjfAVURknTGnjdo7hiyVM8xdVdkWucUmDqELOU=rw">
+            <img src="https://lh3.googleusercontent.com/EkvDxa4Fgx8RV0ObTsJWjuAEqLEeepZOWqvcSuFfoUZkU0OgCC-6nw3vS46NWRNIiGnm2CjfAVURknTGnjdo7hiyVM8xdVdkWucUmDqELOU" alt="달의 섬광" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">달의 섬광</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 3.85초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">달빛을 모아 강력한 마력으로 적을 공격합니다. 광범위 내의 모든 적에게 2760%의 데미지를 1번 줍니다. 캐릭터의 크리티컬률이 2초간 20% 증가합니다.</font></font></td>
+</tr>
+</tbody>
+</table>
+
+              <div class="inline_ad_placement"></div>
+            
+              <h2 id="ミスティックスキル一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">미스틱 스킬 목록</font></font></h2>
+              <div class="table_search_form" data-table-index="7"><div><label><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">키워드 검색 </font></font></label><span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">7</font></font></span></div><input type="text" placeholder="키워드를 입력하여 검색"></div><table class="wt pct_40_60 sortable search_table has_search_form">
+<thead>
+<tr>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">스킬</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="0"></a></th>
+<th class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">CT/효과</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="1"></a></th>
+</tr>
+</thead>
+<tbody>
+<tr class="base-row"><td style="width: 40%;"></td><td style="width: 60%;"></td></tr><tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/8njuEQZa9nvxZsZw-ow0ruI5E2sXnMKitjVIv7Ywx0kEcXupwn18--MyCSWM7HfJHTam4vBvRv6-E0fiK6uoBUspviBacGcDyumRbd2jVS07=rw">
+            <img src="https://lh3.googleusercontent.com/8njuEQZa9nvxZsZw-ow0ruI5E2sXnMKitjVIv7Ywx0kEcXupwn18--MyCSWM7HfJHTam4vBvRv6-E0fiK6uoBUspviBacGcDyumRbd2jVS07" alt="하나의 폭격기" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">하나의 폭격기</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 3.45초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">폭발하는 개 정령을 소환하여 적을 공격합니다. 좁은 범위 내의 모든 적에게 2840%의 데미지를 1번 줍니다. 캐릭터의 회피율 무시가 2초간 20% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/mpYIC7Gq8ExSduHnjyGHPAlArLf-HjNUhKEGHAivFYGdMRUoJW_ik-1H3wQ_8yDz9yXaxHd061VOmQD1Jsg1i1HxrfQOcnqcPH1ZkAT860vUjg=rw">
+            <img src="https://lh3.googleusercontent.com/mpYIC7Gq8ExSduHnjyGHPAlArLf-HjNUhKEGHAivFYGdMRUoJW_ik-1H3wQ_8yDz9yXaxHd061VOmQD1Jsg1i1HxrfQOcnqcPH1ZkAT860vUjg" alt="블리자드" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">블리자드</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 4.5초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">여러 아이스 볼트를 발사하여 적을 공격합니다. 광범위 내의 모든 적에게 372%의 데미지를 10번 줍니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/CEi8R509HsAKBhFnvHF0FbyoGbT9LMu-5ANWLvrEOG-0gnMquDcnLDppUKdrBuRl8WLsozO6PgW8lu_RrgJVlZ_JtDpbk1myNGxl9ZuAHLo7bw=rw">
+            <img src="https://lh3.googleusercontent.com/CEi8R509HsAKBhFnvHF0FbyoGbT9LMu-5ANWLvrEOG-0gnMquDcnLDppUKdrBuRl8WLsozO6PgW8lu_RrgJVlZ_JtDpbk1myNGxl9ZuAHLo7bw" alt="보호" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">보호</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 3.9초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터의 데미지 감소가 1.5초 동안 15% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/6in9QYS_VFt8BeHv7Y0ZeY3xGrm0ve2xgJTKn-K9Qsg2cNinhE031--kMBGpFLz5I_YrROyVS1X0pd-ohnLkmHoIEKC6psOmZKGXUAsPEsc=rw">
+            <img src="https://lh3.googleusercontent.com/6in9QYS_VFt8BeHv7Y0ZeY3xGrm0ve2xgJTKn-K9Qsg2cNinhE031--kMBGpFLz5I_YrROyVS1X0pd-ohnLkmHoIEKC6psOmZKGXUAsPEsc" alt="라그나로크" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">라그나로크</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 3초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">라그나로크를 소환하여 땅에 꽂아 적을 공격합니다. 좁은 범위 내의 모든 적에게 2570%의 데미지를 1번 줍니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/_xgQmtFmRCvh1LT7STDfyvLjuyiF1ASAF-xkNm0IDeo3NG_J2aDBoz26Gqpbw_0oTEceviBtSgc2jVg3gXQ4ahJzBUFNu1-9OMvXhGJMdCxFhg=rw">
+            <img src="https://lh3.googleusercontent.com/_xgQmtFmRCvh1LT7STDfyvLjuyiF1ASAF-xkNm0IDeo3NG_J2aDBoz26Gqpbw_0oTEceviBtSgc2jVg3gXQ4ahJzBUFNu1-9OMvXhGJMdCxFhg" alt="맨드레이크 폭탄" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">맨드레이크 폭탄</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 4.85초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">시끄러운 만드 레이크를 던져 적을 공격합니다. 광범위 내의 모든 적에게 4350%의 데미지를 1번 줍니다. 모든 적의 방어력이 2.5초 동안 3200% 감소합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/vWSolu_i3sVNX4HH9BEGX9KrrXvV3yNQCuEiFZcOuILIJXR2KHIsyx2B0pZYgMp6xFzXk--99qKPWIyRCDidATG31T0RgxSwYfXV0IiK6AyCGg=rw">
+            <img src="https://lh3.googleusercontent.com/vWSolu_i3sVNX4HH9BEGX9KrrXvV3yNQCuEiFZcOuILIJXR2KHIsyx2B0pZYgMp6xFzXk--99qKPWIyRCDidATG31T0RgxSwYfXV0IiK6AyCGg" alt="피어싱 소드" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">피어싱 소드</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 3.25초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">마력의 검을 연속으로 발사하여 적을 공격합니다. 좁은 범위 내의 모든 적에게 530%의 데미지를 6번 줍니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/d3VSEDdH0w5xDONsw-ocwOwVAw2u_yrHesCdXs1udoXDP5qXvP1kSqnS7em6rcsYKJ4JHrNuB2hipDQrGX50Fe5NZbqfwLCtl3zuzVU8HWIw=rw">
+            <img src="https://lh3.googleusercontent.com/d3VSEDdH0w5xDONsw-ocwOwVAw2u_yrHesCdXs1udoXDP5qXvP1kSqnS7em6rcsYKJ4JHrNuB2hipDQrGX50Fe5NZbqfwLCtl3zuzVU8HWIw" alt="자연의 힘" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">자연의 힘</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 3.75초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">잔디의 강력한 마력을 빌려 적을 공격합니다. 좁은 범위 내의 모든 적에게 750%의 데미지를 5번 줍니다. 캐릭터의 공격력이 2초간 3200% 증가합니다.</font></font></td>
+</tr>
+</tbody>
+</table>
+
+              <div class="inline_ad_placement"></div>
+            
+              <h2 id="エターナルスキル一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">이터널 스킬 목록</font></font></h2>
+              <div class="table_search_form" data-table-index="8"><div><label><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">키워드 검색 </font></font></label><span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">7</font></font></span></div><input type="text" placeholder="키워드를 입력하여 검색"></div><table class="wt pct_40_60 sortable search_table has_search_form">
+<thead>
+<tr>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">스킬</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="0"></a></th>
+<th class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">CT/효과</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="1"></a></th>
+</tr>
+</thead>
+<tbody>
+<tr class="base-row"><td style="width: 40%;"></td><td style="width: 60%;"></td></tr><tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/n_lSP-OBPj2FItalqPKTdej5Yr7LAXo0-dhvVXuozcT-pF8u8V1HpK9frAqr8zhYZLuVJjX3B3Lb-L8bVG2Z1I0XyYnecUR5JVEWXBmAkR0C=rw">
+            <img src="https://lh3.googleusercontent.com/n_lSP-OBPj2FItalqPKTdej5Yr7LAXo0-dhvVXuozcT-pF8u8V1HpK9frAqr8zhYZLuVJjX3B3Lb-L8bVG2Z1I0XyYnecUR5JVEWXBmAkR0C" alt="포이즌 필드" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">포이즌 필드</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 4.95초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">땅을 맹독으로 덮고 적을 공격합니다. 광범위 내의 모든 적에게 350%의 데미지를 15번 줍니다. 광범위 내의 모든 적의 공격력이 2.5초 동안 6400% 감소합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/E1io86v6kH6q2jqzAMkyQvUVxc9eJssLlXdhQtLDg9zxRMUBXrJBfGSe9iKBGeuEzbL6_AYOH_PZZWC6utVFFS4yWWkRphhg52Snif7thnCVCw=rw">
+            <img src="https://lh3.googleusercontent.com/E1io86v6kH6q2jqzAMkyQvUVxc9eJssLlXdhQtLDg9zxRMUBXrJBfGSe9iKBGeuEzbL6_AYOH_PZZWC6utVFFS4yWWkRphhg52Snif7thnCVCw" alt="지옥 불" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">지옥 불</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 4.5초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">거대한 지옥의 불길로 적을 공격합니다. 광범위 내의 모든 적에게 810%의 데미지를 6회합 받습니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/cfxZCXgBoPf07OP4lecYgsUjDs1tRIR-uapE8EbfJR--TIDFHg5Tt1wjPKv5pGFXTmFKwXMgNe10u_sBcpcEY8N2-zgLeIsgWHhBgD7YCg4e=rw">
+            <img src="https://lh3.googleusercontent.com/cfxZCXgBoPf07OP4lecYgsUjDs1tRIR-uapE8EbfJR--TIDFHg5Tt1wjPKv5pGFXTmFKwXMgNe10u_sBcpcEY8N2-zgLeIsgWHhBgD7YCg4e" alt="정령 지진" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">정령 지진</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 3.5초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">흙의 정령을 소환하고 강력한 두드림으로 지진을 일으켜 적을 공격합니다. 광범위의 모든 적에게 3900%의 데미지를 1번 줍니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/o1izqDxz0F2nI6G4EXCp4V-NewCVwkKODZ-jmSkhXP6J8O2ZNtyEON85imN4c0fHRFJcHUlgXZJucq8WCeyM_WMix111nTQdxzMxEoqKJYg=rw">
+            <img src="https://lh3.googleusercontent.com/o1izqDxz0F2nI6G4EXCp4V-NewCVwkKODZ-jmSkhXP6J8O2ZNtyEON85imN4c0fHRFJcHUlgXZJucq8WCeyM_WMix111nTQdxzMxEoqKJYg" alt="불꽃 채찍" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">불꽃 채찍</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 3.95초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">화염 채찍을 휘둘러 적을 공격합니다. 좁은 범위 내의 모든 적에게 2260%의 데미지를 2번 줍니다. 모든 적의 방어력이 2초간 6400% 감소합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/frMLWNdzg_YLL6YnSS4m91l2JuOSssNJc7NUCkfnYXeQNdyZrW695D2aTkIrRNwS7nHjmpG3DaMFZFBNz3BNBAolM-vJxQMZnhpNxJpP6OR6=rw">
+            <img src="https://lh3.googleusercontent.com/frMLWNdzg_YLL6YnSS4m91l2JuOSssNJc7NUCkfnYXeQNdyZrW695D2aTkIrRNwS7nHjmpG3DaMFZFBNz3BNBAolM-vJxQMZnhpNxJpP6OR6" alt="망자의 추락" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">망자의 추락</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 3초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">하늘에서 묘비를 내려 적을 공격합니다. 광범위 내의 모든 적에게 235%의 데미지를 15번 줍니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/-9PK0jssJ7lACA4aET_p7E_lOLsuxfPAniOnUztIb-vb6u87JyrsuBKOo5WYh9levbQhvXsrrnrG6wbMtC8n_kDa2H9QdcUn_f58h5_1OnqZ=rw">
+            <img src="https://lh3.googleusercontent.com/-9PK0jssJ7lACA4aET_p7E_lOLsuxfPAniOnUztIb-vb6u87JyrsuBKOo5WYh9levbQhvXsrrnrG6wbMtC8n_kDa2H9QdcUn_f58h5_1OnqZ" alt="킹 슬라임 소환" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">킹 슬라임 소환</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 3.35초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">거대한 킹 슬라임을 소환하고 적을 공격합니다. 광범위 내의 모든 적에게 4200%의 데미지를 1번 줍니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/vw9anDmfN4rqe6PAy2M1D5dRZfH32iu4kf3jaFw43rBw5maQxzNvr15cc_DVOP3wJ90vbx_ISrOo-WX6p7IyKmeUe2MPJiwh9Hy1j_4xzyh_xw=rw">
+            <img src="https://lh3.googleusercontent.com/vw9anDmfN4rqe6PAy2M1D5dRZfH32iu4kf3jaFw43rBw5maQxzNvr15cc_DVOP3wJ90vbx_ISrOo-WX6p7IyKmeUe2MPJiwh9Hy1j_4xzyh_xw" alt="드래곤 슬레이어 랜스" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">드래곤 슬레이어 랜스</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 3.75초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">드래곤 슬레이어 랜스를 던져 적을 공격합니다. 단체의 적에게 820%의 데미지를 6번 줍니다. 캐릭터의 회피율 무시가 2초간 20% 증가합니다.</font></font></td>
+</tr>
+</tbody>
+</table>
+
+              <div class="inline_ad_placement"></div>
+            
+              <h2 id="インフィニティスキル一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">인피니티 스킬 목록</font></font></h2>
+              <div class="table_search_form" data-table-index="9"><div><label><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">키워드 검색 </font></font></label><span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">9</font></font></span></div><input type="text" placeholder="키워드를 입력하여 검색"></div><table class="wt pct_40_60 sortable search_table has_search_form">
+<thead>
+<tr>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">스킬</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="0"></a></th>
+<th class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">CT/효과</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="1"></a></th>
+</tr>
+</thead>
+<tbody>
+<tr class="base-row"><td style="width: 40%;"></td><td style="width: 60%;"></td></tr><tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/9mpOiSNgso0Xs0rLZwc7jfkOEL30aiCpvtRBsuyU4oTx5sOXSSRVGfoXAo1KLkPtEJIbxAZvlOVJt4q1cJoc--Bj8QjSKhClaF78R8i03HVS=rw">
+            <img src="https://lh3.googleusercontent.com/9mpOiSNgso0Xs0rLZwc7jfkOEL30aiCpvtRBsuyU4oTx5sOXSSRVGfoXAo1KLkPtEJIbxAZvlOVJt4q1cJoc--Bj8QjSKhClaF78R8i03HVS" alt="고양이 발자국" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">고양이 발자국</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 5초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">거대한 고양이 발자국으로 적을 공격합니다. 광범위 내의 모든 적에게 7500%의 데미지를 1번 줍니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/NmHnaELZ2C4BF0_OQNmEEmdgDCCmFh8ottEd2C1FE36bonHHK5cuSgZ4rRlgJG3Sx5pHJEm_P0AZzpQ73QH8b0r8TEPo3Ie5ddTjYQt1hJc=rw">
+            <img src="https://lh3.googleusercontent.com/NmHnaELZ2C4BF0_OQNmEEmdgDCCmFh8ottEd2C1FE36bonHHK5cuSgZ4rRlgJG3Sx5pHJEm_P0AZzpQ73QH8b0r8TEPo3Ie5ddTjYQt1hJc" alt="달빛 베기" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">달빛 베기</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 4초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">달빛의 마력을 칼날에 담아 적을 공격합니다. 광범위 내의 모든 적에게 880%의 데미지를 7번 줍니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/GhR5FV5RIhhaVXodjbjUebJZYE_PsIz0C9oA783irGyuZbWJCGncO6uxnpHJ0jjXzjYVSFs19cEl7RtWejo5iJinHTv11GFRsGoySSKtJxNRuw=rw">
+            <img src="https://lh3.googleusercontent.com/GhR5FV5RIhhaVXodjbjUebJZYE_PsIz0C9oA783irGyuZbWJCGncO6uxnpHJ0jjXzjYVSFs19cEl7RtWejo5iJinHTv11GFRsGoySSKtJxNRuw" alt="갓 피스트" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">갓 피스트</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 4.5초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">하나님의 주먹을 소환하여 적을 공격합니다. 단체의 적에게 3510%의 데미지를 2번 줍니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/ihldneGaXnOADdMc44wwma0JxC2o93oDo7orIls144IWDHfpOq3fzEpMV5nOit3V69B4cd-MjxR7-PXcm1L6SLTkY--vU8psr0Q2g1OPHdk=rw">
+            <img src="https://lh3.googleusercontent.com/ihldneGaXnOADdMc44wwma0JxC2o93oDo7orIls144IWDHfpOq3fzEpMV5nOit3V69B4cd-MjxR7-PXcm1L6SLTkY--vU8psr0Q2g1OPHdk" alt="화산 폭발" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">화산 폭발</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 4.45초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">지면에서 용암이 솟아오르고 적을 공격합니다. 광범위 내의 모든 적에게 1435%의 데미지를 5번 줍니다. 모든 적의 방어력이 2.5초 동안 12800% 감소합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/9KtbwDhVIhEKNClEAoHjWGZ5t7dyRBXdXvMsVzwluLs_t_rjG6YvCvfmxBE0nS9e3Cx_apTh3PkeZN-JMTYwOWaX6CRqPgb-Ue_g1CcYO2F4jQ=rw">
+            <img src="https://lh3.googleusercontent.com/9KtbwDhVIhEKNClEAoHjWGZ5t7dyRBXdXvMsVzwluLs_t_rjG6YvCvfmxBE0nS9e3Cx_apTh3PkeZN-JMTYwOWaX6CRqPgb-Ue_g1CcYO2F4jQ" alt="베히모스 소환" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">베히모스 소환</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 3.9초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">땅에서 베히모스를 소환하고 적을 공격합니다. 광범위 내의 모든 적에게 6480%의 데미지를 1번 줍니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/Ew4JaKQiyvpA6Z8Thvcovcttk7g4KCK1M6U5Ou3NC4i5y8XFVs_7BBEBofVZkpgR9CQF62uGtmdSi7fa7DAsv4ZcndC-_vb74qLWOrph7PG7=rw">
+            <img src="https://lh3.googleusercontent.com/Ew4JaKQiyvpA6Z8Thvcovcttk7g4KCK1M6U5Ou3NC4i5y8XFVs_7BBEBofVZkpgR9CQF62uGtmdSi7fa7DAsv4ZcndC-_vb74qLWOrph7PG7" alt="데스 사이즈" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">데스 사이즈</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 4.7초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">화면을 가로지르는 참격으로 적을 공격합니다. 광범위 내의 모든 적에게 8250%의 데미지를 1번 줍니다. 캐릭터의 회피율 무시가 2.5초간 20% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/5-yy32KaZbSRK1-2Uj1dMGzVU8S1jlTfqE6mYohcnQWHicKWV8Rla-BDOa2x_ptwaBGYplqi0J4AeECDekhHPjozuoMtE6UROgBONA3FgZI=rw">
+            <img src="https://lh3.googleusercontent.com/5-yy32KaZbSRK1-2Uj1dMGzVU8S1jlTfqE6mYohcnQWHicKWV8Rla-BDOa2x_ptwaBGYplqi0J4AeECDekhHPjozuoMtE6UROgBONA3FgZI" alt="드래곤 브레스" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">드래곤 브레스</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 3.85초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">하늘에서 쏟아지는 브레스가 폭발하여 적을 공격합니다. 광범위 내의 모든 적에게 1675%의 데미지를 4번 줍니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/Zj5j3gycREs8ATtZKGuPRCyeOgZlWlF61JKZCFACQC3ct8ThKTv5ftzFZCxN3aca_GBW7Z4eGT8Qf5Boa_JrIDQHmodOaBqvDy6SqmbSyZs-=rw">
+            <img src="https://lh3.googleusercontent.com/Zj5j3gycREs8ATtZKGuPRCyeOgZlWlF61JKZCFACQC3ct8ThKTv5ftzFZCxN3aca_GBW7Z4eGT8Qf5Boa_JrIDQHmodOaBqvDy6SqmbSyZs-" alt="피닉스 소환" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">피닉스 소환</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 4.3초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">피닉스를 소환하고 적을 공격합니다. 광범위 내의 모든 적에게 2565%의 데미지를 3번 줍니다. 캐릭터의 크리티컬률이 2초간 50% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/KdAEbHlj7FXDsv_M6lQ1lLDj1TvPcgkZkFxLCyT56jBTaM5PPbeN47S2KKHMqt9RvPWmfkafy-zQsxZ_tcUhS0-nayM3JUAUnPnP485t7Bol=rw">
+            <img src="https://lh3.googleusercontent.com/KdAEbHlj7FXDsv_M6lQ1lLDj1TvPcgkZkFxLCyT56jBTaM5PPbeN47S2KKHMqt9RvPWmfkafy-zQsxZ_tcUhS0-nayM3JUAUnPnP485t7Bol" alt="알마게돈" width="64" height="64" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">알마게돈</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 4.75초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">지속적으로 피해를 입히는 블랙홀을 생성하고 적을 공격합니다. 광범위 내의 모든 적에게 418%의 데미지를 21번 줍니다.</font></font></td>
+</tr>
+</tbody>
+</table>
+
+              <div class="inline_ad_placement"></div>
+            
+              <h2 id="エルダースキル一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">엘더 스킬 목록</font></font></h2>
+              <div class="table_search_form" data-table-index="10"><div><label><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">키워드 검색 </font></font></label><span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">5</font></font></span></div><input type="text" placeholder="키워드를 입력하여 검색"></div><table class="wt pct_40_60 sortable search_table has_search_form">
+<thead>
+<tr>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">스킬</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="0"></a></th>
+<th class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">CT/효과</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="1"></a></th>
+</tr>
+</thead>
+<tbody>
+<tr class="base-row"><td style="width: 40%;"></td><td style="width: 60%;"></td></tr><tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/ZmYpj3IJo9dXRIgTf4eo_fTHiqjyuN6c-QgP3ILy971vH2j3VTQmGoo0mTVKJvbE5smuaIxX3-zy81S_Jt7nUQEsCOG4No0W8KTXG2gZRLF8=rw">
+            <img src="https://lh3.googleusercontent.com/ZmYpj3IJo9dXRIgTf4eo_fTHiqjyuN6c-QgP3ILy971vH2j3VTQmGoo0mTVKJvbE5smuaIxX3-zy81S_Jt7nUQEsCOG4No0W8KTXG2gZRLF8" alt="섀도우 리펄션" width="266" height="276" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">섀도우 리펄션</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 11초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">마법의 칼날의 폭풍을 소환하고 적을 공격합니다. 광범위 내의 모든 적에게 7408%의 데미지를 6번 줍니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/-DYsmWYoiu2mYqIIwFUdK2ex30jN1_LwZ6IfgjKuAmYL8MytOrXXwJX76SJf7ErLHMI8_LI99uBhgFKytY3XioRCpnn4dM4BOEdIeZJkdZBz=rw">
+            <img src="https://lh3.googleusercontent.com/-DYsmWYoiu2mYqIIwFUdK2ex30jN1_LwZ6IfgjKuAmYL8MytOrXXwJX76SJf7ErLHMI8_LI99uBhgFKytY3XioRCpnn4dM4BOEdIeZJkdZBz" alt="듀얼 엣지 러시" width="263" height="263" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">듀얼 엣지 러시</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 8초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">마법의 쌍검을 소환하여 적을 공격합니다. 광범위 내의 모든 적에게 5392%의 데미지를 6번 줍니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/Ed6iY7D8URNicPZgdWzk2I1-YD3uBZqcUp27QM5NA4YKE3h8UF40x7RK4Nvl77EFbFaDU26lnyjSrvoMZRvWijrOukweOyIgdvXP1VWV8slYIA=rw">
+            <img src="https://lh3.googleusercontent.com/Ed6iY7D8URNicPZgdWzk2I1-YD3uBZqcUp27QM5NA4YKE3h8UF40x7RK4Nvl77EFbFaDU26lnyjSrvoMZRvWijrOukweOyIgdvXP1VWV8slYIA" alt="인페르노 드라이브" width="253" height="266" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">인페르노 드라이브</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 5초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">거대한 불꽃의 토네이도를 소환하고 진로상의 적을 공격합니다. 광범위 내의 모든 적에게 6756%의 데미지를 3번 줍니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/Es44k6w5jkbSOhliqyQmBspl0vtoxdFXQ_EVFAnuHkm7vjC04Z1ockjuHt5Qnu5xaMJg_GG3h6SLUNOQeEqup1BMN3NAmjZSNxhbOX2T5r3T=rw">
+            <img src="https://lh3.googleusercontent.com/Es44k6w5jkbSOhliqyQmBspl0vtoxdFXQ_EVFAnuHkm7vjC04Z1ockjuHt5Qnu5xaMJg_GG3h6SLUNOQeEqup1BMN3NAmjZSNxhbOX2T5r3T" alt="이클립스 폭풍" width="247" height="260" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">이클립스 폭풍</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 15초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">에너지 빔의 폭격을 받고 적을 공격합니다. 광범위 내의 모든 적에게 12180%의 데미지를 5번 줍니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/uh7d15_pSDPDVpVCXTqCSXLnih0BYYIdUI7bqrDl_zIWezLxrztSS0rw2_WtgnQ-M_0x1ilRRp0-vB56B7NpHv8n6hvDuXWipdyP5vtIh-r_Bg=rw">
+            <img src="https://lh3.googleusercontent.com/uh7d15_pSDPDVpVCXTqCSXLnih0BYYIdUI7bqrDl_zIWezLxrztSS0rw2_WtgnQ-M_0x1ilRRp0-vB56B7NpHv8n6hvDuXWipdyP5vtIh-r_Bg" alt="크림슨 라이트" width="248" height="268" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">크림슨 라이트</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 8초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">앞으로 돌진된 에너지를 발사하고 적을 공격합니다. 광범위 내의 모든 적에게 6514%의 데미지를 5번 줍니다.</font></font></td>
+</tr>
+</tbody>
+</table>
+
+              <div class="inline_ad_placement"></div>
+            
+              <h2 id="エンピリアンスキル一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">엠피리언 스킬 목록</font></font></h2>
+              <div class="table_search_form" data-table-index="11"><div><label><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">키워드 검색 </font></font></label><span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">2</font></font></span></div><input type="text" placeholder="키워드를 입력하여 검색"></div><table class="wt pct_40_60 sortable search_table has_search_form">
+<thead>
+<tr>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">스킬</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="0"></a></th>
+<th class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">CT/효과</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="1"></a></th>
+</tr>
+</thead>
+<tbody>
+<tr class="base-row"><td style="width: 40%;"></td><td style="width: 60%;"></td></tr><tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/AZv92gnEXdWzrjOFZS97F-gJuJHEMINbKUMGPE4Zlhp-HC9oOZMY3qp1T1pbCpwGWV2utVHxqoVhgI0KHadAyLwuo9ukDxF2zqjXn0weTqte=rw">
+            <img src="https://lh3.googleusercontent.com/AZv92gnEXdWzrjOFZS97F-gJuJHEMINbKUMGPE4Zlhp-HC9oOZMY3qp1T1pbCpwGWV2utVHxqoVhgI0KHadAyLwuo9ukDxF2zqjXn0weTqte" alt="아케인 저지먼트" width="150" height="150" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">아케인 저지먼트</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 13초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">심판자의 망치로 정의의 폭격을 내리고 적을 공격합니다. 광범위 내의 모든 적에게 19500%의 데미지를 4번 줍니다. 캐릭터의 크리티컬률이 4초간 70% 증가합니다.</font></font></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/BIwgmoQfOhN93DmKJtIzzk1bdUWr2K43rdsYBvztpCE3HmIFw3t0JhmQ1OeI3dHZmiRSfGEl5CaqS4eYxQ0SZG9L2Zcbgh3E-Q-apdMm1kw=rw">
+            <img src="https://lh3.googleusercontent.com/BIwgmoQfOhN93DmKJtIzzk1bdUWr2K43rdsYBvztpCE3HmIFw3t0JhmQ1OeI3dHZmiRSfGEl5CaqS4eYxQ0SZG9L2Zcbgh3E-Q-apdMm1kw" alt="팬텀 버스트" width="150" height="150" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">팬텀 버스트</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 6초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">어둠의 검에 봉인된 힘을 해방하고 강대한 폭발로 적을 공격합니다. 광범위 내의 모든 적에게 36000%의 데미지를 1번 줍니다. 캐릭터의 공격력이 4초간 19200% 증가합니다.</font></font></td>
+</tr>
+</tbody>
+</table>
+
+              <div class="inline_ad_placement"></div>
+            
+              <h2 id="アカシックスキル一覧"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">아카식 스킬 목록</font></font></h2>
+              <div class="table_search_form" data-table-index="12"><div><label><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">키워드 검색 </font></font></label><span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">1</font></font></span></div><input type="text" placeholder="키워드를 입력하여 검색"></div><table class="wt pct_40_60 sortable search_table has_search_form">
+<thead>
+<tr>
+<th style="text-align:center" class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">스킬</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="0"></a></th>
+<th class="has-sort-button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">CT/효과</font></font><a href="#" class="sort-order" data-sort-method="normal" data-index="1"></a></th>
+</tr>
+</thead>
+<tbody>
+<tr class="base-row"><td style="width: 40%;"></td><td style="width: 60%;"></td></tr><tr>
+<td style="text-align:center"><span class="icon">
+        <picture>
+            <source type="image/webp" srcset="https://lh3.googleusercontent.com/dXy43NOYfj7ZSzz66TTp-18fYPoDliXZo_tV3_pi_imsoTRzQzfPvV--K63XgjEpuzBYtRZPl67rsTYrnLP0B5argtvhmkYnryUo5mrVFfdLfA=rw">
+            <img src="https://lh3.googleusercontent.com/dXy43NOYfj7ZSzz66TTp-18fYPoDliXZo_tV3_pi_imsoTRzQzfPvV--K63XgjEpuzBYtRZPl67rsTYrnLP0B5argtvhmkYnryUo5mrVFfdLfA" alt="에테리온 노바" width="200" height="200" loading="lazy" style="height: auto; background-color: transparent;" onload="this.style.backgroundColor=&quot;transparent&quot;;">
+        </picture><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">에테리온 노바</font></font></span></td>
+<td><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">쿨타임: 8초</font></font><span class="partition"></span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">초신성 폭발에 필적하는 파괴력을 가진 순수한 에테르 에너지의 빛으로 적을 공격합니다. 광범위 내의 모든 적에게 6800%의 데미지를 12번 줍니다.</font></font></td>
+</tr>
+</tbody>
+</table>
+
+              <div class="inline_ad_placement"></div>
+            
+              <h2 id="関連記事"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">관련 기사</font></font></h2>
+              <h3 id="関連記事--精霊"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">정령</font></font></h3><table class="fixed_table">
+<thead>
+<tr>
+<th style="text-align:center" colspan="2"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">정령 관련 기사</font></font></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><a href="/spirit-king-quest/page/362138728673582868.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">정령 목록</font></font></a></td>
+<td style="text-align:center"><a href="/spirit-king-quest/page/368673974483165246.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">등급별 정령 일람</font></font></a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="/spirit-king-quest/page/368675346691690770.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">속성별 정령 일람</font></font></a></td>
+<td style="text-align:center"><a href="/spirit-king-quest/page/374756298476018572.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">속성별 추천 편성</font></font></a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="関連記事--スキル"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">스킬</font></font></h3><table class="fixed_table">
+<thead>
+<tr>
+<th style="text-align:center" colspan="2"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">기술 관련 기사</font></font></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><a href="/spirit-king-quest/page/362142371158168252.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">스킬 목록</font></font></a></td>
+<td style="text-align:center"><a href="/spirit-king-quest/page/368675802998375196.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">등급별 스킬 일람</font></font></a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="/spirit-king-quest/page/362239471074151148.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">클래스 스킬 일람</font></font></a></td>
+<td style="text-align:center"><a href="/spirit-king-quest/page/373451037144552782.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">스킬 DPS 목록</font></font></a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="/spirit-king-quest/page/378342688493174277.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">스킬의 입수방법 일람</font></font></a></td>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="関連記事--スキン"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">스킨</font></font></h3><table class="fixed_table">
+<thead>
+<tr>
+<th style="text-align:center" colspan="2"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">스킨 관련 기사</font></font></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><a href="/spirit-king-quest/page/377212528196864626.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">스킨 목록</font></font></a></td>
+<td style="text-align:center"><a href="/spirit-king-quest/page/383556207073314964.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">캐릭터 스킨 목록</font></font></a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="/spirit-king-quest/page/383692853504675930.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">무기 스킨 목록</font></font></a></td>
+<td style="text-align:center"><a href="/spirit-king-quest/page/383693050855067738.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">모자 스킨 목록</font></font></a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="/spirit-king-quest/page/383693551319431455.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">방패 스킨 목록</font></font></a></td>
+<td style="text-align:center"><a href="/spirit-king-quest/page/383694227961292378.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">의상 스킨 목록</font></font></a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="/spirit-king-quest/page/383694359494703391.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">망토 스킨 목록</font></font></a></td>
+<td style="text-align:center"><a href="/spirit-king-quest/page/383694495759246133.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">장갑 스킨 목록</font></font></a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="/spirit-king-quest/page/383694700743239258.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">신발 스킨 목록</font></font></a></td>
+<td style="text-align:center"><a href="/spirit-king-quest/page/383694790132240197.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">헤어 스타일 스킨 목록</font></font></a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="/spirit-king-quest/page/383694932721825614.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">장식 스킨 목록</font></font></a></td>
+<td style="text-align:center"><a href="/spirit-king-quest/page/383695033787755016.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">얼굴 스킨 목록</font></font></a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="/spirit-king-quest/page/383695188658238443.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">귀 장식 스킨 목록</font></font></a></td>
+<td style="text-align:center"><a href="/spirit-king-quest/page/383695274624693227.html"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">피부 스킨 목록</font></font></a></td>
+</tr>
+</tbody>
+</table>
+
+              <div class="inline_ad_placement"></div>
+            
+      <div class="ad">
+        <div id="ad_detail_footer">
+          <div class="inline_ad_placement"></div>
+        </div>
+      </div>
+    </section>
+   </kamigame-article-body>
