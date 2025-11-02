@@ -416,7 +416,7 @@ export const skillData = [
   {
     "name": "바위 떨어뜨림",
     "image": "./resouce/skill/바위 떨어뜨림.png",
-    "grade": "독특한 기술 목록",
+    "grade": "유니크",
     "cooltime": 3.4,
     "damagePercent": 850.0,
     "hitCount": 1,
@@ -425,7 +425,7 @@ export const skillData = [
   {
     "name": "아이스 볼트",
     "image": "./resouce/skill/아이스 볼트.png",
-    "grade": "독특한 기술 목록",
+    "grade": "유니크",
     "cooltime": 2.75,
     "damagePercent": 585.0,
     "hitCount": 1,
@@ -434,7 +434,7 @@ export const skillData = [
   {
     "name": "라플레시아 소환",
     "image": "./resouce/skill/라플레시아 소환.png",
-    "grade": "독특한 기술 목록",
+    "grade": "유니크",
     "cooltime": 3.2,
     "damagePercent": 675.0,
     "hitCount": 1,
