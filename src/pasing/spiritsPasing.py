@@ -1,40 +1,38 @@
 import os
 import re
 import json
-import requests
 from bs4 import BeautifulSoup
 
 # 경로 설정
-html_file = r"C:\Users\james\spirit_dps_v2\public\resouce\spiritsDataHtml.txt"
-img_dir = r"C:\Users\james\spirit_dps_v2\public\resouce\spirits"
+html_file = r"C:\Users\james\spirit_dps_v2\src\pasing\spiritsDataHtml.txt"
 out_file = r"C:\Users\james\spirit_dps_v2\src\data\spiritsData.js"
-
-os.makedirs(img_dir, exist_ok=True)
 
 with open(html_file, "r", encoding="utf-8") as f:
     soup = BeautifulSoup(f, "html.parser")
 
 spirits = []
 
-# 속성 매핑 함수
+# 속성 매핑 (한국어 + 일본어)
 def map_element(k):
     k = k.strip()
-    if "잔디" in k: return "풀"
-    if "화" in k:   return "불"
-    if "수" in k:   return "물"
-    if "광" in k:   return "빛"
-    if "암" in k:   return "어둠"
-    return ""
+    if any(x in k for x in ["잔디", "풀", "木"]): return "풀"
+    if any(x in k for x in ["화", "불", "火"]): return "불"
+    if any(x in k for x in ["수", "물", "水"]): return "물"
+    if any(x in k for x in ["광", "빛", "光"]): return "빛"
+    if any(x in k for x in ["암", "어둠", "闇"]): return "어둠"
+    return "기타"
 
-# 정규식 정의
-damage_re = re.compile(r'(\d+(?:\.\d+)?)%\s*(?:의)?\s*(?:데미지|피해)', re.I)
-hit_re    = re.compile(r'(\d+)\s*(?:번|회)\b')
-ctype_re  = re.compile(r'캐릭터의\s*공격력(?:\s*증폭)?[^0-9]*(\d+(?:\.\d+)?)%[^)]*증가')
-type_re   = re.compile(r'(화|수|잔디|광|암)정령\s*타입의\s*공격력이\s*(\d+(?:\.\d+)?)%')
-dur_re    = re.compile(r'(\d+)\s*초간')
-cd_re     = re.compile(r'\(쿨타임\s*([\d.]+)\s*초\)')
+# 일본어 패턴 대응 정규식
+atk_coef_re  = re.compile(r'攻撃力係数[:：]?\s*([\d.]+)')
+atk_speed_re = re.compile(r'攻撃速度[:：]?\s*([\d.]+)')
+damage_re    = re.compile(r'([\d,\.]+)%のダメージ')
+hit_re       = re.compile(r'(\d+)回')
+cd_re        = re.compile(r'クールタイム[:：]?\s*([\d.]+)秒')
+type_buff_re = re.compile(r'(火|水|木|光|闇)属性.*?(\d+(?:\.\d+)?)%')
+char_buff_re = re.compile(r'キャラ.*?(\d+(?:\.\d+)?)%')
+duration_re  = re.compile(r'(\d+)秒間')
 
-# h2가 등급 구분
+# 정령 리스트 파싱
 for h2 in soup.find_all("h2"):
     grade = h2.get_text(strip=True)
     table = h2.find_next("table")
@@ -51,57 +49,51 @@ for h2 in soup.find_all("h2"):
             continue
 
         name = img_tag.get("alt", "").strip()
-        img_url = img_tag["src"]
+        img_name = f"{name}.png".replace("/", "_")
+
         attr_text = tds[1].get_text(" ", strip=True)
         desc = tds[2].get_text(" ", strip=True)
 
         element_type = map_element(attr_text)
 
+        # 공격력 계수 / 공격속도
+        m = atk_coef_re.search(desc)
+        attack_coef = float(m.group(1)) if m else 0.0
+        m = atk_speed_re.search(desc)
+        attack_speed = float(m.group(1)) if m else 0.0
+
         # 데미지 및 타수
         m = damage_re.search(desc)
-        element_damage_percent = float(m.group(1)) if m else 0.0
+        element_damage_percent = float(m.group(1).replace(",", "")) if m else 0.0
         m = hit_re.search(desc)
         element_damage_hitCount = int(m.group(1)) if m else (1 if element_damage_percent > 0 else 0)
 
-        # 쿨타임 (새로운 필드 element_damage_delay)
+        # 쿨타임
         m = cd_re.search(desc)
         element_damage_delay = float(m.group(1)) if m else 0.0
 
-        # 버프 처리
+        # 버프
         fire = water = grass = light = dark = 0.0
-        for tm, val in type_re.findall(desc):
-            valf = float(val)
-            if tm == "화": fire = max(fire, valf)
-            elif tm == "수": water = max(water, valf)
-            elif tm == "잔디": grass = max(grass, valf)
-            elif tm == "광": light = max(light, valf)
-            elif tm == "암": dark = max(dark, valf)
+        for tm, val in type_buff_re.findall(desc):
+            val = float(val)
+            if tm == "火": fire = max(fire, val)
+            elif tm == "水": water = max(water, val)
+            elif tm == "木": grass = max(grass, val)
+            elif tm == "光": light = max(light, val)
+            elif tm == "闇": dark = max(dark, val)
 
-        m = ctype_re.search(desc)
+        m = char_buff_re.search(desc)
         character_type_buff = float(m.group(1)) if m else 0.0
 
-        m = dur_re.search(desc)
+        m = duration_re.search(desc)
         element_type_buff_time = int(m.group(1)) if m else 10000
 
-        # 이미지 저장
-        img_name = f"{name}.png".replace("/", "_")
-        save_path = os.path.join(img_dir, img_name)
-        if not os.path.exists(save_path):
-            try:
-                r = requests.get(img_url)
-                if r.ok:
-                    with open(save_path, "wb") as f:
-                        f.write(r.content)
-            except Exception as e:
-                print(f"[이미지 실패] {name}: {e}")
-
-        # JSON 구성
-        spirit_data = {
+        spirits.append({
             "name": name,
             "image": f"./resouce/spirits/{img_name}",
             "grade": grade,
-            "공격력 계수": 0,   # HTML에 없음
-            "공격속도": 0,     # HTML에 없음
+            "공격력 계수": attack_coef,
+            "공격속도": attack_speed,
             "element_type": element_type,
             "light_type_buff": light,
             "dark_type_buff": dark,
@@ -112,11 +104,9 @@ for h2 in soup.find_all("h2"):
             "element_type_buff_time": element_type_buff_time,
             "element_damage_percent": element_damage_percent,
             "element_damage_hitCount": element_damage_hitCount,
-            "element_damage_delay": element_damage_delay,   # ✅ 추가됨
+            "element_damage_delay": element_damage_delay,
             "comment": desc
-        }
-
-        spirits.append(spirit_data)
+        })
 
 # JS 파일로 저장
 js_text = "export const spiritsData = " + json.dumps(spirits, ensure_ascii=False, indent=2)
@@ -124,4 +114,4 @@ os.makedirs(os.path.dirname(out_file), exist_ok=True)
 with open(out_file, "w", encoding="utf-8") as f:
     f.write(js_text)
 
-print(f"[OK] {len(spirits)}개 정령 데이터 저장 완료 (쿨타임 포함).")
+print(f"[OK] {len(spirits)}개 정령 데이터 저장 완료 (일본어 기반 파싱).")

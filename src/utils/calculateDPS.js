@@ -1,236 +1,192 @@
-// ================== DPS 계산 유틸 (시간대별 분석 추가) ==================
+import { getCombinations } from './combinations';
 
-// DPS 계산의 기준 시뮬레이션 시간 (초) 배열
+// =====================================================================================
+// HELPERS
+// =====================================================================================
+
+const num = (v, def = 0) => {
+  const n = typeof v === 'string' ? Number(v.replace(',', '.')) : Number(v);
+  return Number.isFinite(n) ? n : def;
+};
+
+const ELEMENT_MAP = {
+  '불': 'fire', '물': 'water', '풀': 'grass', '빛': 'light', '어둠': 'dark'
+};
+
 export const SIM_TIMES = [30, 40, 60];
-const DEFAULT_SIM_TIME = 60; // 최적 조합 탐색 및 기본 DPS 표시 기준
 
-// % 입력을 안전하게 숫자로
-const P = (v) => Number(v || 0);
+// =====================================================================================
+// CORE CALCULATION
+// =====================================================================================
 
-// ---- 1) comment 파서 (T_sim 인자 추가) --------------------------------
-/**
- * 주석을 파싱하여 특정 시뮬레이션 시간(T_sim) 기준으로 DPS 기여도를 추출합니다.
- */
-function parseComment(comment = "", T_sim) {
-  const text = String(comment);
+function calculateSpiritMetrics(spirit, uiBuffs, teamContext) {
+  const coef = num(spirit['공격력 계수']);
+  const speed = num(spirit['공격속도']);
+  const spiritEl = spirit.element_type;
 
-  // 쿨타임은 코멘트 전체에서 한 번만 찾아서 모든 스킬/버프에 적용
-  const cdMatch = text.match(/쿨타임\s*(\d+(\.\d+)?)\s*초/);
-  const cooldown = cdMatch ? Number(cdMatch[1]) : T_sim;
+  const finalAttack = num(uiBuffs.finalAttack);
+  const spiritAmp = num(uiBuffs.spiritAttackAmplify);
+  const typeAmp = num(uiBuffs[`${ELEMENT_MAP[spiritEl]}Amplify`]);
 
-  let totalSkillPercentPerSec = 0;
-  let totalBuffRatio = 0;
-  let buffUptimeRatio = 0;
+  const selfElBuffKey = `${ELEMENT_MAP[spiritEl]}_type_buff`;
+  const sharedTypeBuff = (teamContext.sharedBuffs[spiritEl] || 0) - num(spirit[selfElBuffKey]);
+  const characterBuff = teamContext.characterBuffs.total - num(spirit.character_type_buff);
+  const uniqueBuff = num(spirit.character_type_buff);
 
-  const activations = Math.floor(T_sim / cooldown);
+  const totalBuffSum = spiritAmp + typeAmp + sharedTypeBuff + characterBuff + uniqueBuff;
 
-  // 1. 스킬 피해 파싱
-  const skillPattern = /(\d+)\s*%\s*피해\s*(\d+)\s*회/g;
-  let m;
-  while ((m = skillPattern.exec(text)) !== null) {
-    const damagePct = Number(m[1]);
-    const hits = Number(m[2]);
-    const totalDamage = damagePct * hits * activations;
-    totalSkillPercentPerSec += totalDamage / T_sim;
+  const skillDamagePercent = num(spirit.element_damage_percent);
+  let baseDps = 0;
+  let skillDps = 0;
+
+  const buffMultiplier = 1 + totalBuffSum / 100;
+  const finalAttackMultiplier = 1 + finalAttack / 100;
+
+  if (skillDamagePercent > 0) {
+    const hitCount = num(spirit.element_damage_hitCount, 1);
+    const cooldown = num(spirit.element_damage_delay, 1);
+    const baseSkillDps = (skillDamagePercent / 100 * hitCount) / cooldown;
+    skillDps = baseSkillDps * (coef + buffMultiplier - 1) * finalAttackMultiplier;
+  } else {
+    baseDps = speed * (coef + buffMultiplier - 1) * finalAttackMultiplier;
   }
 
-  // 2. 공격력 증폭 버프 파싱 (정규식 수정)
-  const attackBuffPattern = /공격력\s*(?:증폭)?\s*(\d+)\s*초(?:동안)?\s*(\d+)\s*%/g;
-  let b;
-  while ((b = attackBuffPattern.exec(text)) !== null) {
-    const buffDur = Number(b[1]);
-    const buffPct = Number(b[2]);
-    
-    const totalUptime = Math.min(buffDur, T_sim) * activations;
-    const finalUptimeRatio = Math.min(totalUptime / T_sim, 1);
-    
-    totalBuffRatio += (buffPct / 100) * finalUptimeRatio;
-    buffUptimeRatio = Math.min(buffUptimeRatio + finalUptimeRatio, 1);
-  }
-  
-  // 다른 종류의 버프들도 위와 같이 명확한 정규식으로 추가 가능
+  const totalDps = baseDps + skillDps;
 
   return {
-    skillPctPerSec: totalSkillPercentPerSec,
-    baseBuffRatio: totalBuffRatio,
-    buffUptimeRatio: buffUptimeRatio * 100,
-    cooldown,
+    dps: totalDps,
+    breakdown: {
+      base: baseDps,
+      skillDPS: skillDps,
+      buffDPS: 0,
+      buffUptime: 100,
+    },
   };
 }
 
-// ---- 2) 개별 정령 DPS (특정 시간 기준) --------------------------------
-/**
- * 단일 정령의 DPS를 특정 시간(T_sim) 기준으로 계산하는 내부 함수.
- */
-function calcSpiritDPSForTime(spirit, buffs, sameTypeBuff = 0, T_sim) {
-  if (!spirit) return { dps: 0, breakdown: { base: 0, skillDPS: 0, buffDPS: 0, buffUptime: 0 } };
+function calculateTeamMetrics(team, uiBuffs) {
+  if (!team || team.length === 0) return { totalDps: 0, spiritMetrics: [] };
 
-  const speedBase = P(spirit.character_attack_speed);
-  const coef = P(spirit.character_attack_coef);
-  const element = spirit.element_type || null;
+  const teamContext = createTeamContext(team);
+  let totalDps = 0;
 
-  const spiritAmp = P(buffs.spiritAttackAmplify);
-  const finalAtkPct = P(buffs.finalAttack);
-  const speedPctFromTeam = P(buffs.characterAttackSpeed);
-
-  const typeAmpMap = {
-    FIRE: P(buffs.fireAmplify), WATER: P(buffs.waterAmplify), GRASS: P(buffs.grassAmplify),
-    LIGHT: P(buffs.lightAmplify), DARK: P(buffs.darkAmplify),
-  };
-  const typeAmp = element ? typeAmpMap[element] || 0 : 0;
-
-  let uniqueTypeBuff = 0;
-  if (spirit.buff_target_type?.startsWith('character_')) {
-    uniqueTypeBuff = P(spirit.buff_value);
-  }
-
-  const { skillPctPerSec, baseBuffRatio, buffUptimeRatio } = parseComment(spirit.comment, T_sim);
-
-  const speed = speedBase * (1 + speedPctFromTeam / 100);
-  const base = speed * (coef + (spiritAmp + typeAmp + uniqueTypeBuff + P(sameTypeBuff)) / 100) * (1 + finalAtkPct / 100);
-  const skillDPS = coef * (skillPctPerSec / 100);
-  const buffDPS = base * baseBuffRatio;
-  const dps = base + skillDPS + buffDPS;
-
-  return {
-    dps,
-    breakdown: { base, skillDPS, buffDPS, buffUptime: buffUptimeRatio },
-  };
-}
-
-// ---- 3) 개별 정령 DPS (모든 시간대) -----------------------------------
-/**
- * 모든 시뮬레이션 시간대에 대한 DPS 결과를 계산하여 반환합니다.
- */
-export function calcSpiritDPS(spirit, buffs, sameTypeBuff = 0) {
-  const timeResults = {};
-  SIM_TIMES.forEach(T_sim => {
-    timeResults[T_sim] = calcSpiritDPSForTime(spirit, buffs, sameTypeBuff, T_sim);
+  const spiritMetrics = team.map(spirit => {
+    const metrics = calculateSpiritMetrics(spirit, uiBuffs, teamContext);
+    totalDps += metrics.dps;
+    return metrics;
   });
 
-  return {
-    // 60초 기준 값을 기본값으로 제공
-    dps: timeResults[DEFAULT_SIM_TIME].dps,
-    breakdown: timeResults[DEFAULT_SIM_TIME].breakdown,
-    timeResults, // 모든 시간대 결과 포함
-  };
+  return { totalDps, spiritMetrics };
 }
 
-// ---- 4) 팀 DPS (모든 시간대) -----------------------------------------
-/**
- * 팀 전체의 DPS를 모든 시뮬레이션 시간대별로 계산하여 반환합니다.
- */
-export function calcTeamDPS(selectedSpirits, buffs) {
-  const teamDPSByTime = {};
-  SIM_TIMES.forEach(t => teamDPSByTime[t] = 0);
-
-  if (!Array.isArray(selectedSpirits) || selectedSpirits.length === 0) {
-    return teamDPSByTime;
-  }
-
-  const shared = { FIRE: 0, WATER: 0, GRASS: 0, LIGHT: 0, DARK: 0 };
-  const team = { character_attack: 0, character_attack_speed: 0, character_defense: 0, character_hp: 0 };
-
-  selectedSpirits.forEach((s) => {
-    if (!s || !s.buff_target_type) return;
-    if (s.buff_target_type.startsWith('element_')) {
-      const el = s.buff_target_type.split('_')[1]?.toUpperCase();
-      if (el && shared[el] != null) shared[el] += P(s.buff_value);
-    }
-    if (s.buff_target_type.startsWith('character_')) {
-      const key = s.buff_target_type;
-      if (team[key] != null) team[key] += P(s.buff_value);
-    }
-  });
-
-  const combinedBuffs = {
-    ...buffs,
-    spiritAttackAmplify: P(buffs.spiritAttackAmplify) + team.character_attack,
-    characterAttackSpeed: team.character_attack_speed,
+function createTeamContext(team) {
+  const context = {
+    sharedBuffs: { '불': 0, '물': 0, '풀': 0, '빛': 0, '어둠': 0 },
+    characterBuffs: { total: 0 },
   };
-
-  selectedSpirits.forEach((s) => {
+  team.forEach(s => {
     if (!s) return;
-    const el = s.element_type || null;
-    const sameTypeBuff = el ? shared[el] || 0 : 0;
-    
-    // 각 정령의 시간대별 DPS 결과를 가져옴
-    const spiritDPSResult = calcSpiritDPS(s, combinedBuffs, sameTypeBuff);
-    
-    // 각 시간대별로 팀 DPS에 합산
-    SIM_TIMES.forEach(t => {
-      teamDPSByTime[t] += spiritDPSResult.timeResults[t].dps;
+    Object.keys(context.sharedBuffs).forEach(el => {
+      const key = `${ELEMENT_MAP[el]}_type_buff`;
+      context.sharedBuffs[el] += num(s[key]);
+    });
+    context.characterBuffs.total += num(s.character_type_buff);
+  });
+  return context;
+}
+
+function calculateSkillMetrics(skill, uiBuffs) {
+  const damagePercent = num(skill.damagePercent);
+  const hitCount = num(skill.hitCount, 1);
+  const cooldown = num(skill.cooltime, 1);
+  const attackAmplify = num(uiBuffs.attackAmplify);
+
+  if (cooldown === 0) return { dps: 0, breakdown: {} };
+
+  const baseDps = (damagePercent / 100 * hitCount) / cooldown;
+  const totalDps = baseDps * (1 + attackAmplify / 100);
+
+  return {
+    dps: totalDps,
+    breakdown: { base: totalDps, skillDPS: 0, buffDPS: 0, buffUptime: 0 },
+  };
+}
+
+// =====================================================================================
+// ENTRYPOINT
+// =====================================================================================
+
+export function calculateFinalResults(ownedSpirits, ownedSkills, uiBuffs) {
+  const { bestCombo, meta } = pickBestCombo(ownedSpirits, uiBuffs);
+
+  const sortedSkills = ownedSkills
+    .map(skill => ({
+      ...skill,
+      ...calculateSkillMetrics(skill, uiBuffs),
+    }))
+    .sort((a, b) => b.dps - a.dps);
+
+  const skillMetrics = ownedSkills.length > 5 ? sortedSkills.slice(0, 5) : sortedSkills;
+
+  const totalSkillDps = skillMetrics.reduce((sum, s) => sum + s.dps, 0);
+
+  const result = {
+    currentDPS: {},
+    bestDPS: {},
+    bestCombo: [],
+    bestSkills: skillMetrics,
+    meta,
+  };
+
+  SIM_TIMES.forEach(time => {
+    const { totalDps: spiritTotalDps, spiritMetrics } = calculateTeamMetrics(bestCombo, uiBuffs);
+    const totalDps = spiritTotalDps + totalSkillDps;
+
+    result.bestDPS[time] = totalDps;
+    result.currentDPS[time] = totalDps;
+
+    bestCombo.forEach((spirit, index) => {
+      if (!result.bestCombo[index]) {
+        result.bestCombo[index] = { ...spirit, timeResults: {} };
+      }
+      result.bestCombo[index].timeResults[time] = spiritMetrics[index];
     });
   });
 
-  return teamDPSByTime;
+  return result;
 }
 
-// ---- 5) 최적 조합 (60초 기준 탐색) ------------------------------------
-/**
- * 최적 조합을 60초 기준으로 탐색하되, 결과는 모든 시간대의 DPS를 포함하여 반환합니다.
- */
-export function pickBestComboAndDPS(ownedSpirits, buffs) {
-  const emptyResult = {
-    bestCombo: [],
-    bestDPS: SIM_TIMES.reduce((acc, t) => ({ ...acc, [t]: 0 }), {}),
-    meta: { exhaustive: false, combinationsTried: 0, searchedCandidates: 0 },
-  };
-
-  if (!Array.isArray(ownedSpirits) || ownedSpirits.length === 0) {
-    return emptyResult;
+function pickBestCombo(ownedSpirits, uiBuffs) {
+  if (!ownedSpirits || ownedSpirits.length <= 5) {
+    return { bestCombo: ownedSpirits, meta: { exhaustive: true, searchedCandidates: ownedSpirits.length } };
   }
 
-  const ranked = ownedSpirits
-    .map((s) => ({ ...s, ...calcSpiritDPS(s, buffs) }))
-    .sort((a, b) => b.dps - a.dps); // dps는 60초 기준
-
-  if (ranked.length <= 5) {
-    const bestDPS = calcTeamDPS(ranked, buffs);
-    return { bestCombo: ranked, bestDPS, meta: { exhaustive: true, combinationsTried: 1, searchedCandidates: ranked.length } };
-  }
-
-  let candidates = ranked;
-  let exhaustive = true;
-  if (ranked.length > 25) {
-    candidates = ranked.slice(0, 25);
-    exhaustive = false;
-  }
+  const candidates = ownedSpirits.map(s => {
+      const skillDps = (num(s.element_damage_percent) / 100 * num(s.element_damage_hitCount, 1)) / num(s.element_damage_delay, 1);
+      const baseScore = num(s['공격력 계수']) * num(s['공격속도']) + skillDps;
+      return { ...s, baseScore };
+    })
+    .sort((a, b) => b.baseScore - a.baseScore)
+    .slice(0, 20);
 
   const combos = getCombinations(candidates, 5);
+  let bestDPS = 0;
   let bestCombo = [];
-  let bestDPS = SIM_TIMES.reduce((acc, t) => ({ ...acc, [t]: 0 }), {});
 
   for (const combo of combos) {
-    const dpsByTime = calcTeamDPS(combo, buffs);
-    if (dpsByTime[DEFAULT_SIM_TIME] > bestDPS[DEFAULT_SIM_TIME]) {
-      bestDPS = dpsByTime;
+    const { totalDps } = calculateTeamMetrics(combo, uiBuffs);
+    if (totalDps > bestDPS) {
+      bestDPS = totalDps;
       bestCombo = combo;
     }
   }
 
   return {
     bestCombo,
-    bestDPS,
-    meta: { exhaustive, searchedCandidates: candidates.length, combinationsTried: combos.length },
+    meta: {
+      exhaustive: false,
+      searchedCandidates: candidates.length,
+      combinationsTried: combos.length,
+    },
   };
-}
-
-// nCr 조합 생성
-function getCombinations(arr, r) {
-  const res = [];
-  const n = arr.length;
-  if (r > n) return res;
-  const idx = Array.from({ length: r }, (_, i) => i);
-  const push = () => res.push(idx.map((i) => arr[i]));
-  push();
-  while (true) {
-    let i = r - 1;
-    while (i >= 0 && idx[i] === i + n - r) i--;
-    if (i < 0) break;
-    idx[i]++;
-    for (let j = i + 1; j < r; j++) idx[j] = idx[j - 1] + 1;
-    push();
-  }
-  return res;
 }

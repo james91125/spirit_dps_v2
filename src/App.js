@@ -1,88 +1,79 @@
-import React, { useState } from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
 import Step1BuffSetup from './components/Step1BuffSetup';
-import Step2Placement from './components/Step2Placement';
-import Step3OwnedSelect from './components/Step3OwnedSelect';
+import Step2OwnedSelect from './components/Step2OwnedSelect';
+import Step3OwnedStats from './components/Step3OwnedStats';
 import Step4Result from './components/Step4Result';
-import spiritsData from './data/spiritsData';
-import { calcTeamDPS, pickBestComboAndDPS, calcSpiritDPS } from './utils/calculateDPS';
 
-const App = () => {
+import { spiritsData as allSpirits } from './data/spiritsData'; // 원본 데이터 사용
+import { skillData } from './data/skillData';
+import { calculateFinalResults } from './utils/calculateDPS'; // 새로운 계산 함수
+
+export default function App() {
   const [step, setStep] = useState(1);
-
   const [buffs, setBuffs] = useState({
-    attackAmplify: 0,
+    attackAmplify: 0, // 스킬 공격력 증폭
+    finalAttack: 0,
     spiritAttackAmplify: 0,
     fireAmplify: 0,
     waterAmplify: 0,
     grassAmplify: 0,
     lightAmplify: 0,
     darkAmplify: 0,
-    finalAttack: 0, // 최종 공격력 배율
   });
-
-  // 선택 정령 및 보유 정령
-  const [selectedSpirits, setSelectedSpirits] = useState([null, null, null, null, null]);
   const [ownedSpirits, setOwnedSpirits] = useState([]);
-  const [result, setResult] = useState(null);
+  const [ownedSkills, setOwnedSkills] = useState([]);
+  const [result, setResult] = useState(null); // 계산 결과 저장
 
-  const calculateResult = () => {
-    // 안전 검사
-    const selected = Array.isArray(selectedSpirits) ? selectedSpirits : [];
-    const owned = Array.isArray(ownedSpirits) ? ownedSpirits : [];
+  const goNext = () => setStep((s) => s + 1);
+  const goPrev = () => setStep((s) => s - 1);
+  
+  const handleReset = useCallback(() => {
+    setOwnedSpirits([]);
+    setOwnedSkills([]);
+    setResult(null);
+    setStep(1);
+  }, []);
 
-    // 1️ 현재 배치된 팀 DPS 계산
-    const totalDPS = calcTeamDPS(selected, buffs);
+  // Step 3에서 Step 4로 이동만 담당
+  const goToResultStep = () => setStep(4);
 
-    // 2️ 각 정령별 상세 DPS 기록 (속성, 등급 포함)
-    const details = selected
-      .filter((s) => s)
-      .map((spirit) => {
-        const { dps } = calcSpiritDPS(spirit, buffs);
-        return {
-          name: spirit.name,
-          grade: spirit.grade,
-          element_type: spirit.element_type,
-          dps: dps.toFixed(2),
-        };
-      });
-
-    // 3️ 보유 정령 중 최적 조합 5명 계산
-    const { bestCombo, bestDPS } = pickBestComboAndDPS(owned, buffs);
-
-    // 4️ 결과 저장
-    setResult({
-      totalDPS: totalDPS.toFixed(2),
-      bestDPS: bestDPS.toFixed(2),
-      bestCombo,
-      difference: (bestDPS - totalDPS).toFixed(2),
-      details,
-    });
-
-    setStep(4);
-  };
+  // Step 4에 진입하면 계산을 수행
+  useEffect(() => {
+    if (step === 4) {
+      if (ownedSpirits.length === 0 && ownedSkills.length === 0) {
+        alert("정령 또는 스킬을 하나 이상 선택해주세요.");
+        setStep(2); // 정령 선택으로 복귀
+        return;
+      }
+      console.log("Calculating results with:", { ownedSpirits, ownedSkills, buffs });
+      const res = calculateFinalResults(ownedSpirits, ownedSkills, buffs);
+      setResult(res);
+    }
+  }, [step, ownedSpirits, ownedSkills, buffs]);
 
   return (
-    <>
+    <div style={{ maxWidth: 1400, margin: '0 auto' }}>
       {step === 1 && (
-        <Step1BuffSetup buffs={buffs} setBuffs={setBuffs} setStep={setStep} />
+        <Step1BuffSetup buffs={buffs} setBuffs={setBuffs} goNext={goNext} />
       )}
 
       {step === 2 && (
-        <Step2Placement
-          spirits={spiritsData}
-          selectedSpirits={selectedSpirits}
-          setSelectedSpirits={setSelectedSpirits}
-          setStep={setStep}
+        <Step2OwnedSelect
+          spiritsData={allSpirits} // 전체 정령 데이터
+          ownedSpirits={ownedSpirits}
+          setOwnedSpirits={setOwnedSpirits}
+          goNext={goNext}
+          goPrev={goPrev}
         />
       )}
 
       {step === 3 && (
-        <Step3OwnedSelect
-          spiritsData={spiritsData}
-          ownedSpirits={ownedSpirits}
-          setOwnedSpirits={setOwnedSpirits}
-          setStep={setStep}
-          calculateResult={calculateResult}
+        <Step3OwnedStats
+          skillData={skillData}
+          ownedSkills={ownedSkills}
+          setOwnedSkills={setOwnedSkills}
+          calculateResult={goToResultStep} // 이름 변경: calculateAndGoToResult -> goToResultStep
+          goPrev={goPrev}
         />
       )}
 
@@ -90,13 +81,9 @@ const App = () => {
         <Step4Result
           result={result}
           setStep={setStep}
-          setOwnedSpirits={setOwnedSpirits}
-          setSelectedSpirits={setSelectedSpirits}
-          setResult={setResult}
+          handleReset={handleReset}
         />
       )}
-    </>
+    </div>
   );
-};
-
-export default App;
+}
