@@ -12,7 +12,19 @@ export function pickBestCombo(ownedSpirits, ownedSkills, uiBuffs) {
 
     const benchmarkTime = SIM_TIMES[0];
 
-    const top35Candidates = ownedSpirits.map(s => {
+    // Separate spirits with team-wide buffs to ensure they are always considered.
+    const buffSpirits = ownedSpirits.filter(s =>
+        s.light_type_buff > 0 ||
+        s.dark_type_buff > 0 ||
+        s.fire_type_buff > 0 ||
+        s.water_type_buff > 0 ||
+        s.grass_type_buff > 0 ||
+        s.character_type_buff > 0
+    );
+
+    // Score and sort the rest of the spirits based on their individual performance.
+    const otherSpirits = ownedSpirits.filter(s => !buffSpirits.includes(s));
+    const scoredOtherSpirits = otherSpirits.map(s => {
         const soloContext = createTeamContext([s]);
         const { totalDamage } = calculateSpiritTotalDamage(s, uiBuffs, soloContext, benchmarkTime);
         return { ...s, baseScore: totalDamage };
@@ -22,8 +34,17 @@ export function pickBestCombo(ownedSpirits, ownedSkills, uiBuffs) {
         const gradeB = gradeOrder[b.grade] || 0;
         if (gradeA !== gradeB) return gradeB - gradeA;
         return b.baseScore - a.baseScore;
-    })
-    .slice(0, 35);
+    });
+
+    // Combine buff spirits with the top-performing non-buff spirits to form the candidate pool.
+    const topN = 35;
+    const numBuffSpirits = buffSpirits.length;
+    const numOtherToTake = Math.max(0, topN - numBuffSpirits);
+
+    const topCandidates = [
+        ...buffSpirits,
+        ...scoredOtherSpirits.slice(0, numOtherToTake)
+    ];
 
     const neutralContext = createTeamContext([]);
     const top5Skills = ownedSkills.map(skill => ({
@@ -34,7 +55,7 @@ export function pickBestCombo(ownedSpirits, ownedSkills, uiBuffs) {
     let bestCombo = [];
     let maxTotalDamage = -1;
 
-    const combinations = getCombinations(top35Candidates, 5);
+    const combinations = getCombinations(topCandidates, 5);
     
     for (const combo of combinations) {
         const teamContext = createTeamContext(combo);
@@ -60,13 +81,30 @@ export function pickBestCombo(ownedSpirits, ownedSkills, uiBuffs) {
     for (const element in spiritsByElement) {
         const elementSpirits = spiritsByElement[element];
         if (elementSpirits.length >= 5) {
-            const elementCandidates = elementSpirits.map(s => {
-                    const soloContext = createTeamContext([s]);
-                    const { totalDamage } = calculateSpiritTotalDamage(s, uiBuffs, soloContext, benchmarkTime);
-                    return { ...s, baseScore: totalDamage };
-                })
-                .sort((a, b) => b.baseScore - a.baseScore)
-                .slice(0, 35);
+            // The same logic as above, but scoped to the current element
+            const elementBuffSpirits = elementSpirits.filter(s =>
+                s.light_type_buff > 0 ||
+                s.dark_type_buff > 0 ||
+                s.fire_type_buff > 0 ||
+                s.water_type_buff > 0 ||
+                s.grass_type_buff > 0 ||
+                s.character_type_buff > 0
+            );
+            const elementOtherSpirits = elementSpirits.filter(s => !elementBuffSpirits.includes(s));
+            const scoredElementOtherSpirits = elementOtherSpirits.map(s => {
+                const soloContext = createTeamContext([s]);
+                const { totalDamage } = calculateSpiritTotalDamage(s, uiBuffs, soloContext, benchmarkTime);
+                return { ...s, baseScore: totalDamage };
+            }).sort((a, b) => b.baseScore - a.baseScore);
+
+            const elementTopN = 35;
+            const numElementBuffSpirits = elementBuffSpirits.length;
+            const numElementOtherToTake = Math.max(0, elementTopN - numElementBuffSpirits);
+
+            const elementCandidates = [
+                ...elementBuffSpirits,
+                ...scoredElementOtherSpirits.slice(0, numElementOtherToTake)
+            ];
 
             const monoCombos = getCombinations(elementCandidates, 5);
 
@@ -90,7 +128,7 @@ export function pickBestCombo(ownedSpirits, ownedSkills, uiBuffs) {
         bestSkills: top5Skills,
         meta: {
             exhaustive: false,
-            searchedCandidates: top35Candidates.length,
+            searchedCandidates: topCandidates.length,
             combinationsTried: combinations.length, // This is an approximation now
         },
     };

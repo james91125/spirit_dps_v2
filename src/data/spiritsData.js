@@ -537,7 +537,7 @@ export const spiritsData = [
     "grade": "인피니티",
     "공격력 계수": 7.75,
     "공격속도": 2.53,
-    "element_type": "풀",
+    "element_type": "빛",
     "light_type_buff": 0.0,
     "dark_type_buff": 0.0,
     "fire_type_buff": 0.0,
