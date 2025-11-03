@@ -3,7 +3,7 @@ import { num, ELEMENT_MAP } from './constants';
 export function createTeamContext(team) {
   const context = {
     sharedBuffs: { '불': 0, '물': 0, '풀': 0, '빛': 0, '어둠': 0 },
-    characterBuffs: { total: 0 },
+    characterBuffs: { total: 0, critRate: 0, attackSpeed: 0 },
     activeBuffs: {},
   };
   team.forEach(s => {
@@ -13,6 +13,8 @@ export function createTeamContext(team) {
       context.sharedBuffs[el] += num(s[key]);
     });
     context.characterBuffs.total += num(s.character_type_buff);
+    context.characterBuffs.critRate += num(s.character_crit_rate_buff);
+    context.characterBuffs.attackSpeed += num(s.character_attack_speed_buff);
 
     const comment = s.comment || '';
     const ampMatch = comment.match(/캐릭터의 공격력 증폭이 (\d+)초간 ([\d,.]+)% 증가합니다/);

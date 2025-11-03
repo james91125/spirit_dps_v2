@@ -11,11 +11,10 @@ export function calculateSpiritTotalDamage(spirit, uiBuffs, teamContext, simTime
 
   const selfElBuffKey = `${ELEMENT_MAP[spirit.element_type]}_type_buff`;
   const sharedTypeBuff = (teamContext.sharedBuffs[spirit.element_type] || 0) - num(spirit[selfElBuffKey]);
-  
-  const characterBuff = teamContext.characterBuffs.total - num(spirit.character_type_buff);
-  const uniqueBuff = num(spirit.character_type_buff);
 
-  const staticBuffSum = spiritAmp + typeAmp + sharedTypeBuff + characterBuff + uniqueBuff;
+  // 캐릭터 공격력 증폭 버프는 정령 자신의 데미지에 영향을 주지 않으므로 계산에서 제외합니다.
+  // 이 버프는 characterDamage.js에서 캐릭터의 최종 데미지에만 적용되어야 합니다.
+  const staticBuffSum = spiritAmp + typeAmp + sharedTypeBuff;
   const staticBuffMultiplier = 1 + staticBuffSum / 100;
   const finalAttackMultiplier = 1 + finalAttack / 100;
 
