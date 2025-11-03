@@ -1,3 +1,4 @@
+// Re-saving to force bundler refresh
 import React, { useState } from "react";
 import { SpiritGrade } from "../utils/constants";
 import { elementColors, gradeColors } from "../utils/colorMaps";
@@ -6,8 +7,22 @@ import { assetUrl } from "../utils/imagePath";
 
 const Step4Result = ({ result, setStep, handleReset }) => {
   const [activeTime, setActiveTime] = useState(SIM_TIMES[0]);
+  const [tooltip, setTooltip] = useState({ visible: false, content: '', x: 0, y: 0 });
 
   if (!result) return null;
+
+  const handleMouseEnter = (comment, e) => {
+    setTooltip({
+      visible: true,
+      content: comment,
+      x: e.pageX + 10, // Add offset to avoid cursor overlap
+      y: e.pageY + 10,
+    });
+  };
+
+  const handleMouseLeave = () => {
+    setTooltip({ ...tooltip, visible: false });
+  };
 
   const getGradeColor = (grade) => gradeColors[grade] || "text-gray-600";
   const getElementColor = (element) => elementColors[element] || "text-gray-600";
@@ -27,6 +42,14 @@ const Step4Result = ({ result, setStep, handleReset }) => {
 
   return (
     <div className="p-4 sm:p-8 bg-gradient-to-br from-indigo-100 to-purple-100 min-h-screen">
+      {tooltip.visible && (
+        <div 
+          className="fixed p-2 text-sm bg-gray-800 text-white rounded-md shadow-lg z-50 max-w-xs"
+          style={{ top: tooltip.y, left: tooltip.x }}
+        >
+          {tooltip.content}
+        </div>
+      )}
       <div className="max-w-6xl mx-auto bg-white rounded-lg shadow-xl p-4 sm:p-8">
         <h1 className="text-2xl sm:text-3xl font-bold text-center mb-4 text-indigo-900">최적 배치 계산 결과</h1>
 
@@ -86,7 +109,13 @@ const Step4Result = ({ result, setStep, handleReset }) => {
               <div key={i} className={`flex-shrink-0 w-36 sm:w-48 border-2 border-green-200 rounded-xl p-2 sm:p-4 text-center bg-white shadow-lg hover:shadow-xl transition flex flex-col justify-between lg:w-full`}>
                 <div>
                   <div className={`font-extrabold text-base sm:text-lg mb-1 ${getGradeColor(s.grade)}`}>{s.name}</div>
-                  <img src={assetUrl('spirits', s.image)} alt={s.name} title={s.comment} className="w-16 h-16 sm:w-20 sm:h-20 mx-auto my-2 object-contain rounded-md cursor-pointer" />
+                  <img 
+                    src={assetUrl('spirits', s.image)} 
+                    alt={s.name} 
+                    onMouseEnter={(e) => handleMouseEnter(s.comment, e)}
+                    onMouseLeave={handleMouseLeave}
+                    className="w-16 h-16 sm:w-20 sm:h-20 mx-auto my-2 object-contain rounded-md cursor-pointer" 
+                  />
                   <div className={`text-xs mb-1 font-medium ${getElementColor(s.element_type)}`}>속성: {s.element_type || "N/A"}</div>
                   <div className={`text-xs mb-3 text-gray-500`}>등급: {SpiritGrade[s.grade] || s.grade || "—"}</div>
                 </div>
@@ -123,7 +152,13 @@ const Step4Result = ({ result, setStep, handleReset }) => {
                 <div key={i} className="flex-shrink-0 w-36 sm:w-48 border-2 border-blue-200 rounded-xl p-2 sm:p-4 text-center bg-white shadow-lg hover:shadow-xl transition flex flex-col justify-between lg:w-full">
                     <div>
                         <div className={`font-extrabold text-base sm:text-lg mb-1 ${getGradeColor(skill.grade)}`}>{skill.name}</div>
-                        <img src={assetUrl('skill', skill.image)} alt={skill.name} title={skill.comment} className="w-16 h-16 sm:w-20 sm:h-20 mx-auto my-2 object-contain rounded-md cursor-pointer" />
+                        <img 
+                          src={assetUrl('skill', skill.image)} 
+                          alt={skill.name} 
+                          onMouseEnter={(e) => handleMouseEnter(skill.comment, e)}
+                          onMouseLeave={handleMouseLeave}
+                          className="w-16 h-16 sm:w-20 sm:h-20 mx-auto my-2 object-contain rounded-md cursor-pointer" 
+                        />
                         <div className={`text-xs mb-3 text-gray-500`}>등급: {SpiritGrade[skill.grade] || skill.grade || "—"}</div>
                     </div>
                     <div className="mt-auto pt-2 border-t border-gray-100">
