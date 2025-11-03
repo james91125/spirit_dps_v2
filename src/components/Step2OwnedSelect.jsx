@@ -54,7 +54,7 @@ export default function Step2OwnedSelect({ spiritsData, ownedSpirits, setOwnedSp
       />
 
       <div className="flex-1 overflow-y-auto p-2 sm:p-3 border border-gray-200 rounded-lg bg-white mt-3 shadow-inner max-h-[calc(100vh-250px)]">
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-2 sm:gap-4">
+        <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-1 sm:gap-4">
           {spiritsData.map((sp, i) => (
             <EntityCard
               key={`${sp.name}-${i}`}
