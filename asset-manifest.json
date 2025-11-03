@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/spirit_dps_v2/static/css/main.e813191d.css",
-    "main.js": "/spirit_dps_v2/static/js/main.9c790180.js",
+    "main.js": "/spirit_dps_v2/static/js/main.a0b3d47d.js",
     "static/js/453.d6fba0b6.chunk.js": "/spirit_dps_v2/static/js/453.d6fba0b6.chunk.js",
     "static/media/tutorial0.png": "/spirit_dps_v2/static/media/tutorial0.f923e76c77c4f2010ccd.png",
     "static/media/tutorial1.png": "/spirit_dps_v2/static/media/tutorial1.306edbb66b5af674eb69.png",
@@ -17,11 +17,11 @@
     "static/media/팬텀 버스트.png": "/spirit_dps_v2/static/media/팬텀 버스트.7c7cc798f143fbbb253e.png",
     "index.html": "/spirit_dps_v2/index.html",
     "main.e813191d.css.map": "/spirit_dps_v2/static/css/main.e813191d.css.map",
-    "main.9c790180.js.map": "/spirit_dps_v2/static/js/main.9c790180.js.map",
+    "main.a0b3d47d.js.map": "/spirit_dps_v2/static/js/main.a0b3d47d.js.map",
     "453.d6fba0b6.chunk.js.map": "/spirit_dps_v2/static/js/453.d6fba0b6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e813191d.css",
-    "static/js/main.9c790180.js"
+    "static/js/main.a0b3d47d.js"
   ]
 }
