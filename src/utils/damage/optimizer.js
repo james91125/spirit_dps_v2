@@ -12,7 +12,7 @@ export function pickBestCombo(ownedSpirits, ownedSkills, uiBuffs) {
 
     const benchmarkTime = SIM_TIMES[0];
 
-    const top20Candidates = ownedSpirits.map(s => {
+    const top35Candidates = ownedSpirits.map(s => {
         const soloContext = createTeamContext([s]);
         const { totalDamage } = calculateSpiritTotalDamage(s, uiBuffs, soloContext, benchmarkTime);
         return { ...s, baseScore: totalDamage };
@@ -23,7 +23,7 @@ export function pickBestCombo(ownedSpirits, ownedSkills, uiBuffs) {
         if (gradeA !== gradeB) return gradeB - gradeA;
         return b.baseScore - a.baseScore;
     })
-    .slice(0, 20);
+    .slice(0, 35);
 
     const neutralContext = createTeamContext([]);
     const top5Skills = ownedSkills.map(skill => ({
@@ -34,7 +34,7 @@ export function pickBestCombo(ownedSpirits, ownedSkills, uiBuffs) {
     let bestCombo = [];
     let maxTotalDamage = -1;
 
-    const combinations = getCombinations(top20Candidates, 5);
+    const combinations = getCombinations(top35Candidates, 5);
     
     for (const combo of combinations) {
         const teamContext = createTeamContext(combo);
@@ -66,7 +66,7 @@ export function pickBestCombo(ownedSpirits, ownedSkills, uiBuffs) {
                     return { ...s, baseScore: totalDamage };
                 })
                 .sort((a, b) => b.baseScore - a.baseScore)
-                .slice(0, 12);
+                .slice(0, 35);
 
             const monoCombos = getCombinations(elementCandidates, 5);
 
@@ -90,7 +90,7 @@ export function pickBestCombo(ownedSpirits, ownedSkills, uiBuffs) {
         bestSkills: top5Skills,
         meta: {
             exhaustive: false,
-            searchedCandidates: top20Candidates.length,
+            searchedCandidates: top35Candidates.length,
             combinationsTried: combinations.length, // This is an approximation now
         },
     };
