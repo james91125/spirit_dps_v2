@@ -22,6 +22,10 @@ export default function App() {
     grassAmplify: 0,
     lightAmplify: 0,
     darkAmplify: 0,
+    charAttack: 0, // 캐릭터 공격력
+    critDamage: 0, // 치명타 증폭
+    critChance: 0, // 치명타 확률
+    charAttackSpeed: 0, // 캐릭터 공격 속도
   });
 
   const [ownedSpirits, setOwnedSpirits] = useState([]);
