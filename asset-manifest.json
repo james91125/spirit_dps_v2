@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/spirit_dps_v2/static/css/main.a5581ce7.css",
+    "main.js": "/spirit_dps_v2/static/js/main.4f72deb1.js",
+    "static/js/453.d6fba0b6.chunk.js": "/spirit_dps_v2/static/js/453.d6fba0b6.chunk.js",
+    "static/media/tutorial0.png": "/spirit_dps_v2/static/media/tutorial0.d69eb9ac5769374407eb.png",
+    "static/media/tutorial1.png": "/spirit_dps_v2/static/media/tutorial1.0afbc3695eb4f94fef63.png",
+    "static/media/카이사르 카지하라 (각성).png": "/spirit_dps_v2/static/media/카이사르 카지하라 (각성).9ab3347087e0d8a6e13b.png",
+    "static/media/지구 정복 Nyan Chichi (각성).png": "/spirit_dps_v2/static/media/지구 정복 Nyan Chichi (각성).ba6962e40726959658f7.png",
+    "static/media/인페르노 드라이브.png": "/spirit_dps_v2/static/media/인페르노 드라이브.3e7e89b9c85eb22cc781.png",
+    "static/media/듀얼 엣지 러시.png": "/spirit_dps_v2/static/media/듀얼 엣지 러시.cd2b210afed45ccf4388.png",
+    "static/media/이클립스 폭풍.png": "/spirit_dps_v2/static/media/이클립스 폭풍.2e014044132905c5c3e0.png",
+    "static/media/크림슨 라이트.png": "/spirit_dps_v2/static/media/크림슨 라이트.661da16bac819ab20a38.png",
+    "static/media/섀도우 리펄션.png": "/spirit_dps_v2/static/media/섀도우 리펄션.d185a91a2e626236f94b.png",
+    "static/media/에테리온 노바.png": "/spirit_dps_v2/static/media/에테리온 노바.3afe13ccd8dea039ee8f.png",
+    "static/media/아케인 저지먼트.png": "/spirit_dps_v2/static/media/아케인 저지먼트.d6cf81de1fd34ef1dbd2.png",
+    "static/media/팬텀 버스트.png": "/spirit_dps_v2/static/media/팬텀 버스트.7c7cc798f143fbbb253e.png",
+    "index.html": "/spirit_dps_v2/index.html",
+    "main.a5581ce7.css.map": "/spirit_dps_v2/static/css/main.a5581ce7.css.map",
+    "main.4f72deb1.js.map": "/spirit_dps_v2/static/js/main.4f72deb1.js.map",
+    "453.d6fba0b6.chunk.js.map": "/spirit_dps_v2/static/js/453.d6fba0b6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5581ce7.css",
+    "static/js/main.4f72deb1.js"
+  ]
+}
