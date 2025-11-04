@@ -30,7 +30,10 @@ export function calculateTotalDPS(uiBuffs, teamContext, spirits, simTime = 30) {
   const critDamage = num(1 + uiBuffs.critDamage) / 100; // 크리티컬 데미지는 100%가 기본이 아님, 일단 1+ 한 상태로 진행
   const teamCharBuff = num(teamContext?.characterBuffs?.total);
 
-  const ATTACK_AMPLIFY_SCALING_FACTOR = 1; // 인게임 캐릭터 데미지 일치를 위해 조정된 값
+  // src/data/variableDPS.js의 테스트 값 기반 보정 계수
+  // 기준 데이터: 캐릭터 평타 1방당 데미지(치명) - 10199275
+  // 계산식: FACTOR = 285.31 / (10199275 / (16136 * ((1+220)/100)) - 1)
+  const ATTACK_AMPLIFY_SCALING_FACTOR = 1.001056; // 인게임 캐릭터 데미지 일치를 위해 조정된 값
   let effectiveAttackAmplify = attackAmplify / ATTACK_AMPLIFY_SCALING_FACTOR;
 
   let spiritCharBuff = 0;
@@ -74,8 +77,10 @@ export function calculateTotalDPS(uiBuffs, teamContext, spirits, simTime = 30) {
   console.log('-----------------------');
 
   // -------------------------
-  // ② 정령 계산 (간소화된 로직)
+  // ② 정령 계산 (부정확함, 추가 조사 필요)
   // -------------------------
+  // 현재 계산은 src/data/variableDPS.js 에 기록된 실제 인게임 데미지와 큰 차이를 보임.
+  // 방어력 계수 등 누락된 변수가 있는 것으로 추정됨.
   const results = [];
   let totalSpiritDPS = 0;
   let totalSpiritDamage = 0;
