@@ -8,7 +8,10 @@ import Step4Result from './components/Step4Result';
 
 import { spiritsData as allSpirits } from './data/spiritsData';
 import { skillData } from './data/skillData';
-import { calculateFinalResults } from './utils/calculateDPS';
+import { calculateTotalDPS } from './utils/calculateDPS';
+import { createTeamContext } from './utils/damage/context';
+import { SIM_TIMES } from './utils/constants';
+import { pickBestCombo } from './utils/damage/optimizer';
 
 export default function App() {
   const [step, setStep] = useState(0);
@@ -53,9 +56,55 @@ export default function App() {
         setStep(2);
         return;
       }
+
       console.log('Calculating results with:', { ownedSpirits, ownedSkills, buffs });
-      const res = calculateFinalResults(ownedSpirits, ownedSkills, buffs);
-      setResult(res);
+
+      // Use pickBestCombo to get the optimal team
+      const { bestCombo, meta } = pickBestCombo(ownedSpirits, buffs);
+
+      const finalResult = {
+        bestDPS: {},
+        bestCombo: bestCombo.map(s => ({ ...s, timeResults: {} })),
+        bestSkills: ownedSkills.map(skill => ({ ...skill, timeResults: {} })),
+        characterDamage: {},
+        meta,
+      };
+
+      SIM_TIMES.forEach(time => {
+        const teamContext = createTeamContext(bestCombo);
+        const dpsResult = calculateTotalDPS(buffs, teamContext, bestCombo, time);
+
+        finalResult.bestDPS[time] = dpsResult.total;
+        finalResult.characterDamage[time] = dpsResult.char;
+
+        // Populate bestCombo with spirit-specific results for each time
+        dpsResult.spirits.forEach((spiritResult) => {
+          const spiritInFinalResult = finalResult.bestCombo.find(s => s.name === spiritResult.name);
+          if (spiritInFinalResult) {
+            spiritInFinalResult.timeResults[time] = {
+              dps: spiritResult.dps,
+              totalDamage: spiritResult.totalDamage,
+              breakdown: {
+                base: spiritResult.breakdown.base,
+                skill: spiritResult.breakdown.skill,
+                buffUptime: spiritResult.breakdown.buffUptime,
+              }
+            };
+          }
+        });
+
+        // Populate bestSkills with skill-specific results for each time
+        // Placeholder for skill results, as calculateTotalDPS doesn't provide per-skill breakdown
+        finalResult.bestSkills.forEach((skill) => {
+          // Placeholder for skill results
+          skill.timeResults[time] = {
+            dps: 0, // Placeholder
+            totalDamage: 0, // Placeholder
+          };
+        });
+      });
+
+      setResult(finalResult);
     }
   }, [step, ownedSpirits, ownedSkills, buffs]);
 

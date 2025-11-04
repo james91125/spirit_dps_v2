@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { SpiritGrade } from "../utils/constants";
 import { elementColors, gradeColors } from "../utils/colorMaps";
-import { SIM_TIMES } from "../utils/calculateDPS";
+import { SIM_TIMES } from "../utils/constants";
 import { assetUrl } from "../utils/imagePath";
 
 const Step4Result = ({ result, setStep, handleReset }) => {
@@ -129,6 +129,7 @@ const Step4Result = ({ result, setStep, handleReset }) => {
                     {formatTotalDamage(timeResult.totalDamage)}
                   </div>
                   <div className="text-[10px] sm:text-xs text-gray-600 space-y-0.5 mt-2">
+                    <div>평타 1방당 데미지: {formatDPS(timeResult.breakdown.base)}</div>
                     <div>기본 DPS: {formatDPS(timeResult.breakdown.base)}</div>
                     <div>스킬 DPS: {formatDPS(timeResult.breakdown.skill)}</div>
                     <div className="font-bold text-indigo-500">
@@ -189,6 +190,15 @@ const Step4Result = ({ result, setStep, handleReset }) => {
                     <div className="text-sm sm:text-base text-purple-700 font-bold mb-1">
                         <div>캐릭터 총 데미지</div>
                         {formatTotalDamage(result.characterDamage[activeTime].totalDamage)}
+                    </div>
+                    <div className="text-[10px] sm:text-xs text-gray-600 space-y-0.5 mt-2">
+                        <div>평타 1방당 데미지 (평균): {formatDPS(result.characterDamage[activeTime].damagePerHit)}</div>
+                        {result.characterDamage[activeTime].critChance < 1 && (
+                            <>
+                                <div>평타 1방당 데미지 (비치명): {formatDPS(result.characterDamage[activeTime].nonCritDamagePerHit)}</div>
+                                <div>평타 1방당 데미지 (치명): {formatDPS(result.characterDamage[activeTime].critDamagePerHit)}</div>
+                            </>
+                        )}
                     </div>
                 </div>
             </div>

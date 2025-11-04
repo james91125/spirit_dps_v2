@@ -9,22 +9,17 @@ export function calculateSpiritTotalDamage(spirit, uiBuffs, teamContext, simTime
   const speed = num(spirit['공격속도']);             // 정령 공격속도
   const charAttack = num(uiBuffs.charAttack, 1);     // 캐릭터 공격력
 
-  const finalAttack = num(uiBuffs.finalAttack);      // 캐릭터 최종 공격력 증폭 %
+  const finalAttack = num(uiBuffs.finalAttack);      // 최종 공격력 증폭 (ex. 10%)
   const spiritAmp = num(uiBuffs.spiritAttackAmplify);
   const typeAmp = num(uiBuffs[`${ELEMENT_MAP[spirit.element_type]}Amplify`]);
 
   const selfElBuffKey = `${ELEMENT_MAP[spirit.element_type]}_type_buff`;
   const sharedTypeBuff = (teamContext.sharedBuffs[spirit.element_type] || 0) - num(spirit[selfElBuffKey]);
 
-  // 정령 + 속성 + 공유 버프
   const staticBuffSum = spiritAmp + typeAmp + sharedTypeBuff;
   const staticBuffMultiplier = 1 + staticBuffSum / 100;
 
-  // 캐릭터 최종 공격력
   const finalAttackMultiplier = 1 + finalAttack / 100;
-
-  // 방어력 계수 추가
-  const defenseCoef = num(teamContext.enemyDefenseCoef || 0.686); // 기본 0.686
 
   // 스킬 관련
   const skillDamagePercent = num(spirit.element_damage_percent);
@@ -41,7 +36,7 @@ export function calculateSpiritTotalDamage(spirit, uiBuffs, teamContext, simTime
   // 스킬 데미지 계산
   if (skillDamagePercent > 0 && skillCooldown > 0) {
     const numCasts = Math.floor(simTime / skillCooldown);
-    const skillDamagePerCast = (skillDamagePercent / 100) * skillHitCount * coef * staticBuffMultiplier * defenseCoef;
+    const skillDamagePerCast = (skillDamagePercent / 100) * skillHitCount * coef * staticBuffMultiplier;
     totalSkillDamage = numCasts * skillDamagePerCast * charAttack * finalAttackMultiplier;
     skillDpsBreakdown = totalSkillDamage / simTime;
   }
@@ -56,21 +51,21 @@ export function calculateSpiritTotalDamage(spirit, uiBuffs, teamContext, simTime
     const buffedMultiplier = 1 + (staticBuffSum + buffPercent) / 100;
     const unbuffedMultiplier = staticBuffMultiplier;
 
-    const dpsBuffOn = speed * coef * buffedMultiplier * defenseCoef;
-    const dpsBuffOff = speed * coef * unbuffedMultiplier * defenseCoef;
+    const dpsBuffOn = speed * coef * buffedMultiplier;
+    const dpsBuffOff = speed * coef * unbuffedMultiplier;
 
     totalBasicAttackDamage = (dpsBuffOn * actualBuffUptime + dpsBuffOff * downtime) * charAttack * finalAttackMultiplier;
-    baseDpsBreakdown = (dpsBuffOn * actualBuffUptime + dpsBuffOff * downtime) / simTime;
+    baseDpsBreakdown = totalBasicAttackDamage / simTime / (charAttack * finalAttackMultiplier);
     buffUptimeBreakdown = (actualBuffUptime / simTime) * 100;
   } 
+  // 기본 공격만 있을 경우
   else {
-    const baseDps = speed * coef * staticBuffMultiplier * defenseCoef;
+    const baseDps = speed * coef * staticBuffMultiplier;
     totalBasicAttackDamage = baseDps * simTime * charAttack * finalAttackMultiplier;
     baseDpsBreakdown = baseDps;
   }
 
   const totalDamage = totalBasicAttackDamage + totalSkillDamage;
-
 
   // 기존 로그 스타일
   console.log('calculateDPS.js:188 sharedBuff:', sharedTypeBuff);
@@ -95,13 +90,12 @@ export function calculateSpiritTotalDamage(spirit, uiBuffs, teamContext, simTime
     totalDamage,
     dps: totalDamage / simTime,
     breakdown: {
-      base: baseDpsBreakdown * charAttack * finalAttackMultiplier,
+      base: baseDpsBreakdown,
       skill: skillDpsBreakdown,
       buffUptime: buffUptimeBreakdown,
     },
   };
 }
-
 
 /**
  * 팀 전체 정령 데미지 계산

@@ -19,3 +19,5 @@ export const SpiritGrade = {
   INFINITY: '인피니티',
   ELDER: '엘더',
 };
+
+export const SIM_TIMES = [30, 40, 60];

@@ -1,4 +1,17 @@
-import { num, ELEMENT_MAP } from './constants';
+
+
+const num = (value, defaultValue = 0) => {
+  const parsed = parseFloat(value);
+  return isNaN(parsed) ? defaultValue : parsed;
+};
+
+const ELEMENT_MAP = {
+  '불': 'fire',
+  '물': 'water',
+  '풀': 'grass',
+  '빛': 'light',
+  '어둠': 'dark',
+};
 
 export function createTeamContext(team) {
   const context = {
