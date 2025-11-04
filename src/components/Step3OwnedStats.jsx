@@ -7,6 +7,27 @@ import { normalizeGrade } from '../utils/colorMaps';
 export default function Step3OwnedStats({ skillData, ownedSkills, setOwnedSkills, calculateResult, goPrev }) {
   const ownedKeys = useMemo(() => new Set(ownedSkills.map((s) => s.id ?? s.name)), [ownedSkills]);
 
+  const { activeGrades, isAllSelected } = useMemo(() => {
+    const skillsByGrade = skillData.reduce((acc, sk) => {
+      const grade = normalizeGrade(sk.grade);
+      if (!acc[grade]) acc[grade] = [];
+      acc[grade].push(sk);
+      return acc;
+    }, {});
+
+    const activeGrades = new Set();
+    for (const grade in skillsByGrade) {
+      const allInGradeSelected = skillsByGrade[grade].every(sk => ownedKeys.has(sk.id ?? sk.name));
+      if (allInGradeSelected) {
+        activeGrades.add(grade);
+      }
+    }
+
+    const isAllSelected = skillData.length > 0 && ownedSkills.length === skillData.length;
+
+    return { activeGrades, isAllSelected };
+  }, [ownedSkills, skillData, ownedKeys]);
+
   const toggleOwned = (sk) => {
     const key = sk.id ?? sk.name;
     setOwnedSkills((prev) =>
@@ -48,6 +69,8 @@ export default function Step3OwnedStats({ skillData, ownedSkills, setOwnedSkills
       <GradeSelectBar
         title="스킬 등급 선택"
         kind="skill"
+        activeGrades={activeGrades}
+        isAllSelected={isAllSelected}
         onSelectByGradeToggle={onSelectByGradeToggle}
         onClearAll={onClearAll}
         onSelectAll={onSelectAll}

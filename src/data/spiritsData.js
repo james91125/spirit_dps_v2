@@ -2152,7 +2152,7 @@ export const spiritsData = [
     "grade": "노말",
     "공격력 계수": 0.12,
     "공격속도": 0.3,
-    "element_type": "qlc",
+    "element_type": "빛",
     "light_type_buff": 0.0,
     "dark_type_buff": 0.0,
     "fire_type_buff": 0.0,

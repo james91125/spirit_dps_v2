@@ -12,32 +12,24 @@ export default function GradeSelectBar({
   onClearAll,
   onSelectAll,
   title,
-  kind                   // 'spirit' | 'skill'
+  kind,                   // 'spirit' | 'skill'
+  activeGrades,           // Set of active grades from parent
+  isAllSelected           // Boolean from parent
 }) {
-  const [activeGrades, setActiveGrades] = useState(new Set());
 
   // 개별 등급 토글
   const handleGradeClick = (grade) => {
     const normalized = normalizeGrade(grade);
-    const newActive = new Set(activeGrades);
-    const isActive = newActive.has(normalized);
-
-    if (isActive) newActive.delete(normalized);
-    else newActive.add(normalized);
-
-    setActiveGrades(newActive);
+    const isActive = activeGrades.has(normalized);
     onSelectByGradeToggle(normalized, kind, !isActive);
   };
 
   const handleSelectAll = () => {
-    const allGrades = new Set(GRADES.map((g) => normalizeGrade(g)));
-    setActiveGrades(allGrades);
-    // 모든 등급을 한 번에 전달
-    onSelectAll(kind, Array.from(allGrades));
+    const allGrades = GRADES.map((g) => normalizeGrade(g));
+    onSelectAll(kind, allGrades);
   };
 
   const handleClearAll = () => {
-    setActiveGrades(new Set());
     onClearAll(kind);
   };
 
@@ -52,8 +44,8 @@ export default function GradeSelectBar({
           <button
             key={g}
             onClick={() => handleGradeClick(g)}
-            className={`border rounded-md px-2 py-1 cursor-pointer text-xs sm:text-sm font-semibold select-none ${
-              isActive ? 'border-blue-600 bg-blue-100' : 'border-gray-300 bg-white'
+            className={`border rounded-md px-2 py-1 cursor-pointer text-xs sm:text-sm font-semibold select-none transition-colors ${
+              isActive ? 'border-indigo-600 bg-indigo-600 text-white' : 'border-gray-300 bg-white hover:bg-gray-100'
             }`}
           >
             {g}
@@ -63,14 +55,16 @@ export default function GradeSelectBar({
 
       <button
         onClick={handleSelectAll}
-        className="bg-blue-600 text-white border-none rounded-md px-3 py-1 cursor-pointer font-semibold text-xs sm:text-sm ml-2"
+        className={`border-none rounded-md px-3 py-1 cursor-pointer font-semibold text-xs sm:text-sm ml-2 transition-colors ${
+          isAllSelected ? 'bg-blue-800 text-white' : 'bg-blue-600 text-white hover:bg-blue-700'
+        }`}
       >
         전체 선택
       </button>
 
       <button
         onClick={handleClearAll}
-        className="bg-red-500 text-white border-none rounded-md px-3 py-1 cursor-pointer font-semibold text-xs sm:text-sm ml-1"
+        className="bg-red-500 text-white border-none rounded-md px-3 py-1 cursor-pointer font-semibold text-xs sm:text-sm ml-1 hover:bg-red-600 transition-colors"
       >
         전체 해제
       </button>

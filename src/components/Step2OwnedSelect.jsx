@@ -7,6 +7,27 @@ import { normalizeGrade } from '../utils/colorMaps';
 export default function Step2OwnedSelect({ spiritsData, ownedSpirits, setOwnedSpirits, goNext, goPrev }) {
   const ownedKeys = useMemo(() => new Set(ownedSpirits.map((s) => s.id ?? s.name)), [ownedSpirits]);
 
+  const { activeGrades, isAllSelected } = useMemo(() => {
+    const spiritsByGrade = spiritsData.reduce((acc, sp) => {
+      const grade = normalizeGrade(sp.grade);
+      if (!acc[grade]) acc[grade] = [];
+      acc[grade].push(sp);
+      return acc;
+    }, {});
+
+    const activeGrades = new Set();
+    for (const grade in spiritsByGrade) {
+      const allInGradeSelected = spiritsByGrade[grade].every(sp => ownedKeys.has(sp.id ?? sp.name));
+      if (allInGradeSelected) {
+        activeGrades.add(grade);
+      }
+    }
+
+    const isAllSelected = spiritsData.length > 0 && ownedSpirits.length === spiritsData.length;
+
+    return { activeGrades, isAllSelected };
+  }, [ownedSpirits, spiritsData, ownedKeys]);
+
   const toggleOwned = (sp) => {
     const key = sp.id ?? sp.name;
     setOwnedSpirits((prev) =>
@@ -48,6 +69,8 @@ export default function Step2OwnedSelect({ spiritsData, ownedSpirits, setOwnedSp
       <GradeSelectBar
         title="정령 등급 선택"
         kind="spirit"
+        activeGrades={activeGrades}
+        isAllSelected={isAllSelected}
         onSelectByGradeToggle={onSelectByGradeToggle}
         onClearAll={onClearAll}
         onSelectAll={onSelectAll}

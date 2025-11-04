@@ -13,12 +13,11 @@ export const gradeColors = {
   DIVINE: '#00acc1',
   MYSTIC: '#c62828',
   ETERNAL: '#455a64',
-  INFINITY: '#6d4c41',
+  INFINITY: '#ffca1a',
   ELDER: '#1e88e5',
   AKASHIC: '#8e24aa',
   EMPYREAN: '#3949ab',
 };
-
 export const elementColors = {
   FIRE: '#ef5350',
   WATER: '#42a5f5',
@@ -59,12 +58,22 @@ export function normalizeGrade(raw) {
   if (str.includes('엠피리언')) return 'EMPYREAN';
   if (str.includes('엠피리안')) return 'EMPYREAN';
 
+  return str;
+}
+
+// 한글 속성 → 영어 키 변환
+export function normalizeElement(raw) {
+  if (!raw) return '';
+  const str = String(raw).trim().toUpperCase();
+
+  if (elementColors[str]) return str; // Already English
+
   if (str.includes('불')) return 'FIRE';
   if (str.includes('물')) return 'WATER';
   if (str.includes('풀')) return 'GRASS';
   if (str.includes('빛')) return 'LIGHT';
   if (str.includes('어둠')) return 'DARK';
-  return str;
+  return 'NEUTRAL';
 }
 
 export function colorOfGrade(grade) {
@@ -73,5 +82,6 @@ export function colorOfGrade(grade) {
 }
 
 export function colorOfElement(el) {
-  return elementColors[el?.toUpperCase()] ?? '#bdbdbd';
+  const e = normalizeElement(el);
+  return elementColors[e] ?? '#bdbdbd';
 }

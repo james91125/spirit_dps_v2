@@ -5,6 +5,7 @@ import Step1BuffSetup from './components/Step1BuffSetup';
 import Step2OwnedSelect from './components/Step2OwnedSelect';
 import Step3OwnedStats from './components/Step3OwnedStats';
 import Step4Result from './components/Step4Result';
+import Loading from './components/Loading'; // 로딩 컴포넌트 import
 
 import { spiritsData as allSpirits } from './data/spiritsData';
 import { skillData } from './data/skillData';
@@ -15,6 +16,7 @@ import { pickBestCombo } from './utils/damage/optimizer';
 
 export default function App() {
   const [step, setStep] = useState(0);
+  const [isLoading, setIsLoading] = useState(false); // 로딩 상태 추가
 
   const [buffs, setBuffs] = useState({
     attackAmplify: 0, // 스킬 공격력 증폭
@@ -51,67 +53,81 @@ export default function App() {
   // Step 4 진입 시 결과 계산
   useEffect(() => {
     if (step === 4) {
-      if (ownedSpirits.length === 0 && ownedSkills.length === 0) {
-        alert('정령 또는 스킬을 하나 이상 선택해주세요.');
-        setStep(2);
-        return;
-      }
+      setIsLoading(true);
+      // UI가 로딩 상태를 먼저 렌더링할 수 있도록 setTimeout으로 계산을 지연시킵니다.
+      setTimeout(() => {
+        if (ownedSpirits.length === 0 && ownedSkills.length === 0) {
+          alert('정령 또는 스킬을 하나 이상 선택해주세요.');
+          setIsLoading(false);
+          setStep(2);
+          return;
+        }
 
-      console.log('Calculating results with:', { ownedSpirits, ownedSkills, buffs });
+        console.log('Calculating results with:', { ownedSpirits, ownedSkills, buffs });
 
-      // Use pickBestCombo to get the optimal team
-      const { bestCombo, meta } = pickBestCombo(ownedSpirits, buffs);
+        // 1. 상위 5개 스킬 선택
+        const top5Skills = [...ownedSkills].sort((a, b) => {
+            const scoreA = (a.damagePercent * (a.hitCount || 1)) / (a.cooltime || 1);
+            const scoreB = (b.damagePercent * (b.hitCount || 1)) / (b.cooltime || 1);
+            return scoreB - scoreA;
+        }).slice(0, 5);
 
-      const finalResult = {
-        bestDPS: {},
-        bestCombo: bestCombo.map(s => ({ ...s, timeResults: {} })),
-        bestSkills: ownedSkills.map(skill => ({ ...skill, timeResults: {} })),
-        characterDamage: {},
-        meta,
-      };
+        // 2. 최적 정령 조합 선택
+        const { bestCombo, meta } = pickBestCombo(ownedSpirits, buffs);
 
-      SIM_TIMES.forEach(time => {
-        const dpsResult = calculateTotalDPS(buffs, bestCombo, ownedSkills, time);
+        const finalResult = {
+          bestDPS: {},
+          bestCombo: bestCombo.map(s => ({ ...s, timeResults: {} })),
+          bestSkills: top5Skills.map(skill => ({ ...skill, timeResults: {} })), // 상위 5개 스킬로 초기화
+          characterDamage: {},
+          meta,
+        };
 
-        finalResult.bestDPS[time] = dpsResult.total;
-        finalResult.characterDamage[time] = dpsResult.char;
+        // 3. 최종 데미지 계산
+        SIM_TIMES.forEach(time => {
+          const dpsResult = calculateTotalDPS(buffs, bestCombo, top5Skills, time); // 상위 5개 스킬 전달
 
-        // Populate bestCombo with spirit-specific results for each time
-        dpsResult.spirits.forEach((spiritResult) => {
-          const spiritInFinalResult = finalResult.bestCombo.find(s => s.name === spiritResult.name);
-          if (spiritInFinalResult) {
-            spiritInFinalResult.timeResults[time] = {
-              dps: spiritResult.dps,
-              totalDamage: spiritResult.totalDamage,
-              breakdown: {
-                base: spiritResult.breakdown.base,
-                skill: spiritResult.breakdown.skill,
-                buffUptime: spiritResult.breakdown.buffUptime,
-                casts: spiritResult.breakdown.casts, // Add casts for spirit skills
-              }
-            };
-          }
-        });
+          finalResult.bestDPS[time] = dpsResult.total;
+          finalResult.characterDamage[time] = dpsResult.char;
 
-        // Populate bestSkills with skill-specific results for each time
-        dpsResult.skills.forEach((skillResult) => {
-            const skillInFinalResult = finalResult.bestSkills.find(s => s.name === skillResult.name);
-            if (skillInFinalResult) {
-                skillInFinalResult.timeResults[time] = {
-                    dps: skillResult.dps,
-                    totalDamage: skillResult.totalDamage,
-                    casts: skillResult.casts, // Add casts for character skills
-                };
+          dpsResult.spirits.forEach((spiritResult) => {
+            const spiritInFinalResult = finalResult.bestCombo.find(s => s.name === spiritResult.name);
+            if (spiritInFinalResult) {
+              spiritInFinalResult.timeResults[time] = {
+                dps: spiritResult.dps,
+                totalDamage: spiritResult.totalDamage,
+                breakdown: {
+                  base: spiritResult.breakdown.base,
+                                  skill: spiritResult.breakdown.skill,
+                                  buffUptime: spiritResult.breakdown.buffUptime,
+                                  casts: spiritResult.breakdown.casts,
+                                  damagePerHit: spiritResult.breakdown.damagePerHit, // 1방당 데미지 추가
+                                }              };
             }
-        });
-      });
+          });
 
-      setResult(finalResult);
+          dpsResult.skills.forEach((skillResult) => {
+              const skillInFinalResult = finalResult.bestSkills.find(s => s.name === skillResult.name);
+              if (skillInFinalResult) {
+                  skillInFinalResult.timeResults[time] = {
+                      dps: skillResult.dps,
+                      totalDamage: skillResult.totalDamage,
+                      casts: skillResult.casts,
+                  };
+              }
+          });
+        });
+
+        setResult(finalResult);
+        setIsLoading(false); // 계산 완료 후 로딩 종료
+      }, 50); // 50ms 지연으로 렌더링 시간 확보
     }
   }, [step, ownedSpirits, ownedSkills, buffs]);
 
   return (
     <div style={{ maxWidth: 1400, margin: '0 auto' }}>
+      {isLoading && <Loading />}
+
       {/* ✅ Step0: 튜토리얼 */}
       {step === 0 && <Step0Tutorial goNext={goNext} />}
 
@@ -143,7 +159,7 @@ export default function App() {
       )}
 
       {/* Step4: 결과 출력 */}
-      {step === 4 && result && (
+      {step === 4 && result && !isLoading && (
         <Step4Result
           result={result}
           setStep={setStep}

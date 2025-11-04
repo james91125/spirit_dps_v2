@@ -46,13 +46,13 @@ export function calculateTotalDPS(uiBuffs, equippedSpirits, equippedSkills, simT
     spiritResults.push({
       name: spiritData.name,
       element: spiritData.element_type,
-      damagePerHit: spiritAAResult.damagePerHit,
       totalDamage: (spiritAAResult.dps * simTime) + spiritSkillResult.totalDamage,
       dps: totalDps,
       breakdown: {
         base: spiritAAResult.dps,
         skill: spiritSkillResult.dps,
-        casts: spiritSkillResult.casts, // Add casts for spirit skills
+        casts: spiritSkillResult.casts,
+        damagePerHit: spiritAAResult.damagePerHit, // 1방당 데미지를 breakdown으로 이동
       },
     });
   }

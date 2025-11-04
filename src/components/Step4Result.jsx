@@ -1,7 +1,7 @@
 // Re-saving to force bundler refresh
 import React, { useState } from "react";
 import { SpiritGrade } from "../utils/constants";
-import { elementColors, gradeColors } from "../utils/colorMaps";
+import { colorOfGrade, colorOfElement } from "../utils/colorMaps";
 import { SIM_TIMES } from "../utils/constants";
 import { assetUrl } from "../utils/imagePath";
 
@@ -23,9 +23,6 @@ const Step4Result = ({ result, setStep, handleReset }) => {
   const handleMouseLeave = () => {
     setTooltip({ ...tooltip, visible: false });
   };
-
-  const getGradeColor = (grade) => gradeColors[grade] || "text-gray-600";
-  const getElementColor = (element) => elementColors[element] || "text-gray-600";
 
   const formatDPS = (val) => (val ? Math.floor(val).toLocaleString() : "0");
   const formatPercent = (val) => (val ? Number(val).toFixed(2) : "0.00");
@@ -108,7 +105,7 @@ const Step4Result = ({ result, setStep, handleReset }) => {
             return (
               <div key={i} className={`flex-shrink-0 w-36 sm:w-48 border-2 border-green-200 rounded-xl p-2 sm:p-4 text-center bg-white shadow-lg hover:shadow-xl transition flex flex-col justify-between lg:w-full`}>
                 <div>
-                  <div className={`font-extrabold text-base sm:text-lg mb-1 ${getGradeColor(s.grade)}`}>{s.name}</div>
+                  <div style={{ color: colorOfGrade(s.grade) }} className={`font-extrabold text-base sm:text-lg mb-1`}>{s.name}</div>
                   <img 
                     src={assetUrl('spirits', s.image)} 
                     alt={s.name} 
@@ -116,8 +113,8 @@ const Step4Result = ({ result, setStep, handleReset }) => {
                     onMouseLeave={handleMouseLeave}
                     className="w-16 h-16 sm:w-20 sm:h-20 mx-auto my-2 object-contain rounded-md cursor-pointer" 
                   />
-                  <div className={`text-xs mb-1 font-medium ${getElementColor(s.element_type)}`}>속성: {s.element_type || "N/A"}</div>
-                  <div className={`text-xs mb-3 text-gray-500`}>등급: {SpiritGrade[s.grade] || s.grade || "—"}</div>
+                  <div className={`text-xs mb-1 font-medium`} style={{ color: colorOfElement(s.element_type) }}>속성: {s.element_type || "N/A"}</div>
+                  <div className={`text-xs mb-3`} style={{ color: colorOfGrade(s.grade) }}>등급: {SpiritGrade[s.grade] || s.grade || "—"}</div>
                 </div>
                 <div className="mt-auto pt-2 border-t border-gray-100">
                   <div className="text-sm sm:text-base text-green-800 font-bold mb-1">
@@ -129,7 +126,7 @@ const Step4Result = ({ result, setStep, handleReset }) => {
                     {formatTotalDamage(timeResult.totalDamage)}
                   </div>
                   <div className="text-[10px] sm:text-xs text-gray-600 space-y-0.5 mt-2">
-                    <div>평타 1방당 데미지: {formatDPS(timeResult.breakdown.base)}</div>
+                    <div>평타 1방당 데미지: {formatDPS(timeResult.breakdown.damagePerHit)}</div>
                     <div>기본 DPS: {formatDPS(timeResult.breakdown.base)}</div>
                     <div>스킬 DPS: {formatDPS(timeResult.breakdown.skill)}</div>
                     {timeResult.breakdown.casts > 0 && (
@@ -157,7 +154,7 @@ const Step4Result = ({ result, setStep, handleReset }) => {
             return (
                 <div key={i} className="flex-shrink-0 w-36 sm:w-48 border-2 border-blue-200 rounded-xl p-2 sm:p-4 text-center bg-white shadow-lg hover:shadow-xl transition flex flex-col justify-between lg:w-full">
                     <div>
-                        <div className={`font-extrabold text-base sm:text-lg mb-1 ${getGradeColor(skill.grade)}`}>{skill.name}</div>
+                        <div style={{ color: colorOfGrade(skill.grade) }} className={`font-extrabold text-base sm:text-lg mb-1`}>{skill.name}</div>
                         <img 
                           src={assetUrl('skill', skill.image)} 
                           alt={skill.name} 
@@ -165,7 +162,7 @@ const Step4Result = ({ result, setStep, handleReset }) => {
                           onMouseLeave={handleMouseLeave}
                           className="w-16 h-16 sm:w-20 sm:h-20 mx-auto my-2 object-contain rounded-md cursor-pointer" 
                         />
-                        <div className={`text-xs mb-3 text-gray-500`}>등급: {SpiritGrade[skill.grade] || skill.grade || "—"}</div>
+                        <div className={`text-xs mb-3`} style={{ color: colorOfGrade(skill.grade) }}>등급: {SpiritGrade[skill.grade] || skill.grade || "—"}</div>
                     </div>
                     <div className="mt-auto pt-2 border-t border-gray-100">
                         <div className="text-sm sm:text-base text-blue-800 font-bold mb-1">
