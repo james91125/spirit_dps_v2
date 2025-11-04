@@ -197,6 +197,9 @@ export function pickBestCombo(ownedSpirits, uiBuffs = {}, options = {}) {
   const scoredOther = otherSpirits.map(s => ({ spirit: s, baseScore: scoreSpiritSolo(s) }))
     .sort((a, b) => b.baseScore - a.baseScore);
 
+  console.log("--- Optimizer: Buff Spirits ---", buffSpirits.map(s => s.name));
+  console.log("--- Optimizer: Scored Other Spirits (Top 10) ---", scoredOther.slice(0, 10).map(s => ({ name: s.spirit.name, score: s.baseScore })));
+
   // 3) Build top candidate pool (buffs + top of scoredOther)
   const numBuffSpirits = buffSpirits.length;
   const numOtherToTake = Math.max(0, topCandidates - numBuffSpirits);
@@ -204,6 +207,8 @@ export function pickBestCombo(ownedSpirits, uiBuffs = {}, options = {}) {
     ...buffSpirits,
     ...scoredOther.slice(0, numOtherToTake).map(x => x.spirit)
   ];
+
+  console.log("--- Optimizer: Final Candidate Pool ---", globalCandidates.map(s => s.name));
 
   // Utility to generate combinations of size 1..maxTeamSize
   function combinationsUpTo(arr, maxSize) {
@@ -246,7 +251,7 @@ export function pickBestCombo(ownedSpirits, uiBuffs = {}, options = {}) {
   let combinationsTried = 0;
   const sim = simTime;
 
-
+  console.log(`--- Optimizer: Starting combination search (Max ${maxTeamSize} spirits) ---`);
 
   for (const poolObj of candidatePools) {
     const pool = Array.from(new Set(poolObj.pool)); // dedupe
@@ -276,13 +281,19 @@ export function pickBestCombo(ownedSpirits, uiBuffs = {}, options = {}) {
 
       const combinedTotalDamage = comboResult.total.totalDamage;
 
+      console.log(`- Testing Combo: [${combo.map(s => s.name).join(', ')}] -> Damage: ${Math.floor(combinedTotalDamage)}`);
+
       if (combinedTotalDamage > bestTotalDamage) {
+        console.log(`  -> NEW BEST COMBO FOUND!`);
         bestTotalDamage = combinedTotalDamage;
         bestCombo = combo;
       }
     }
   }
 
+  console.log(`--- Optimizer: Search Complete ---`);
+  console.log(`- Best Combo: [${bestCombo.map(s => s.name).join(', ')}]`);
+  console.log(`- Best Damage: ${Math.floor(bestTotalDamage)}`);
   return {
     bestCombo,
     meta: {
