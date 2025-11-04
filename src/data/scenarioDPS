@@ -1,57 +1,74 @@
-  1. 캐릭터 평타 1방당 데미지 계산
+# DPS 계산 시나리오 (2025년 11월 4일 기준)
 
-  캐릭터의 최종 공격력은 UI에 표시되는 attackAmplify 값을 직접 사용하는 대신, 다음과 같은
-  과정을 거쳐 조정됩니다.
+## 1. 캐릭터 평타 1방당 데미지 계산
 
-   1. 유효 공격력 증폭 (`effectiveAttackAmplify`) 계산:
-       * UI의 attackAmplify 값은 ATTACK_AMPLIFY_SCALING_FACTOR (현재 1.462)로 나뉘어 기본
-         유효 공격력 증폭이 됩니다.
-       * 여기에 장착된 각 정령이 제공하는 character_type_buff 값(spiritsData.js에서 동적으로
-         로드)이 합산되어 spiritCharBuff가 됩니다.
-       * effectiveAttackAmplify = (UI의 attackAmplify / 1.462) + spiritCharBuff
-   2. 총 공격력 증폭 (`charTotalAmplify`):
-       * charTotalAmplify = effectiveAttackAmplify + teamCharBuff (팀 버프가 있다면 추가
-         합산)
-   3. 총 공격력 배율 (`charTotalMultiplier`):
-       * charTotalMultiplier = 1 + charTotalAmplify / 100
-   4. 비치명타 기본 데미지 (`baseNonCritDamage`):
-       * baseNonCritDamage = Attack * charTotalMultiplier
-   5. 치명타 관련 계산:
-       * critDamage를 사용하여 치명타 시 데미지(charCritDamagePerHit)를 계산합니다.
-       * critChance와 critDamage를 고려하여 평균적인 1회 공격 데미지(charDamagePerHit)를
-         계산합니다.
-   6. 캐릭터 DPS (`charDPS`):
-       * charDPS = charDamagePerHit * charAttackSpeed
+### 입력 변수
+*   `Attack`: 캐릭터의 기본 공격력 (UI 입력)
+*   `charAttackSpeed`: 캐릭터의 기본 공격 속도 (UI 입력)
+*   `attackAmplify`: 공격력 증폭(%) 값 (UI 입력)
+*   `critChance`: 치명타 확률(%) (UI 입력)
+*   `critDamage`: 치명타 피해(%) (UI 입력)
+*   `teamCharBuff`: 팀 버프 중 캐릭터에게 적용되는 총 공격력 증폭 (teamContext)
+*   `spiritsData.js`: 정령별 `character_type_buff` 값
 
-  특징: 이 캐릭터 데미지 계산식은 제공해주신 인게임 데이터와 매우 높은 정확도로 일치합니다.
+### 계산식
 
-  ---
+1.  **유효 공격력 증폭 (`effectiveAttackAmplify`)**:
+    *   `ATTACK_AMPLIFY_SCALING_FACTOR`는 `1`로 설정되어, `attackAmplify`는 스케일링 없이 직접 사용됩니다.
+    *   `effectiveAttackAmplify = attackAmplify / 1`
+2.  **정령 캐릭터 버프 (`spiritCharBuff`)**:
+    *   장착된 각 정령의 `character_type_buff` 값을 합산합니다.
+    *   `spiritCharBuff = Σ (장착된 정령의 character_type_buff)`
+3.  **총 공격력 증폭 (`charTotalAmplify`)**:
+    *   `charTotalAmplify = effectiveAttackAmplify + spiritCharBuff + teamCharBuff`
+4.  **총 공격력 배율 (`charTotalMultiplier`)**:
+    *   `charTotalMultiplier = 1 + charTotalAmplify / 100`
+5.  **비치명타 기본 데미지 (`baseNonCritDamage`)**:
+    *   `baseNonCritDamage = Attack * charTotalMultiplier`
+6.  **치명타 적용**:
+    *   `critModifier = (1 - critChance / 100) + (critChance / 100) * (1 + critDamage / 100)`
+    *   `charDamagePerHit = baseNonCritDamage * critModifier`
+7.  **캐릭터 DPS (`charDPS`)**:
+    *   `charDPS = charDamagePerHit * charAttackSpeed`
 
-  2. 정령 평타 및 스킬 데미지 계산
+### 참고
+*   `ATTACK_AMPLIFY_SCALING_FACTOR`가 `1`로 설정되어, 이전 분석에서 발견된 인게임 캐릭터 데미지와의 일치성은 보장되지 않습니다.
 
-  정령의 데미지는 캐릭터의 기본 공격력(Attack)을 기반으로 하며, 여러 증폭들이 곱연산으로
-  적용됩니다.
+---
 
-   1. 정령 기본 데미지 배율 (`baseMultiplier`):
-       * baseMultiplier = (1 + attackAmplify / 100) * (1 + spiritAmp / 100) * (1 + elementAmp
-          / 100) * (1 + selfBuff / 100) * (1 + sharedBuff / 100)
-       * 여기서 attackAmplify는 UI 입력값을 그대로 사용하며, spiritAmp(정령 공격력 증폭),
-         elementAmp(속성 타입 증폭), selfBuff(정령 자체 버프), sharedBuff(팀 공유 버프) 등이
-         모두 곱연산으로 적용됩니다.
-       * defenseCoef (적 방어력 계수)도 최종 데미지에 곱해집니다.
-   2. 정령 평타 1방당 데미지 (`baseHitDamage`):
-       * baseHitDamage = Attack * spiritCoef * baseMultiplier * defenseCoef
-   3. 정령 평타 DPS (`baseDPS`):
-       * baseDPS = baseHitDamage * spiritAttackSpeed
-   4. 정령 스킬 데미지 계산:
-       * 정령의 element_damage_percent (스킬 데미지 계수), element_damage_hitCount (스킬 타격
-          횟수), element_damage_delay (스킬 쿨타임) 등을 사용하여 스킬 1회 시전당
-         데미지(damagePerCast)를 계산합니다.
-       * damagePerCast = Attack * (spiritCoef * (skillDamagePercent / 100)) * skillHitCount *
-          baseMultiplier * defenseCoef
-       * 총 시뮬레이션 시간(simTime) 동안 스킬이 시전되는 횟수를 고려하여 총 스킬
-         데미지(totalSkillDamage)와 스킬 DPS(skillDPS)를 계산합니다.
-   5. 버프 적용 시 데미지:
-       * 정령 스킬로 인한 버프가 있다면, buffUptime (버프 유지 시간 비율)을 계산하여 버프
-         적용 시의 데미지(buffedHitDamage, buffedDPS)와 버프 미적용 시의 데미지를 가중
-         평균하여 유효 DPS(effectiveDPS)를 산출합니다.
+## 2. 정령 평타 및 스킬 데미지 계산
+
+### 입력 변수
+*   `Attack`: 캐릭터의 기본 공격력 (UI 입력)
+*   `spiritCoef`: 정령의 기본 공격력 계수 (spiritsData.js)
+*   `spiritAttackSpeed`: 정령의 초당 공격 횟수 (spiritsData.js)
+*   `attackAmplify`: 공격력 증폭(%) 값 (UI 입력)
+*   `spiritAmp`: 정령 공격력 증폭(%) 값 (UI 입력)
+*   `elementAmp`: 각 속성(불, 물 등)별 공격력 증폭(%) 값 (UI 입력)
+*   `skillDamagePercent`: 정령 자체 스킬의 데미지 계수(%) (spiritsData.js)
+*   `skillHitCount`: 정령 자체 스킬의 타격 횟수 (spiritsData.js)
+*   `skillCooldown`: 정령 자체 스킬의 쿨타임(초) (spiritsData.js)
+*   `skillDuration`: 정령 자체 스킬의 버프 지속 시간(초) (spiritsData.js)
+
+### 계산식
+
+1.  **정령 기본 데미지 배율 (`baseMultiplier`)**:
+    *   `baseMultiplier = 1 + (attackAmplify + spiritAmp + elementAmp) / 100`
+    *   `attackAmplify`, `spiritAmp`, `elementAmp`가 합산된 후 `100`으로 나누어져 `1`에 더해지는 **합연산** 방식으로 적용됩니다.
+2.  **정령 평타 1방당 데미지 (`baseHitDamage`)**:
+    *   `baseHitDamage = Attack * spiritCoef * baseMultiplier`
+    *   `defenseCoef` (적 방어력 계수), `selfBuff`, `sharedBuff`는 이 계산에서 제외됩니다.
+3.  **정령 평타 DPS (`baseDPS`)**:
+    *   `baseDPS = baseHitDamage * spiritAttackSpeed`
+4.  **정령 스킬 데미지 계산**:
+    *   `totalSkillDamage = Attack * spiritCoef * (skillDamagePercent / 100) * skillHitCount`
+    *   `skillDPS = totalSkillDamage / (skillCooldown || 1)`
+5.  **버프 유지 시간 (`buffUptime`)**:
+    *   `buffUptime = Math.min(skillDuration / skillCooldown, 1) * 100`
+6.  **유효 DPS (`effectiveDPS`)**:
+    *   `effectiveDPS = baseDPS + skillDPS * (buffUptime / 100)`
+    *   이전 버전에서 사용되던 `buffedMultiplier`, `buffedHitDamage`, `buffedDPS`는 제거되었습니다.
+
+### 참고
+*   정령 데미지 계산은 여러 증폭들을 합연산 방식으로 처리하며, 이전 버전에서 포함되었던 `defenseCoef`, `selfBuff`, `sharedBuff` 등 일부 요소들이 계산에서 제외되거나 간소화되었습니다.
+*   이러한 간소화된 로직으로 인해 인게임 값과의 불일치가 발생할 수 있습니다.

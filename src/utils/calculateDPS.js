@@ -27,10 +27,10 @@ export function calculateTotalDPS(uiBuffs, teamContext, spirits, simTime = 30) {
   const charAttackSpeed = num(uiBuffs.charAttackSpeed, 1);
   const attackAmplify = num(uiBuffs.attackAmplify);
   const critChance = Math.min(1, num(uiBuffs.critChance) / 100);
-  const critDamage = 1 + num(uiBuffs.critDamage) / 100;
+  const critDamage = num(1 + uiBuffs.critDamage) / 100; // 크리티컬 데미지는 100%가 기본이 아님, 일단 1+ 한 상태로 진행
   const teamCharBuff = num(teamContext?.characterBuffs?.total);
 
-  const ATTACK_AMPLIFY_SCALING_FACTOR = 1; // 단순화 로직 적용
+  const ATTACK_AMPLIFY_SCALING_FACTOR = 1; // 인게임 캐릭터 데미지 일치를 위해 조정된 값
   let effectiveAttackAmplify = attackAmplify / ATTACK_AMPLIFY_SCALING_FACTOR;
 
   let spiritCharBuff = 0;
@@ -55,15 +55,20 @@ export function calculateTotalDPS(uiBuffs, teamContext, spirits, simTime = 30) {
 
   console.log('--- Character Debug ---');
   console.log('Attack:', Attack);
+  console.log('charAttackSpeed:', charAttackSpeed);
   console.log('attackAmplify:', attackAmplify);
+  console.log('effectiveAttackAmplify:', effectiveAttackAmplify);
+  console.log('spiritCharBuff:', spiritCharBuff);
+  console.log('teamCharBuff:', teamCharBuff);
+  console.log('charTotalAmplify:', charTotalAmplify);
+  console.log('charTotalMultiplier:', charTotalMultiplier);
   console.log('critChance:', critChance);
   console.log('critDamage (multiplier):', critDamage);
-  console.log('teamCharBuff:', teamCharBuff);
+  console.log('critModifier:', critModifier);
   console.log('baseNonCritDamage:', baseNonCritDamage);
   console.log('charNonCritDamagePerHit:', charNonCritDamagePerHit);
   console.log('charCritDamagePerHit:', charCritDamagePerHit);
   console.log('charDamagePerHit (average):', charDamagePerHit);
-  console.log('charAttackSpeed:', charAttackSpeed);
   console.log('charDPS:', charDPS);
   console.log('charTotalDamage:', charTotalDamage);
   console.log('-----------------------');
@@ -110,9 +115,16 @@ export function calculateTotalDPS(uiBuffs, teamContext, spirits, simTime = 30) {
     console.log('--- Spirit Debug:', spirit.name, '---');
     console.log('spiritCoef:', spiritCoef);
     console.log('spiritAttackSpeed:', spiritAttackSpeed);
+    console.log('spiritAmp:', spiritAmp);
+    console.log('elementAmp:', elementAmp);
+    console.log('attackAmplify (UI):', attackAmplify);
     console.log('baseMultiplier:', baseMultiplier);
     console.log('baseHitDamage:', baseHitDamage);
     console.log('baseDPS:', baseDPS);
+    console.log('skillDamagePercent:', skillDamagePercent);
+    console.log('skillHitCount:', skillHitCount);
+    console.log('skillCooldown:', skillCooldown);
+    console.log('skillDuration:', skillDuration);
     console.log('buffUptime:', buffUptime);
     console.log('skillDPS:', skillDPS);
     console.log('effectiveDPS:', effectiveDPS);
