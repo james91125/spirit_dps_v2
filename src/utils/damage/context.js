@@ -1,41 +1,37 @@
+// src/utils/damage/context.js
+import { num, ELEMENT_MAP } from './constants';
+import { spiritsData as allSpiritsData } from '../../data/spiritsData';
 
+/**
+ * 장착된 정령 팀을 기반으로 각 정령이 받게 될 최종 버프 컨텍스트를 생성합니다.
+ * (예: 소리스의 빛 공격력 버프가 다른 빛 정령에게 적용된 최종 속성 증폭 값 계산)
+ * @param {Array<object>} equippedSpirits - 장착된 정령 목록
+ * @param {object} uiBuffs - UI 버프 값
+ * @returns {object} 각 정령의 이름를 키로, 최종 버프 값을 값으로 갖는 맵
+ */
+export function createSpiritBuffContext(equippedSpirits, uiBuffs) {
+  const context = {};
+  const fullSpiritsData = equippedSpirits.map(s => allSpiritsData.find(sd => sd.name === s.name)).filter(Boolean);
 
-const num = (value, defaultValue = 0) => {
-  const parsed = parseFloat(value);
-  return isNaN(parsed) ? defaultValue : parsed;
-};
+  for (const currentSpirit of fullSpiritsData) {
+    const elementKey = ELEMENT_MAP[currentSpirit.element_type];
+    let totalElementAmp = num(uiBuffs[`${elementKey}Amplify`]);
 
-const ELEMENT_MAP = {
-  '불': 'fire',
-  '물': 'water',
-  '풀': 'grass',
-  '빛': 'light',
-  '어둠': 'dark',
-};
-
-export function createTeamContext(team) {
-  const context = {
-    sharedBuffs: { '불': 0, '물': 0, '풀': 0, '빛': 0, '어둠': 0 },
-    characterBuffs: { total: 0, critRate: 0, attackSpeed: 0 },
-    activeBuffs: {},
-  };
-  team.forEach(s => {
-    if (!s) return;
-    Object.keys(context.sharedBuffs).forEach(el => {
-      const key = `${ELEMENT_MAP[el]}_type_buff`;
-      context.sharedBuffs[el] += num(s[key]);
-    });
-    context.characterBuffs.total += num(s.character_type_buff);
-    context.characterBuffs.critRate += num(s.character_crit_rate_buff);
-    context.characterBuffs.attackSpeed += num(s.character_attack_speed_buff);
-
-    const comment = s.comment || '';
-    const ampMatch = comment.match(/캐릭터의 공격력 증폭이 (\d+)초간 ([\d,.]+)% 증가합니다/);
-    if(s.element_type_buff_time > 0 && s.element_damage_percent > 0) {
-        context.activeBuffs[s.name] = { type: 'spirit_amp', value: s.element_damage_percent };
-    } else if (ampMatch) {
-       context.activeBuffs[s.name] = { type: 'char_amp', value: num(ampMatch[2]) };
+    // 나를 제외한 다른 정령들의 버프를 확인하고, 현재 정령의 속성과 일치하면 합산
+    for (const otherSpirit of fullSpiritsData) {
+      // 자기 자신에게는 자기 버프가 중첩되지 않는다고 가정 (게임 규칙에 따라 변경 가능)
+      if (currentSpirit.name === otherSpirit.name) continue;
+      
+      const buffKey = `${elementKey}_type_buff`;
+      if (otherSpirit[buffKey]) {
+        totalElementAmp += num(otherSpirit[buffKey]);
+      }
     }
-  });
+    
+    context[currentSpirit.name] = {
+      totalElementAmp,
+    };
+  }
+
   return context;
 }

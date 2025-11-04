@@ -85,6 +85,7 @@
 
 
 ★ 수정금지 ★
+- 정령을 넣지 않고 진행한 초기의 상태창 - 
 '공격력': 'charAttack' :16136 
 '캐릭터 공격 속도': 'charAttackSpeed' : 1
  '공격력 증폭 (%)': 'attackAmplify' : 28531 

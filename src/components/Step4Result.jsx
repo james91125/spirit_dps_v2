@@ -132,6 +132,11 @@ const Step4Result = ({ result, setStep, handleReset }) => {
                     <div>평타 1방당 데미지: {formatDPS(timeResult.breakdown.base)}</div>
                     <div>기본 DPS: {formatDPS(timeResult.breakdown.base)}</div>
                     <div>스킬 DPS: {formatDPS(timeResult.breakdown.skill)}</div>
+                    {timeResult.breakdown.casts > 0 && (
+                      <div className="text-[10px] sm:text-xs text-gray-600">
+                        시전 횟수: {timeResult.breakdown.casts}회
+                      </div>
+                    )}
                     <div className="font-bold text-indigo-500">
                       버프 가동률: {formatPercent(timeResult.breakdown.buffUptime)}%
                     </div>
@@ -171,6 +176,11 @@ const Step4Result = ({ result, setStep, handleReset }) => {
                             <div>총 데미지</div>
                             {formatTotalDamage(timeResult.totalDamage)}
                         </div>
+                        {timeResult.casts > 0 && (
+                          <div className="text-[10px] sm:text-xs text-gray-600 mt-2">
+                            시전 횟수: {timeResult.casts}회
+                          </div>
+                        )}
                     </div>
                 </div>
             )

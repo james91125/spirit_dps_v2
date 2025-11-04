@@ -1,74 +1,45 @@
-# DPS 계산 시나리오 (2025년 11월 4일 기준)
+  ---
 
-## 1. 캐릭터 평타 1방당 데미지 계산
+  최종 데미지 공식 정리
 
-### 입력 변수
-*   `Attack`: 캐릭터의 기본 공격력 (UI 입력)
-*   `charAttackSpeed`: 캐릭터의 기본 공격 속도 (UI 입력)
-*   `attackAmplify`: 공격력 증폭(%) 값 (UI 입력)
-*   `critChance`: 치명타 확률(%) (UI 입력)
-*   `critDamage`: 치명타 피해(%) (UI 입력)
-*   `teamCharBuff`: 팀 버프 중 캐릭터에게 적용되는 총 공격력 증폭 (teamContext)
-*   `spiritsData.js`: 정령별 `character_type_buff` 값
+  1. 캐릭터 데미지
 
-### 계산식
+  ##### 1-1. 기본 공격 데미지 (비치명타)
+  캐릭터의 기본 공격력에 최종 증폭률을 곱하여 계산합니다.
+   * 공식:
+      공격력 * (1 + (상태창 공격력 증폭 - 100) / 100)
+   * 설명:
+      상태창의 공격력 증폭은 정령 버프 등이 모두 합산된 수치입니다. 여기서 기본값 100%를 빼주어야 실제 증폭률이
+  계산됩니다.
 
-1.  **유효 공격력 증폭 (`effectiveAttackAmplify`)**:
-    *   `ATTACK_AMPLIFY_SCALING_FACTOR`는 `1`로 설정되어, `attackAmplify`는 스케일링 없이 직접 사용됩니다.
-    *   `effectiveAttackAmplify = attackAmplify / 1`
-2.  **정령 캐릭터 버프 (`spiritCharBuff`)**:
-    *   장착된 각 정령의 `character_type_buff` 값을 합산합니다.
-    *   `spiritCharBuff = Σ (장착된 정령의 character_type_buff)`
-3.  **총 공격력 증폭 (`charTotalAmplify`)**:
-    *   `charTotalAmplify = effectiveAttackAmplify + spiritCharBuff + teamCharBuff`
-4.  **총 공격력 배율 (`charTotalMultiplier`)**:
-    *   `charTotalMultiplier = 1 + charTotalAmplify / 100`
-5.  **비치명타 기본 데미지 (`baseNonCritDamage`)**:
-    *   `baseNonCritDamage = Attack * charTotalMultiplier`
-6.  **치명타 적용**:
-    *   `critModifier = (1 - critChance / 100) + (critChance / 100) * (1 + critDamage / 100)`
-    *   `charDamagePerHit = baseNonCritDamage * critModifier`
-7.  **캐릭터 DPS (`charDPS`)**:
-    *   `charDPS = charDamagePerHit * charAttackSpeed`
+  ##### 1-2. 치명타 공격 데미지
+  기본 공격 데미지에 치명타 증폭 수치를 배율로 적용합니다.
+   * 공식:
+      기본 공격 데미지 * (치명타 증폭 % / 100)
+   * 설명:
+      예를 들어 치명타 증폭이 220%라면, 기본 데미지의 2.2배가 됩니다.
 
-### 참고
-*   `ATTACK_AMPLIFY_SCALING_FACTOR`가 `1`로 설정되어, 이전 분석에서 발견된 인게임 캐릭터 데미지와의 일치성은 보장되지 않습니다.
+  ---
 
----
+  2. 정령 데미지
 
-## 2. 정령 평타 및 스킬 데미지 계산
+  ##### 2-1. 정령 평타 데미지
+  캐릭터의 기본 데미지를 기반으로, 정령의 고유 능력치와 모든 증폭 효과를 합산한 최종 배율을 곱하여 계산합니다.
+   * 공식:
+      캐릭터 기본 데미지 * (정령 계수 + 정령공격력증폭/100 + 최종속성증폭/100)
+   * 설명:
+      인게임 설명의 '합연산'은, 단순 덧셈이 아니라 계수와 증폭률(%)을 위와 같은 특수한 방식으로 더하는 것을
+  의미했습니다.
+   * 참고: 최종 속성 증폭
+      최종 속성 증폭은 캐릭터의 스탯(빛 타입 증폭 등)과 팀 내 다른 정령이 주는 속성 버프(광정령 타입 공격력 증가
+  등)를 모두 합산한 값입니다.
 
-### 입력 변수
-*   `Attack`: 캐릭터의 기본 공격력 (UI 입력)
-*   `spiritCoef`: 정령의 기본 공격력 계수 (spiritsData.js)
-*   `spiritAttackSpeed`: 정령의 초당 공격 횟수 (spiritsData.js)
-*   `attackAmplify`: 공격력 증폭(%) 값 (UI 입력)
-*   `spiritAmp`: 정령 공격력 증폭(%) 값 (UI 입력)
-*   `elementAmp`: 각 속성(불, 물 등)별 공격력 증폭(%) 값 (UI 입력)
-*   `skillDamagePercent`: 정령 자체 스킬의 데미지 계수(%) (spiritsData.js)
-*   `skillHitCount`: 정령 자체 스킬의 타격 횟수 (spiritsData.js)
-*   `skillCooldown`: 정령 자체 스킬의 쿨타임(초) (spiritsData.js)
-*   `skillDuration`: 정령 자체 스킬의 버프 지속 시간(초) (spiritsData.js)
+  ##### 2-2. 정령 스킬 데미지 (추정)
+  정령의 평타 데미지를 기반으로, 스킬의 타격당 계수만큼의 배율을 적용합니다.
+   * 공식:
+      정령 평타 데미지 * (스킬 총 계수 % / 타격 횟수 / 100)
+   * 설명:
+      예를 들어 '600% 데미지를 6번' 주는 스킬은, 평타 데미지의 100%만큼의 피해를 6번 주는 것으로 계산됩니다. (약
+  1% 내외의 오차 존재)
 
-### 계산식
-
-1.  **정령 기본 데미지 배율 (`baseMultiplier`)**:
-    *   `baseMultiplier = 1 + (attackAmplify + spiritAmp + elementAmp) / 100`
-    *   `attackAmplify`, `spiritAmp`, `elementAmp`가 합산된 후 `100`으로 나누어져 `1`에 더해지는 **합연산** 방식으로 적용됩니다.
-2.  **정령 평타 1방당 데미지 (`baseHitDamage`)**:
-    *   `baseHitDamage = Attack * spiritCoef * baseMultiplier`
-    *   `defenseCoef` (적 방어력 계수), `selfBuff`, `sharedBuff`는 이 계산에서 제외됩니다.
-3.  **정령 평타 DPS (`baseDPS`)**:
-    *   `baseDPS = baseHitDamage * spiritAttackSpeed`
-4.  **정령 스킬 데미지 계산**:
-    *   `totalSkillDamage = Attack * spiritCoef * (skillDamagePercent / 100) * skillHitCount`
-    *   `skillDPS = totalSkillDamage / (skillCooldown || 1)`
-5.  **버프 유지 시간 (`buffUptime`)**:
-    *   `buffUptime = Math.min(skillDuration / skillCooldown, 1) * 100`
-6.  **유효 DPS (`effectiveDPS`)**:
-    *   `effectiveDPS = baseDPS + skillDPS * (buffUptime / 100)`
-    *   이전 버전에서 사용되던 `buffedMultiplier`, `buffedHitDamage`, `buffedDPS`는 제거되었습니다.
-
-### 참고
-*   정령 데미지 계산은 여러 증폭들을 합연산 방식으로 처리하며, 이전 버전에서 포함되었던 `defenseCoef`, `selfBuff`, `sharedBuff` 등 일부 요소들이 계산에서 제외되거나 간소화되었습니다.
-*   이러한 간소화된 로직으로 인해 인게임 값과의 불일치가 발생할 수 있습니다.
+  ---

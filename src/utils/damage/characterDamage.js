@@ -1,32 +1,36 @@
+// src/utils/damage/characterDamage.js
 import { num } from './constants';
 
-export function calculateCharacterTotalDamage(uiBuffs, teamContext, simTime) {
-    const charAttack = num(uiBuffs.charAttack, 1);
-    const charAttackSpeed = num(uiBuffs.charAttackSpeed) + num(teamContext.characterBuffs.attackSpeed) / 100;
+/**
+ * 캐릭터 데미지를 계산합니다.
+ * @param {object} uiBuffs - UI에서 입력된 버프 값
+ * @returns {object} 캐릭터 데미지 관련 지표
+ */
+export function calculateCharacterDamage(uiBuffs) {
+  const Attack = num(uiBuffs.charAttack, 1);
+  const charAttackSpeed = num(uiBuffs.charAttackSpeed, 1);
+  const attackAmplify = num(uiBuffs.attackAmplify);
+  const critChance = Math.min(1, num(uiBuffs.critChance) / 100);
+  const critDamageMultiplier = num(uiBuffs.critDamage) / 100;
 
-    // 캐릭터 공격력 증폭
-    const teamCharBuff = num(teamContext.characterBuffs.total);
-    const attackAmplify = num(uiBuffs.attackAmplify) + teamCharBuff;
+  // 캐릭터 총 공격력 증폭 계산 (기본값 100% 제외)
+  const charTotalAmplify = attackAmplify - 100;
+  const charTotalMultiplier = 1 + charTotalAmplify / 100;
 
-    // 치명타
-    const critChance = Math.min(1, (num(uiBuffs.critChance) + num(teamContext.characterBuffs.critRate)) / 100);
-    const critDamage = 1 + num(uiBuffs.critDamage) / 100;
-    const critModifier = (1 - critChance) + (critChance * critDamage);
+  // 데미지 계산
+  const nonCritDamagePerHit = Attack * charTotalMultiplier;
+  const critDamagePerHit = nonCritDamagePerHit * critDamageMultiplier;
 
-    // 방어력 계수 적용 (적 방어력 반영)
-    const defenseCoef = num(teamContext.enemyDefenseCoef || 0.686);
+  // 평균 데미지 및 DPS
+  const avgCritModifier = (1 - critChance) + (critChance * critDamageMultiplier);
+  const damagePerHit = nonCritDamagePerHit * avgCritModifier;
+  const dps = damagePerHit * charAttackSpeed;
 
-    // 속성 증폭 (예: 불/물/풀/빛/어둠)
-    const typeAmplifyKeys = ['fireAmplify', 'waterAmplify', 'grassAmplify', 'lightAmplify', 'darkAmplify'];
-    let typeMultiplier = 1;
-    for (const key of typeAmplifyKeys) {
-        if (uiBuffs[key] > 0) typeMultiplier *= 1 + num(uiBuffs[key]) / 100;
-    }
-
-    if (charAttack === 0 || charAttackSpeed === 0) return { totalDamage: 0, dps: 0 };
-
-    const baseDps = charAttack * charAttackSpeed * (1 + attackAmplify / 100) * critModifier * defenseCoef * typeMultiplier;
-    const totalDamage = baseDps * simTime;
-
-    return { totalDamage, dps: baseDps };
+  return {
+    nonCritDamagePerHit,
+    critDamagePerHit,
+    damagePerHit,
+    dps,
+    critChance,
+  };
 }

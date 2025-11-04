@@ -1,176 +1,105 @@
+// src/utils/calculateDPS.js
 import { spiritsData } from '../data/spiritsData';
-
-const num = (value, defaultValue = 0) => {
-  const parsed = parseFloat(value);
-  return isNaN(parsed) ? defaultValue : parsed;
-};
-
-const ELEMENT_MAP = {
-  '불': 'fire',
-  '물': 'water',
-  '풀': 'grass',
-  '빛': 'light',
-  '어둠': 'dark',
-};
+import { skillData } from '../data/skillData';
+import { calculateCharacterDamage } from './damage/characterDamage';
+import { createSpiritBuffContext } from './damage/context';
+import { calculateSpiritAADamage } from './damage/spiritDamage';
+import { calculateSpiritSkillDamage } from './damage/skillDamage';
+import { num } from './damage/constants';
 
 /**
- * @param {object} uiBuffs - step1 입력값
- * @param {object} teamContext - 파티 버프 정보
- * @param {array} spirits - 선택된 정령 목록
- * @param {number} simTime - 시뮬레이션 시간 (기본 30, 40, 60초 중 택1)
+ * 모든 데미지를 총괄 계산하는 메인 함수
+ * @param {object} uiBuffs - UI에서 입력된 버프 값
+ * @param {Array<object>} equippedSpirits - 장착된 정령 목록
+ * @param {Array<object>} equippedSkills - 장착된 스킬 목록
+ * @param {number} simTime - 시뮬레이션 시간
+ * @returns {object} 최종 DPS 결과 객체
  */
-export function calculateTotalDPS(uiBuffs, teamContext, spirits, simTime = 30) {
-  // -------------------------
-  // ① 캐릭터 평타 계산
-  // -------------------------
-  const Attack = num(uiBuffs.charAttack, 1);
-  const charAttackSpeed = num(uiBuffs.charAttackSpeed, 1);
-  const attackAmplify = num(uiBuffs.attackAmplify);
-  const critChance = Math.min(1, num(uiBuffs.critChance) / 100);
-  const critDamage = num(1 + uiBuffs.critDamage) / 100; // 크리티컬 데미지는 100%가 기본이 아님, 일단 1+ 한 상태로 진행
-  const teamCharBuff = num(teamContext?.characterBuffs?.total);
+export function calculateTotalDPS(uiBuffs, equippedSpirits, equippedSkills, simTime = 30) {
+  const fullSpiritsData = equippedSpirits.map(s => spiritsData.find(sd => sd.name === s.name)).filter(Boolean);
 
-  // src/data/variableDPS.js의 테스트 값 기반 보정 계수
-  // 기준 데이터: 캐릭터 평타 1방당 데미지(치명) - 10199275
-  // 계산식: FACTOR = 285.31 / (10199275 / (16136 * ((1+220)/100)) - 1)
-  const ATTACK_AMPLIFY_SCALING_FACTOR = 1.001056; // 인게임 캐릭터 데미지 일치를 위해 조정된 값
-  let effectiveAttackAmplify = attackAmplify / ATTACK_AMPLIFY_SCALING_FACTOR;
+  // 1. 모든 버프 집계
+  const totalBuffs = { ...uiBuffs };
+  let charAttackAmplifyFromSpirits = 0;
+  fullSpiritsData.forEach(s => {
+    charAttackAmplifyFromSpirits += num(s.character_type_buff);
+  });
+  totalBuffs.attackAmplify = num(totalBuffs.attackAmplify) + charAttackAmplifyFromSpirits;
+  
+  // 2. 캐릭터 데미지 계산
+  const charResult = calculateCharacterDamage(totalBuffs);
+  const charTotalDamage = charResult.dps * simTime;
 
-  let spiritCharBuff = 0;
-  for (const equippedSpirit of spirits) {
-    const fullSpiritData = spiritsData.find(s => s.name === equippedSpirit.name);
-    if (fullSpiritData && fullSpiritData.character_type_buff) {
-      spiritCharBuff += num(fullSpiritData.character_type_buff);
-    }
-  }
+  // 3. 정령 상호 버프 컨텍스트 생성
+  const buffContext = createSpiritBuffContext(equippedSpirits, totalBuffs);
 
-  const charTotalAmplify = effectiveAttackAmplify + spiritCharBuff + teamCharBuff;
-  const charTotalMultiplier = 1 + charTotalAmplify / 100;
-
-  const baseNonCritDamage = Attack * charTotalMultiplier;
-  const charNonCritDamagePerHit = baseNonCritDamage;
-  const charCritDamagePerHit = baseNonCritDamage * critDamage;
-  const critModifier = (1 - critChance) + critChance * critDamage;
-  const charDamagePerHit = baseNonCritDamage * critModifier;
-
-  const charDPS = charDamagePerHit * charAttackSpeed;
-  const charTotalDamage = charDPS * simTime;
-
-  console.log('--- Character Debug ---');
-  console.log('Attack:', Attack);
-  console.log('charAttackSpeed:', charAttackSpeed);
-  console.log('attackAmplify:', attackAmplify);
-  console.log('effectiveAttackAmplify:', effectiveAttackAmplify);
-  console.log('spiritCharBuff:', spiritCharBuff);
-  console.log('teamCharBuff:', teamCharBuff);
-  console.log('charTotalAmplify:', charTotalAmplify);
-  console.log('charTotalMultiplier:', charTotalMultiplier);
-  console.log('critChance:', critChance);
-  console.log('critDamage (multiplier):', critDamage);
-  console.log('critModifier:', critModifier);
-  console.log('baseNonCritDamage:', baseNonCritDamage);
-  console.log('charNonCritDamagePerHit:', charNonCritDamagePerHit);
-  console.log('charCritDamagePerHit:', charCritDamagePerHit);
-  console.log('charDamagePerHit (average):', charDamagePerHit);
-  console.log('charDPS:', charDPS);
-  console.log('charTotalDamage:', charTotalDamage);
-  console.log('-----------------------');
-
-  // -------------------------
-  // ② 정령 계산 (부정확함, 추가 조사 필요)
-  // -------------------------
-  // 현재 계산은 src/data/variableDPS.js 에 기록된 실제 인게임 데미지와 큰 차이를 보임.
-  // 방어력 계수 등 누락된 변수가 있는 것으로 추정됨.
-  const results = [];
+  // 4. 각 정령의 데미지 계산
+  const spiritResults = [];
   let totalSpiritDPS = 0;
-  let totalSpiritDamage = 0;
 
-  for (const spirit of spirits) {
-    const spiritCoef = num(spirit['공격력 계수']);
-    const spiritAttackSpeed = num(spirit['공격속도']);
-    const spiritAmp = num(uiBuffs.spiritAttackAmplify);
-    const elementKey = ELEMENT_MAP[spirit.element_type] || 'none';
-    const elementAmp = num(uiBuffs[`${elementKey}Amplify`]);
+  for (const spiritData of fullSpiritsData) {
+    const spiritAAResult = calculateSpiritAADamage(spiritData, totalBuffs, charResult.nonCritDamagePerHit, buffContext);
+    const spiritSkillResult = calculateSpiritSkillDamage(spiritData, spiritAAResult.damagePerHit, simTime);
+    const totalDps = spiritAAResult.dps + spiritSkillResult.dps;
+    totalSpiritDPS += totalDps;
 
-    const baseMultiplier = 1 + (attackAmplify + spiritAmp + elementAmp) / 100;
-    const baseHitDamage = Attack * spiritCoef * baseMultiplier;
-    const baseDPS = baseHitDamage * spiritAttackSpeed;
-
-    const skillDamagePercent = num(spirit.element_damage_percent);
-    const skillHitCount = num(spirit.element_damage_hitCount, 1);
-    const skillCooldown = num(spirit.element_damage_delay, 0);
-    const skillDuration = num(spirit.element_type_buff_time, 0);
-
-    let buffUptime = 0;
-    if (skillCooldown > 0 && skillDuration > 0) {
-      buffUptime = Math.min(skillDuration / skillCooldown, 1) * 100;
-    } else {
-      buffUptime = teamContext.activeBuffs?.[spirit.name] ? 100 : 0;
-    }
-
-    const totalSkillDamage = Attack * spiritCoef * (skillDamagePercent / 100) * skillHitCount;
-    const skillDPS = totalSkillDamage / (skillCooldown || 1); // 0 방지
-
-    const effectiveDPS = baseDPS + skillDPS * (buffUptime / 100);
-    const totalFinalDamage = effectiveDPS * simTime;
-
-    totalSpiritDPS += effectiveDPS;
-    totalSpiritDamage += totalFinalDamage;
-
-    console.log('--- Spirit Debug:', spirit.name, '---');
-    console.log('spiritCoef:', spiritCoef);
-    console.log('spiritAttackSpeed:', spiritAttackSpeed);
-    console.log('spiritAmp:', spiritAmp);
-    console.log('elementAmp:', elementAmp);
-    console.log('attackAmplify (UI):', attackAmplify);
-    console.log('baseMultiplier:', baseMultiplier);
-    console.log('baseHitDamage:', baseHitDamage);
-    console.log('baseDPS:', baseDPS);
-    console.log('skillDamagePercent:', skillDamagePercent);
-    console.log('skillHitCount:', skillHitCount);
-    console.log('skillCooldown:', skillCooldown);
-    console.log('skillDuration:', skillDuration);
-    console.log('buffUptime:', buffUptime);
-    console.log('skillDPS:', skillDPS);
-    console.log('effectiveDPS:', effectiveDPS);
-    console.log('totalFinalDamage:', totalFinalDamage);
-    console.log('-----------------------');
-
-    results.push({
-      name: spirit.name,
-      element: spirit.element_type,
-      damagePerHit: baseHitDamage,
-      totalDamage: totalFinalDamage,
-      dps: effectiveDPS,
+    spiritResults.push({
+      name: spiritData.name,
+      element: spiritData.element_type,
+      damagePerHit: spiritAAResult.damagePerHit,
+      totalDamage: (spiritAAResult.dps * simTime) + spiritSkillResult.totalDamage,
+      dps: totalDps,
       breakdown: {
-        base: baseDPS,
-        skill: skillDPS,
-        buffUptime: buffUptime,
+        base: spiritAAResult.dps,
+        skill: spiritSkillResult.dps,
+        casts: spiritSkillResult.casts, // Add casts for spirit skills
       },
     });
   }
 
-  const totalDPS = charDPS + totalSpiritDPS;
-  const totalDamage = charTotalDamage + totalSpiritDamage;
+  // 5. 캐릭터 스킬 데미지 계산
+  const skillResults = [];
+  let totalSkillDPS = 0;
+  const critDamageMultiplier = num(totalBuffs.critDamage) / 100;
+  const avgCritModifier = (1 - charResult.critChance) + (charResult.critChance * critDamageMultiplier);
 
-  console.log('=== Total DPS Summary ===');
-  console.log('Character DPS:', charDPS.toFixed(2), 'Total Damage:', charTotalDamage.toFixed(2));
-  results.forEach(sp => {
-    console.log(`Spirit [${sp.name}] DPS: ${sp.dps.toFixed(2)}, Skill DPS: ${sp.breakdown.skill.toFixed(2)}, Buff Uptime: ${sp.breakdown.buffUptime.toFixed(2)}%, Total Damage: ${sp.totalDamage.toFixed(2)}`);
-  });
-  console.log('Combined Total DPS:', totalDPS.toFixed(2), 'Combined Total Damage:', totalDamage.toFixed(2));
-  console.log('=========================');
+  for (const skill of equippedSkills) {
+      const skillInfo = skillData.find(s => s.name === skill.name);
+      if (!skillInfo || !skillInfo.damagePercent) {
+          skillResults.push({ name: skill.name, dps: 0, totalDamage: 0, casts: 0 }); // Add casts for character skills
+          continue;
+      }
+
+      const damagePerHitNonCrit = charResult.nonCritDamagePerHit * (num(skillInfo.damagePercent) / 100);
+      const avgDamagePerHit = damagePerHitNonCrit * avgCritModifier;
+      
+      const hitsPerCast = num(skillInfo.hitCount, 1);
+      const cooldown = num(skillInfo.cooltime, 1);
+      
+      const casts = cooldown > 0 ? Math.floor(simTime / cooldown) : 0;
+      const totalDamage = avgDamagePerHit * hitsPerCast * casts;
+      const dps = totalDamage / simTime;
+      totalSkillDPS += dps;
+
+      skillResults.push({
+          name: skill.name,
+          dps: dps,
+          totalDamage: totalDamage,
+          casts: casts, // Add casts for character skills
+      });
+  }
+
+  // 6. 최종 결과 취합
+  const totalDPS = charResult.dps + totalSpiritDPS + totalSkillDPS;
+  const totalDamage = totalDPS * simTime;
 
   return {
     char: {
-      damagePerHit: charDamagePerHit,
-      nonCritDamagePerHit: charNonCritDamagePerHit,
-      critDamagePerHit: charCritDamagePerHit,
-      dps: charDPS,
+      ...charResult,
       totalDamage: charTotalDamage,
-      critChance: critChance,
     },
-    spirits: results,
+    spirits: spiritResults,
+    skills: skillResults,
     total: {
       dps: totalDPS,
       totalDamage,

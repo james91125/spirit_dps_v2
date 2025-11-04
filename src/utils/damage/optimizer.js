@@ -46,7 +46,7 @@
 //         ...scoredOtherSpirits.slice(0, numOtherToTake)
 //     ];
 
-//     const neutralContext = createTeamContext([]);
+//     const neutralContext = createSpiritBuffContext([], uiBuffs);
 //     const top5Skills = ownedSkills.map(skill => ({
 //         ...skill,
 //         baseScore: calculateSkillTotalDamage(skill, uiBuffs, neutralContext, benchmarkTime).totalDamage
@@ -109,7 +109,7 @@
 //             const monoCombos = getCombinations(elementCandidates, 5);
 
 //             for (const combo of monoCombos) {
-//                 const teamContext = createTeamContext(combo);
+//                 const teamContext = createSpiritBuffContext(combo, uiBuffs);
 //                 const spiritDamage = calculateTeamSpiritDamage(combo, uiBuffs, teamContext, benchmarkTime).totalDamage;
 //                 const skillDamage = top5Skills.reduce((sum, skill) => sum + calculateSkillTotalDamage(skill, uiBuffs, teamContext, benchmarkTime).totalDamage, 0);
 //                 const characterDamage = calculateCharacterTotalDamage(uiBuffs, teamContext, benchmarkTime).totalDamage;
@@ -137,7 +137,7 @@
 // src/utils/damage/optimizer.js
 import { getCombinations } from '../combinations';
 import { SIM_TIMES, gradeOrder } from './constants';
-import { createTeamContext } from './context';
+import { createSpiritBuffContext } from './context';
 import { calculateTotalDPS } from '../calculateDPS';
 
 /**
@@ -175,9 +175,8 @@ export function pickBestCombo(ownedSpirits, uiBuffs = {}, options = {}) {
 
   // Helper: score a spirit as a solo contribution (use calculateTotalDPS with that spirit only)
   function scoreSpiritSolo(spirit) {
-    const teamContext = createTeamContext([spirit]);
     // calculateTotalDPS returns aggregated result; use total.totalDamage over simTime
-    const result = calculateTotalDPS(uiBuffs, teamContext, [spirit], simTime);
+    const result = calculateTotalDPS(uiBuffs, [spirit], [], simTime);
     return result.total.totalDamage;
   }
 
@@ -272,9 +271,8 @@ export function pickBestCombo(ownedSpirits, uiBuffs = {}, options = {}) {
       }
       if (exceed) continue;
 
-      const teamContext = createTeamContext(combo);
       // Use calculateTotalDPS to get totalDamage for this combo
-      const comboResult = calculateTotalDPS(uiBuffs, teamContext, combo, sim);
+      const comboResult = calculateTotalDPS(uiBuffs, combo, [], sim);
 
       const combinedTotalDamage = comboResult.total.totalDamage;
 

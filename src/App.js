@@ -9,7 +9,7 @@ import Step4Result from './components/Step4Result';
 import { spiritsData as allSpirits } from './data/spiritsData';
 import { skillData } from './data/skillData';
 import { calculateTotalDPS } from './utils/calculateDPS';
-import { createTeamContext } from './utils/damage/context';
+
 import { SIM_TIMES } from './utils/constants';
 import { pickBestCombo } from './utils/damage/optimizer';
 
@@ -71,8 +71,7 @@ export default function App() {
       };
 
       SIM_TIMES.forEach(time => {
-        const teamContext = createTeamContext(bestCombo);
-        const dpsResult = calculateTotalDPS(buffs, teamContext, bestCombo, time);
+        const dpsResult = calculateTotalDPS(buffs, bestCombo, ownedSkills, time);
 
         finalResult.bestDPS[time] = dpsResult.total;
         finalResult.characterDamage[time] = dpsResult.char;
@@ -88,19 +87,22 @@ export default function App() {
                 base: spiritResult.breakdown.base,
                 skill: spiritResult.breakdown.skill,
                 buffUptime: spiritResult.breakdown.buffUptime,
+                casts: spiritResult.breakdown.casts, // Add casts for spirit skills
               }
             };
           }
         });
 
         // Populate bestSkills with skill-specific results for each time
-        // Placeholder for skill results, as calculateTotalDPS doesn't provide per-skill breakdown
-        finalResult.bestSkills.forEach((skill) => {
-          // Placeholder for skill results
-          skill.timeResults[time] = {
-            dps: 0, // Placeholder
-            totalDamage: 0, // Placeholder
-          };
+        dpsResult.skills.forEach((skillResult) => {
+            const skillInFinalResult = finalResult.bestSkills.find(s => s.name === skillResult.name);
+            if (skillInFinalResult) {
+                skillInFinalResult.timeResults[time] = {
+                    dps: skillResult.dps,
+                    totalDamage: skillResult.totalDamage,
+                    casts: skillResult.casts, // Add casts for character skills
+                };
+            }
         });
       });
 

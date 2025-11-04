@@ -1,22 +1,33 @@
+// src/utils/damage/skillDamage.js
 import { num } from './constants';
 
-export function calculateSkillTotalDamage(skill, uiBuffs, teamContext, simTime) {
-  const damagePercent = num(skill.damagePercent);
-  const hitCount = num(skill.hitCount, 1);
-  const cooldown = num(skill.cooltime, 1);
+/**
+ * 정령의 스킬 데미지를 계산합니다. (추정치)
+ * @param {object} spiritData - 개별 정령의 데이터
+ * @param {number} spiritAADamagePerHit - 해당 정령의 평타 데미지
+ * @returns {object} 정령 스킬 데미지 관련 지표
+ */
+export function calculateSpiritSkillDamage(spiritData, spiritAADamagePerHit, simTime) {
+  const skillDamagePercent = num(spiritData.element_damage_percent);
+  const skillHitCount = num(spiritData.element_damage_hitCount, 1);
+  const cooldown = num(spiritData.element_damage_delay, 1);
+
+  if (skillDamagePercent === 0 || skillHitCount === 0 || cooldown === 0) {
+    return { dps: 0, totalDamage: 0, damagePerHit: 0 };
+  }
+
+  // 스킬의 타격당 데미지
+  const damagePerHit = spiritAADamagePerHit * (skillDamagePercent / skillHitCount / 100);
   
-  const charAttack = num(uiBuffs.charAttack, 1);
-  const teamCharBuff = num(teamContext.characterBuffs.total);
-  const attackAmplify = num(uiBuffs.attackAmplify) + teamCharBuff;
-  const critChance = num(uiBuffs.critChance) / 100;
-  const critDamage = 1 + num(uiBuffs.critDamage) / 100;
+  // 시뮬레이션 시간 기반 DPS 계산
+  const casts = Math.floor(simTime / cooldown);
+  const totalDamage = damagePerHit * skillHitCount * casts;
+  const dps = totalDamage / simTime;
 
-  if (cooldown === 0 || damagePercent === 0) return { totalDamage: 0, dps: 0 };
-
-  const critModifier = (1 - critChance) + (critChance * critDamage);
-  const numCasts = Math.floor(simTime / cooldown);
-  const damagePerCast = (damagePercent / 100) * hitCount;
-  const totalDamage = numCasts * damagePerCast * (1 + attackAmplify / 100) * charAttack * critModifier;
-
-  return { totalDamage, dps: totalDamage / simTime };
+  return {
+    dps,
+    totalDamage,
+    damagePerHit,
+    casts,
+  };
 }
