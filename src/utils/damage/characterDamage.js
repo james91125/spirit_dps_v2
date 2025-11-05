@@ -2,7 +2,6 @@
 import { num } from './constants';
 
 /**
- * 캐릭터 데미지를 계산합니다.
  * @param {object} uiBuffs - UI에서 입력된 버프 값
  * @returns {object} 캐릭터 데미지 관련 지표
  */

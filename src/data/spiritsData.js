@@ -911,6 +911,25 @@ export const spiritsData = [
     "element_damage_delay": 0.0,
     "comment": "캐릭터의 공격력 증폭이 9600% 증가합니다."
   },
+    {
+    "name": "순수한 강아지 모랑",
+    "image": "./resouce/spirits/순수한 강아지 모랑.png",
+    "grade": "인피니티",
+    "공격력 계수": 10,
+    "공격속도": 2.7,
+    "element_type": "물",
+    "light_type_buff": 0.0,
+    "dark_type_buff": 0.0,
+    "fire_type_buff": 0.0,
+    "water_type_buff": 0.0,
+    "grass_type_buff": 0.0,
+    "character_type_buff": 9600.0,
+    "element_type_buff_time": 10000,
+    "element_damage_percent": 0.0,
+    "element_damage_hitCount": 0,
+    "element_damage_delay": 0.0,
+    "comment": "캐릭터의 생명력 증폭이 9600% 증가합니다."
+  },
   {
     "name": "다크니스",
     "image": "./resouce/spirits/다크니스.png",
