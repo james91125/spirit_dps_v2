@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/spirit_dps_v2/static/css/main.8f6c5e2f.css",
-    "main.js": "/spirit_dps_v2/static/js/main.e2d584ef.js",
+    "main.js": "/spirit_dps_v2/static/js/main.d396d1d4.js",
     "static/js/453.d6fba0b6.chunk.js": "/spirit_dps_v2/static/js/453.d6fba0b6.chunk.js",
     "static/media/tutorial0.png": "/spirit_dps_v2/static/media/tutorial0.f923e76c77c4f2010ccd.png",
     "static/media/tutorial1.png": "/spirit_dps_v2/static/media/tutorial1.306edbb66b5af674eb69.png",
@@ -18,11 +18,11 @@
     "static/media/팬텀 버스트.png": "/spirit_dps_v2/static/media/팬텀 버스트.7c7cc798f143fbbb253e.png",
     "index.html": "/spirit_dps_v2/index.html",
     "main.8f6c5e2f.css.map": "/spirit_dps_v2/static/css/main.8f6c5e2f.css.map",
-    "main.e2d584ef.js.map": "/spirit_dps_v2/static/js/main.e2d584ef.js.map",
+    "main.d396d1d4.js.map": "/spirit_dps_v2/static/js/main.d396d1d4.js.map",
     "453.d6fba0b6.chunk.js.map": "/spirit_dps_v2/static/js/453.d6fba0b6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8f6c5e2f.css",
-    "static/js/main.e2d584ef.js"
+    "static/js/main.d396d1d4.js"
   ]
 }
