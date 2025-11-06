@@ -17,7 +17,7 @@ export function calculateSpiritSkillDamage(spiritData, spiritAADamagePerHit, sim
   }
 
   // 스킬의 타격당 데미지
-  const damagePerHit = spiritAADamagePerHit * (skillDamagePercent / skillHitCount / 100);
+  const damagePerHit = spiritAADamagePerHit * (skillDamagePercent / 100);
   
   // 시뮬레이션 시간 기반 DPS 계산
   const casts = Math.floor(simTime / cooldown);
